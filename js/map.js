@@ -1,7 +1,22 @@
-// map.js -- the live earthquake map. Leaflet is loaded globally via a
-// <script> tag in index.html (see the note in that file about why this
-// project doesn't use a bundler), so `L` is available as a global here.
+// map.js -- the live earthquake map. Leaflet, MapLibre GL, and the
+// maplibre-gl-leaflet bridge are all loaded globally via <script> tags in
+// index.html (see the note in that file about why this project doesn't
+// use a bundler), so `L` and the MapLibre globals are available here.
+//
+// The basemap is OpenFreeMap's "dark" vector style, rendered by MapLibre
+// GL and bridged into this Leaflet map -- NOT a plain Leaflet raster
+// tileLayer. That's a deliberate, slightly more complex choice: CARTO's
+// free raster dark tiles (basemaps.cartocdn.com), which this project used
+// originally, started requiring an API key in August 2026. OpenFreeMap is
+// currently free, keyless, and has no published request limit. If it ever
+// changes too, swap the `style:` URL below (or the whole layer) for
+// whatever's current -- everything else in this file (markers, popups,
+// legend) is independent of the basemap and doesn't need to change.
 import { escapeHtml, formatDateTime, magnitudeColor, magnitudeLegend, magnitudeRadius } from "./utils.js";
+
+const BASEMAP_STYLE_URL = "https://tiles.openfreemap.org/styles/dark";
+const BASEMAP_ATTRIBUTION =
+  'Basemap &copy; <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> &copy; <a href="https://openmaptiles.org" target="_blank" rel="noopener">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
 
 let map = null;
 let markerLayer = null;
@@ -12,16 +27,20 @@ export function renderMap(data) {
       worldCopyJump: true,
       scrollWheelZoom: false,
       minZoom: 2,
+      // MapLibre GL (unlike Leaflet's own raster tiles) can misbehave if a
+      // user pans/zooms out past the poles, per the maplibre-gl-leaflet
+      // project's own example -- constrain to valid Web Mercator latitudes
+      // as a defensive measure. Longitude is left open since
+      // worldCopyJump already handles horizontal wrapping.
+      maxBounds: [
+        [-85, -Infinity],
+        [85, Infinity],
+      ],
     }).setView([15, 10], 2);
 
-    // A dark basemap is a genuine convention in real seismic-monitoring
-    // tools (not just a stylistic default) -- it lets colored magnitude
-    // markers read clearly against it.
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>',
-      subdomains: "abcd",
-      maxZoom: 18,
+    L.maplibreGL({
+      style: BASEMAP_STYLE_URL,
+      attribution: BASEMAP_ATTRIBUTION,
     }).addTo(map);
 
     markerLayer = L.layerGroup().addTo(map);
