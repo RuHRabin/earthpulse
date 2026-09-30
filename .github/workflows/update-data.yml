@@ -1,0 +1,53 @@
+name: Update hazard data
+
+# This is the heart of the project: every 15 minutes, GitHub's own servers
+# run the Python pipeline and commit the result back to the repo. GitHub
+# Pages (configured to deploy from the `main` branch in repo Settings) then
+# republishes automatically -- there is no separate deploy workflow needed.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_earthquake_data.py"
+
+permissions:
+  contents: write
+
+# If a run somehow takes longer than 15 minutes, don't pile runs on top of
+# each other -- let the current one finish first.
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest earthquake & alert data
+        run: python scripts/fetch_earthquake_data.py
+
+      - name: Commit updated data (if anything changed)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # Deliberately NOT using "[skip ci]" here: GitHub Pages' own
+          # branch-based build-and-deploy is itself triggered by pushes to
+          # this branch, and there are unresolved reports of "[skip ci]"
+          # suppressing that too -- which would silently stop the live site
+          # from ever refreshing, even though data commits keep landing.
+          # Nothing in this repo re-triggers from a data-only commit anyway
+          # (ci.yml only runs on pull_request, and this workflow's own push
+          # trigger is path-scoped to the script, not to data/), so there's
+          # no upside to risking it.
+          commit_message: "chore: update hazard data"
+          file_pattern: "data/*.json data/*.csv"
