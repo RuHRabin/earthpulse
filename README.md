@@ -106,6 +106,7 @@ earthpulse/
 
 - [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) — real-time GeoJSON feeds, public domain, no key required
 - [National Weather Service API](https://www.weather.gov/documentation/services-web-api) — active alerts, US only, no key required (a descriptive `User-Agent` is requested by NWS policy; see the script)
+- [OpenFreeMap](https://openfreemap.org) — the map's basemap style, free and keyless with no published request limit. (The original build used CARTO's free raster tiles; CARTO began requiring an API key in August 2026, so the map now renders as vector tiles via MapLibre GL instead. If OpenFreeMap ever changes terms too, only `js/map.js`'s `BASEMAP_STYLE_URL` needs to change — markers, popups, and everything else are independent of the basemap.)
 
 EarthPulse is not affiliated with either agency. **This is an awareness and education tool, not an official early-warning or emergency-alert system** — it refreshes every 15 minutes, which is far too slow for life-safety alerting. In an emergency, follow your local emergency services and national agencies.
 
