@@ -1,0 +1,40 @@
+name: CI
+
+# Runs on every pull request so a broken script or malformed data file
+# gets caught before it's merged, rather than silently breaking the
+# 15-minute scheduled job.
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check Python syntax
+        run: python -m py_compile scripts/*.py
+
+      - name: Validate data/latest.json is well-formed
+        run: python -c "import json; json.load(open('data/latest.json'))"
+
+      - name: Dry-run the pipeline's pure logic against sample data
+        run: |
+          python - << 'PY'
+          import importlib.util
+          spec = importlib.util.spec_from_file_location("fetch", "scripts/fetch_earthquake_data.py")
+          fetch = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(fetch)
+
+          # This only exercises parsing/aggregation logic, not the network
+          # calls, so it runs the same in CI as it does anywhere else.
+          empty = fetch.build_earthquake_summary(None, None, {"features": []})
+          assert empty["counts"]["today"] == 0
+          assert fetch.build_alerts_summary(None)["unavailable"] is True
+          print("pipeline logic OK")
+          PY
