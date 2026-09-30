@@ -13,13 +13,14 @@
 
 <!--
   This project deliberately ships no JS bundler/build step: the frontend is
-  plain HTML/CSS/ES modules, and the two visualization libraries below are
-  loaded as pinned-major-version scripts from a CDN. That means GitHub
-  Pages can serve this repo directly from the `main` branch with zero build
-  workflow -- see README.md ("Why not React/Next.js here?") for the reasoning,
-  and for how you'd swap in a framework if you'd rather build it that way.
+  plain HTML/CSS/ES modules, and every library below is loaded as a
+  pinned-major-version script from a CDN. That means GitHub Pages can serve
+  this repo directly from the `main` branch with zero build workflow -- see
+  README.md ("Why not React/Next.js here?") for the reasoning, and for how
+  you'd swap in a framework if you'd rather build it that way.
 -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" />
 
 <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -198,6 +199,8 @@
 </footer>
 
 <script src="https://unpkg.com/leaflet@1/dist/leaflet.js"></script>
+<script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0/leaflet-maplibre-gl.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 <script type="module" src="js/app.js"></script>
 </body>
