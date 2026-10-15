@@ -1,7 +1,7 @@
 {
   "counts": {
-    "today": 183,
-    "week": 379
+    "today": 190,
+    "week": 385
   },
   "strongest_today": {
     "id": "aka2026ukynnb",
@@ -27,9 +27,9 @@
     "alert": "orange",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k"
   },
-  "avg_magnitude_today": 1.81,
+  "avg_magnitude_today": 1.85,
   "magnitude_distribution_week": {
-    "<3": 89,
+    "<3": 95,
     "3-4": 59,
     "4-5": 183,
     "5-6": 40,
@@ -39,7 +39,7 @@
   "daily_trend_7d": [
     {
       "date": "2026-10-08",
-      "count": 12,
+      "count": 5,
       "max_magnitude": 5.1
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "date": "2026-10-12",
-      "count": 60,
+      "count": 65,
       "max_magnitude": 6.1
     },
     {
@@ -74,11 +74,35 @@
     },
     {
       "date": "2026-10-15",
-      "count": 27,
+      "count": 35,
       "max_magnitude": 5.6
     }
   ],
   "significant_recent": [
+    {
+      "id": "us6000u2i9",
+      "mag": 4.5,
+      "place": "22 km W of Tamarindo, Costa Rica",
+      "time": "2026-10-15T15:40:38.840000+00:00",
+      "lat": 10.3031,
+      "lon": -86.049,
+      "depth_km": 22.782,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2i9"
+    },
+    {
+      "id": "us6000u2i2",
+      "mag": 4.9,
+      "place": "198 km SSE of Vilyuchinsk, Russia",
+      "time": "2026-10-15T14:59:52.905000+00:00",
+      "lat": 51.3801,
+      "lon": 159.8474,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2i2"
+    },
     {
       "id": "us6000u2ht",
       "mag": 4.5,
@@ -654,33 +678,237 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ut"
-    },
-    {
-      "id": "us6000u1uq",
-      "mag": 4.8,
-      "place": "23 km SW of San Antonio, Chile",
-      "time": "2026-10-12T18:17:18.852000+00:00",
-      "lat": -33.721,
-      "lon": -71.8113,
-      "depth_km": 33.627,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1uq"
-    },
-    {
-      "id": "us6000u1sn",
-      "mag": 4.9,
-      "place": "283 km SSW of Severo-Kuril’sk, Russia",
-      "time": "2026-10-12T15:44:33.749000+00:00",
-      "lat": 48.2626,
-      "lon": 154.8502,
-      "depth_km": 35,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1sn"
     }
   ],
   "today_quakes": [
+    {
+      "id": "ci41348023",
+      "mag": 0.93,
+      "place": "5 km S of Banning, CA",
+      "time": "2026-10-15T18:47:17.040000+00:00",
+      "lat": 33.8818333333333,
+      "lon": -116.879,
+      "depth_km": 12.62,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348023"
+    },
+    {
+      "id": "ci41348015",
+      "mag": 1.4,
+      "place": "9 km WNW of Anza, CA",
+      "time": "2026-10-15T18:44:38.570000+00:00",
+      "lat": 33.5786666666667,
+      "lon": -116.7625,
+      "depth_km": 12.43,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348015"
+    },
+    {
+      "id": "ci41347991",
+      "mag": 1.04,
+      "place": "18 km ESE of Little Lake, CA",
+      "time": "2026-10-15T18:31:49.840000+00:00",
+      "lat": 35.8716666666667,
+      "lon": -117.717666666667,
+      "depth_km": 10.5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347991"
+    },
+    {
+      "id": "nc75449961",
+      "mag": 2.54,
+      "place": "10 km ESE of Gilroy, CA",
+      "time": "2026-10-15T17:57:32.790000+00:00",
+      "lat": 36.988166809082,
+      "lon": -121.460502624512,
+      "depth_km": 5.13000011444092,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449961"
+    },
+    {
+      "id": "aka2026ulmeki",
+      "mag": 2.5,
+      "place": "15 km ESE of Kasilof, Alaska",
+      "time": "2026-10-15T17:56:32.715000+00:00",
+      "lat": 60.273,
+      "lon": -151.023,
+      "depth_km": 54.5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulmeki"
+    },
+    {
+      "id": "ci41347959",
+      "mag": 1.84,
+      "place": "28 km E of Barstow, CA",
+      "time": "2026-10-15T17:51:02.340000+00:00",
+      "lat": 34.9453333333333,
+      "lon": -116.721333333333,
+      "depth_km": 1.34,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347959"
+    },
+    {
+      "id": "nc75449951",
+      "mag": 1.18,
+      "place": "6 km S of Portola Valley, CA",
+      "time": "2026-10-15T17:29:48.200000+00:00",
+      "lat": 37.3261680603027,
+      "lon": -122.226829528809,
+      "depth_km": 5.80000019073486,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449951"
+    },
+    {
+      "id": "nc75449946",
+      "mag": 2.95,
+      "place": "13 km W of Petrolia, CA",
+      "time": "2026-10-15T17:25:32.550000+00:00",
+      "lat": 40.3370018005371,
+      "lon": -124.434997558594,
+      "depth_km": 19.6200008392334,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449946"
+    },
+    {
+      "id": "aka2026ulkzip",
+      "mag": 2.8,
+      "place": "59 km ENE of Lake Minchumina, Alaska",
+      "time": "2026-10-15T17:20:31.535000+00:00",
+      "lat": 64.174,
+      "lon": -151.284,
+      "depth_km": 14,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulkzip"
+    },
+    {
+      "id": "us6000u2k0",
+      "mag": 2.7,
+      "place": "7 km SSW of Luray, Kansas",
+      "time": "2026-10-15T17:18:54.565000+00:00",
+      "lat": 39.053,
+      "lon": -98.7352,
+      "depth_km": 8.647,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2k0"
+    },
+    {
+      "id": "nc75449936",
+      "mag": 0.44,
+      "place": "8 km NW of The Geysers, CA",
+      "time": "2026-10-15T17:10:58.650000+00:00",
+      "lat": 38.8326683044434,
+      "lon": -122.817497253418,
+      "depth_km": 1.69000005722046,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449936"
+    },
+    {
+      "id": "aka2026ulkfcu",
+      "mag": 1.5,
+      "place": "82 km NNW of Karluk, Alaska",
+      "time": "2026-10-15T16:57:14.240000+00:00",
+      "lat": 58.263,
+      "lon": -154.933,
+      "depth_km": 5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulkfcu"
+    },
+    {
+      "id": "ci41347943",
+      "mag": 0.98,
+      "place": "7 km N of Lake Henshaw, CA",
+      "time": "2026-10-15T16:56:46.010000+00:00",
+      "lat": 33.3028333333333,
+      "lon": -116.761833333333,
+      "depth_km": 10.67,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347943"
+    },
+    {
+      "id": "uu80160076",
+      "mag": 0.85,
+      "place": "15 km NE of Milford, Utah",
+      "time": "2026-10-15T16:53:10.120000+00:00",
+      "lat": 38.5128333333333,
+      "lon": -112.9035,
+      "depth_km": 3.47,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80160076"
+    },
+    {
+      "id": "us6000u2im",
+      "mag": 4.4,
+      "place": "south of the Fiji Islands",
+      "time": "2026-10-15T16:32:51.608000+00:00",
+      "lat": -25.1841,
+      "lon": -179.7319,
+      "depth_km": 522.752,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2im"
+    },
+    {
+      "id": "ci41347919",
+      "mag": 1.28,
+      "place": "18 km WSW of Johannesburg, CA",
+      "time": "2026-10-15T16:32:40.980000+00:00",
+      "lat": 35.3226666666667,
+      "lon": -117.827,
+      "depth_km": 9.08,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347919"
+    },
+    {
+      "id": "uu80160071",
+      "mag": 1.17,
+      "place": "29 km SSW of Silver Gate, Montana",
+      "time": "2026-10-15T15:53:58.790000+00:00",
+      "lat": 44.7786666666667,
+      "lon": -110.179833333333,
+      "depth_km": 5.63,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80160071"
+    },
+    {
+      "id": "uu80160066",
+      "mag": 1.05,
+      "place": "29 km SSW of Silver Gate, Montana",
+      "time": "2026-10-15T15:52:38.850000+00:00",
+      "lat": 44.775,
+      "lon": -110.181,
+      "depth_km": 6.2,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80160066"
+    },
+    {
+      "id": "us6000u2i9",
+      "mag": 4.5,
+      "place": "22 km W of Tamarindo, Costa Rica",
+      "time": "2026-10-15T15:40:38.840000+00:00",
+      "lat": 10.3031,
+      "lon": -86.049,
+      "depth_km": 22.782,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2i9"
+    },
     {
       "id": "nc75449881",
       "mag": 2.06,
@@ -695,15 +923,39 @@
     },
     {
       "id": "ci41347887",
-      "mag": 1.39,
+      "mag": 1.4,
       "place": "5 km S of Idyllwild, CA",
-      "time": "2026-10-15T15:30:25.660000+00:00",
-      "lat": 33.6938333333333,
-      "lon": -116.713666666667,
-      "depth_km": 17.51,
+      "time": "2026-10-15T15:30:25.570000+00:00",
+      "lat": 33.6928333333333,
+      "lon": -116.711666666667,
+      "depth_km": 17.9,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347887"
+    },
+    {
+      "id": "tx2026uhzpcm",
+      "mag": 2,
+      "place": "16 km SSW of Jal, New Mexico",
+      "time": "2026-10-15T15:10:37.729000+00:00",
+      "lat": 31.985,
+      "lon": -103.292,
+      "depth_km": 6.0999,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uhzpcm"
+    },
+    {
+      "id": "us6000u2i2",
+      "mag": 4.9,
+      "place": "198 km SSE of Vilyuchinsk, Russia",
+      "time": "2026-10-15T14:59:52.905000+00:00",
+      "lat": 51.3801,
+      "lon": 159.8474,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2i2"
     },
     {
       "id": "nc75449861",
@@ -755,24 +1007,24 @@
     },
     {
       "id": "ci41347847",
-      "mag": 2.64,
-      "place": "21 km W of Delta, B.C., MX",
-      "time": "2026-10-15T14:09:56.670000+00:00",
-      "lat": 32.3705,
-      "lon": -115.419333333333,
-      "depth_km": 13.63,
+      "mag": 2.72,
+      "place": "20 km W of Delta, B.C., MX",
+      "time": "2026-10-15T14:09:56.550000+00:00",
+      "lat": 32.3676666666667,
+      "lon": -115.407666666667,
+      "depth_km": 15.34,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347847"
     },
     {
       "id": "hv75056887",
-      "mag": 2.09,
+      "mag": 2.05,
       "place": "6 km SW of Volcano, Hawaii",
-      "time": "2026-10-15T14:08:11.140000+00:00",
-      "lat": 19.3988342285156,
-      "lon": -155.278839111328,
-      "depth_km": 1.57000005245209,
+      "time": "2026-10-15T14:08:11.160000+00:00",
+      "lat": 19.3968333333333,
+      "lon": -155.2775,
+      "depth_km": 1.84,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75056887"
@@ -947,12 +1199,12 @@
     },
     {
       "id": "nn00925803",
-      "mag": 2.73,
-      "place": "12 km E of Austin, Nevada",
-      "time": "2026-10-15T11:48:53.463000+00:00",
-      "lat": 39.4828,
-      "lon": -116.9232,
-      "depth_km": 4.0662,
+      "mag": 2.45,
+      "place": "15 km NE of Austin, Nevada",
+      "time": "2026-10-15T11:48:52.547000+00:00",
+      "lat": 39.5954,
+      "lon": -116.9398,
+      "depth_km": 2.0675,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925803"
@@ -1004,6 +1256,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukynnb"
+    },
+    {
+      "id": "uu80160051",
+      "mag": 1.11,
+      "place": "15 km NE of Milford, Utah",
+      "time": "2026-10-15T10:56:26.600000+00:00",
+      "lat": 38.5125,
+      "lon": -112.903666666667,
+      "depth_km": 3.42,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80160051"
     },
     {
       "id": "nc75449801",
@@ -1068,11 +1332,11 @@
     {
       "id": "nn00925799",
       "mag": 2.75,
-      "place": "19 km ESE of Silver Springs, Nevada",
-      "time": "2026-10-15T09:34:04.533000+00:00",
-      "lat": 39.3443,
-      "lon": -119.016,
-      "depth_km": 11.3042,
+      "place": "20 km ESE of Silver Springs, Nevada",
+      "time": "2026-10-15T09:34:05.055000+00:00",
+      "lat": 39.3368,
+      "lon": -119.015,
+      "depth_km": 8.649,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925799"
@@ -1126,6 +1390,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449786"
     },
     {
+      "id": "tx2026uhnthq",
+      "mag": 2,
+      "place": "55 km S of Whites City, New Mexico",
+      "time": "2026-10-15T09:13:24.465000+00:00",
+      "lat": 31.672,
+      "lon": -104.339,
+      "depth_km": 6.4587,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uhnthq"
+    },
+    {
       "id": "pr71536798",
       "mag": 2.25,
       "place": "4 km E of La Parguera, Puerto Rico",
@@ -1163,12 +1439,12 @@
     },
     {
       "id": "nn00925796",
-      "mag": 1.75,
-      "place": "32 km SSW of Alamo, Nevada",
-      "time": "2026-10-15T08:38:10.586000+00:00",
-      "lat": 37.0989,
-      "lon": -115.3277,
-      "depth_km": 6.8893,
+      "mag": 1.53,
+      "place": "29 km SSW of Alamo, Nevada",
+      "time": "2026-10-15T08:38:10.198000+00:00",
+      "lat": 37.1145,
+      "lon": -115.2873,
+      "depth_km": 12.6459,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925796"
@@ -1187,15 +1463,27 @@
     },
     {
       "id": "ci41347823",
-      "mag": 1.53,
-      "place": "17 km WSW of Johannesburg, CA",
-      "time": "2026-10-15T08:30:10.100000+00:00",
-      "lat": 35.3068333333333,
-      "lon": -117.798,
-      "depth_km": 6.03,
+      "mag": 1.49,
+      "place": "16 km WSW of Johannesburg, CA",
+      "time": "2026-10-15T08:30:10.020000+00:00",
+      "lat": 35.3093333333333,
+      "lon": -117.798833333333,
+      "depth_km": 6.89,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347823"
+    },
+    {
+      "id": "tx2026uhlnqt",
+      "mag": 1.8,
+      "place": "55 km W of Mentone, Texas",
+      "time": "2026-10-15T08:06:18.864000+00:00",
+      "lat": 31.701,
+      "lon": -104.182,
+      "depth_km": 5.2795,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uhlnqt"
     },
     {
       "id": "nc75449781",
@@ -1224,11 +1512,11 @@
     {
       "id": "ci41347815",
       "mag": 1.27,
-      "place": "11 km SSE of Bombay Beach, CA",
-      "time": "2026-10-15T07:47:07.580000+00:00",
-      "lat": 33.262,
-      "lon": -115.686166666667,
-      "depth_km": 4.15,
+      "place": "10 km SSE of Bombay Beach, CA",
+      "time": "2026-10-15T07:47:07.490000+00:00",
+      "lat": 33.269,
+      "lon": -115.683,
+      "depth_km": 6.84,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347815"
@@ -1307,24 +1595,24 @@
     },
     {
       "id": "hv75056667",
-      "mag": 2.42,
-      "place": "4 km SW of Pāhala, Hawaii",
-      "time": "2026-10-15T06:36:31.450000+00:00",
-      "lat": 19.173999786377,
-      "lon": -155.511001586914,
-      "depth_km": 32.189998626709,
+      "mag": 2.43,
+      "place": "4 km SSW of Pāhala, Hawaii",
+      "time": "2026-10-15T06:36:31.420000+00:00",
+      "lat": 19.1646666666667,
+      "lon": -155.502166666667,
+      "depth_km": 33.06,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75056667"
     },
     {
       "id": "aka2026ukphfq",
-      "mag": 2.7,
-      "place": "69 km S of Perryville, Alaska",
-      "time": "2026-10-15T06:29:56.874000+00:00",
-      "lat": 55.289,
-      "lon": -159.196,
-      "depth_km": 14.3,
+      "mag": 2.8,
+      "place": "72 km S of Perryville, Alaska",
+      "time": "2026-10-15T06:30:26.017000+00:00",
+      "lat": 55.263,
+      "lon": -159.17,
+      "depth_km": 20,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukphfq"
@@ -1376,6 +1664,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80160036"
+    },
+    {
+      "id": "uu80160031",
+      "mag": 1.05,
+      "place": "2 km N of Sigurd, Utah",
+      "time": "2026-10-15T06:19:09.060000+00:00",
+      "lat": 38.859,
+      "lon": -111.969166666667,
+      "depth_km": 1.62,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80160031"
     },
     {
       "id": "ci41347799",
@@ -1463,24 +1763,24 @@
     },
     {
       "id": "ci41347791",
-      "mag": 1.71,
+      "mag": 1.78,
       "place": "14 km W of Manhattan Beach, CA",
-      "time": "2026-10-15T05:57:56.410000+00:00",
-      "lat": 33.8731666666667,
-      "lon": -118.567333333333,
-      "depth_km": 10.42,
+      "time": "2026-10-15T05:57:56.430000+00:00",
+      "lat": 33.8721666666667,
+      "lon": -118.565,
+      "depth_km": 9.22,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347791"
     },
     {
       "id": "ci41347783",
-      "mag": 0.17,
-      "place": "7 km WSW of Anza, CA",
-      "time": "2026-10-15T05:52:09.950000+00:00",
-      "lat": 33.5201666666667,
-      "lon": -116.741333333333,
-      "depth_km": 3.76,
+      "mag": 0.07,
+      "place": "8 km WSW of Anza, CA",
+      "time": "2026-10-15T05:52:09.920000+00:00",
+      "lat": 33.5178333333333,
+      "lon": -116.743166666667,
+      "depth_km": 4.12,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347783"
@@ -1667,15 +1967,27 @@
     },
     {
       "id": "ci41347759",
-      "mag": 2.27,
+      "mag": 2.16,
       "place": "3 km N of San Jacinto, CA",
-      "time": "2026-10-15T03:52:42.270000+00:00",
-      "lat": 33.8086666666667,
-      "lon": -116.962666666667,
-      "depth_km": 13.12,
+      "time": "2026-10-15T03:52:42.220000+00:00",
+      "lat": 33.8085,
+      "lon": -116.963166666667,
+      "depth_km": 13.65,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347759"
+    },
+    {
+      "id": "tx2026uhcyde",
+      "mag": 1.5,
+      "place": "28 km WSW of Ackerly, Texas",
+      "time": "2026-10-15T03:46:55.382000+00:00",
+      "lat": 32.477,
+      "lon": -102.01,
+      "depth_km": 7.3486,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uhcyde"
     },
     {
       "id": "uu80160006",
@@ -1726,13 +2038,25 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2eh"
     },
     {
+      "id": "ci10257022",
+      "mag": 0.46,
+      "place": "10 km ENE of Coso Junction, CA",
+      "time": "2026-10-15T03:31:38.830000+00:00",
+      "lat": 36.079,
+      "lon": -117.841666666667,
+      "depth_km": 1.43,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci10257022"
+    },
+    {
       "id": "ci41347743",
-      "mag": 2.95263779141459,
-      "place": "3 km N of San Jacinto, CA",
-      "time": "2026-10-15T03:30:57.550000+00:00",
-      "lat": 33.8088340759277,
-      "lon": -116.964500427246,
-      "depth_km": 13.1999998092651,
+      "mag": 2.77,
+      "place": "3 km NNW of San Jacinto, CA",
+      "time": "2026-10-15T03:30:57.500000+00:00",
+      "lat": 33.8078333333333,
+      "lon": -116.9645,
+      "depth_km": 13.56,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347743"
@@ -1763,12 +2087,12 @@
     },
     {
       "id": "nn00925785",
-      "mag": 2.18,
-      "place": "11 km NE of Walker Lake, Nevada",
-      "time": "2026-10-15T03:23:56.689000+00:00",
-      "lat": 38.7245,
-      "lon": -118.6651,
-      "depth_km": 3.8562,
+      "mag": 1.97,
+      "place": "12 km NE of Walker Lake, Nevada",
+      "time": "2026-10-15T03:23:57.220000+00:00",
+      "lat": 38.7288,
+      "lon": -118.6585,
+      "depth_km": 9.2028,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925785"
@@ -1799,12 +2123,12 @@
     },
     {
       "id": "nn00925782",
-      "mag": 1.68,
-      "place": "30 km SSW of Alamo, Nevada",
-      "time": "2026-10-15T03:14:25.888000+00:00",
-      "lat": 37.1088,
-      "lon": -115.2817,
-      "depth_km": 3.9622,
+      "mag": 1.69,
+      "place": "29 km SSW of Alamo, Nevada",
+      "time": "2026-10-15T03:14:26.641000+00:00",
+      "lat": 37.1317,
+      "lon": -115.3139,
+      "depth_km": 8.7784,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925782"
@@ -1835,27 +2159,27 @@
     },
     {
       "id": "nn00925779",
-      "mag": 1.99,
-      "place": "27 km SSW of Alamo, Nevada",
-      "time": "2026-10-15T02:40:16.065000+00:00",
-      "lat": 37.1275,
-      "lon": -115.2704,
-      "depth_km": 9.1093,
+      "mag": 1.97,
+      "place": "30 km SSW of Alamo, Nevada",
+      "time": "2026-10-15T02:40:16.842000+00:00",
+      "lat": 37.1099,
+      "lon": -115.2889,
+      "depth_km": 9.4714,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925779"
     },
     {
-      "id": "ci41347727",
-      "mag": 0.78,
+      "id": "ci41347719",
+      "mag": 0.66,
       "place": "6 km SSE of Pearblossom, CA",
-      "time": "2026-10-15T02:35:11.440000+00:00",
-      "lat": 34.4581666666667,
-      "lon": -117.878333333333,
-      "depth_km": 7.61,
+      "time": "2026-10-15T02:35:11.410000+00:00",
+      "lat": 34.4596666666667,
+      "lon": -117.880166666667,
+      "depth_km": 7.83,
       "tsunami": false,
       "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347727"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347719"
     },
     {
       "id": "nc75449596",
@@ -1904,6 +2228,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449586"
+    },
+    {
+      "id": "tx2026uhaixf",
+      "mag": 1.7,
+      "place": "26 km W of Garden City, Texas",
+      "time": "2026-10-15T02:28:52.993000+00:00",
+      "lat": 31.869,
+      "lon": -101.757,
+      "depth_km": 8.0322,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uhaixf"
     },
     {
       "id": "hv75056562",
@@ -2038,6 +2374,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449566"
     },
     {
+      "id": "tx2026ugyyaw",
+      "mag": 1.8,
+      "place": "18 km ESE of Pearsall, Texas",
+      "time": "2026-10-15T01:46:05.101000+00:00",
+      "lat": 28.81,
+      "lon": -98.93,
+      "depth_km": 7.3108,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ugyyaw"
+    },
+    {
       "id": "aka2026ukfteh",
       "mag": 2.1,
       "place": "29 km SSE of Chickaloon, Alaska",
@@ -2098,6 +2446,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71536758"
     },
     {
+      "id": "tx2026ugvqvf",
+      "mag": 1.8,
+      "place": "10 km WSW of Stanton, Texas",
+      "time": "2026-10-15T00:10:39.755000+00:00",
+      "lat": 32.105,
+      "lon": -101.896,
+      "depth_km": 7.4951,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ugvqvf"
+    },
+    {
       "id": "ci41347671",
       "mag": 0.27,
       "place": "9 km WNW of Anza, CA",
@@ -2146,6 +2506,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80159991"
     },
     {
+      "id": "av93068239",
+      "mag": -0.34,
+      "place": "16 km WSW of Dutch Harbor, Alaska",
+      "time": "2026-10-14T23:49:42.990000+00:00",
+      "lat": 53.8525,
+      "lon": -166.779833333333,
+      "depth_km": 7.99,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93068239"
+    },
+    {
       "id": "pr71536748",
       "mag": 3.1,
       "place": "22 km NNE of Brenas, Puerto Rico",
@@ -2170,6 +2542,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2d6"
     },
     {
+      "id": "av94449213",
+      "mag": 0.05,
+      "place": "62 km WNW of Beluga, Alaska",
+      "time": "2026-10-14T23:18:47.680000+00:00",
+      "lat": 61.425,
+      "lon": -152.096333333333,
+      "depth_km": 8.02,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94449213"
+    },
+    {
       "id": "nc75449511",
       "mag": 0.84,
       "place": "7 km NW of The Geysers, CA",
@@ -2180,6 +2564,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449511"
+    },
+    {
+      "id": "tx2026ugtrii",
+      "mag": 1.8,
+      "place": "29 km SE of Malaga, New Mexico",
+      "time": "2026-10-14T23:07:37.085000+00:00",
+      "lat": 32.064,
+      "lon": -103.826,
+      "depth_km": 7.2791,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ugtrii"
     },
     {
       "id": "aka2026ukajpu",
@@ -2252,6 +2648,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026uegy"
+    },
+    {
+      "id": "av94449173",
+      "mag": 1.69,
+      "place": "67 km W of Nikolski, Alaska",
+      "time": "2026-10-14T22:27:55.700000+00:00",
+      "lat": 52.8361666666667,
+      "lon": -169.847833333333,
+      "depth_km": 8.82,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94449173"
     },
     {
       "id": "pr71536743",
@@ -2386,6 +2794,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2c6"
     },
     {
+      "id": "tx2026ugonpl",
+      "mag": 1.9,
+      "place": "25 km NNW of Toyah, Texas",
+      "time": "2026-10-14T20:33:00.277000+00:00",
+      "lat": 31.529,
+      "lon": -103.898,
+      "depth_km": 7.8943,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ugonpl"
+    },
+    {
       "id": "nc75449441",
       "mag": 0.84,
       "place": "10 km WNW of The Geysers, CA",
@@ -2458,6 +2878,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925759"
     },
     {
+      "id": "tx2026ugnoen",
+      "mag": 1.4,
+      "place": "14 km NNW of Sand Springs, Texas",
+      "time": "2026-10-14T20:02:48.242000+00:00",
+      "lat": 32.411,
+      "lon": -101.399,
+      "depth_km": 5.6885,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ugnoen"
+    },
+    {
       "id": "nn00925751",
       "mag": 3.04,
       "place": "12 km NE of Walker Lake, Nevada",
@@ -2528,354 +2960,6 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347591"
-    },
-    {
-      "id": "aka2026ujtcpy",
-      "mag": 1.5,
-      "place": "38 km W of Four Mile Road, Alaska",
-      "time": "2026-10-14T19:24:57.234000+00:00",
-      "lat": 64.544,
-      "lon": -149.902,
-      "depth_km": 2.8,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ujtcpy"
-    },
-    {
-      "id": "ci41347583",
-      "mag": 0.41,
-      "place": "9 km WNW of Anza, CA",
-      "time": "2026-10-14T19:20:44.080000+00:00",
-      "lat": 33.5878333333333,
-      "lon": -116.7565,
-      "depth_km": 12.28,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347583"
-    },
-    {
-      "id": "ci10256998",
-      "mag": 0.62,
-      "place": "5 km N of Cabazon, CA",
-      "time": "2026-10-14T19:20:19.060000+00:00",
-      "lat": 33.9658333333333,
-      "lon": -116.7895,
-      "depth_km": 9.32,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci10256998"
-    },
-    {
-      "id": "aka2026ujsxmc",
-      "mag": 2.4,
-      "place": "22 km SSE of Fox River, Alaska",
-      "time": "2026-10-14T19:18:53.849000+00:00",
-      "lat": 59.686,
-      "lon": -150.743,
-      "depth_km": 50.7,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ujsxmc"
-    },
-    {
-      "id": "ok2026udzs",
-      "mag": 1.23,
-      "place": "6 km SSW of Wapanucka, Oklahoma",
-      "time": "2026-10-14T19:07:24.260000+00:00",
-      "lat": 34.32583333,
-      "lon": -96.456,
-      "depth_km": 0,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026udzs"
-    },
-    {
-      "id": "uu80159971",
-      "mag": 0.92,
-      "place": "12 km SSW of Levan, Utah",
-      "time": "2026-10-14T18:28:59.830000+00:00",
-      "lat": 39.457,
-      "lon": -111.915666666667,
-      "depth_km": 11.13,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80159971"
-    },
-    {
-      "id": "nc75449346",
-      "mag": 0.86,
-      "place": "6 km WNW of The Geysers, CA",
-      "time": "2026-10-14T18:21:48.210000+00:00",
-      "lat": 38.7986679077148,
-      "lon": -122.814331054688,
-      "depth_km": 3.02999997138977,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449346"
-    },
-    {
-      "id": "pr71536693",
-      "mag": 3.1,
-      "place": "48 km N of Hatillo, Puerto Rico",
-      "time": "2026-10-14T18:02:18.980000+00:00",
-      "lat": 18.9271666666667,
-      "lon": -66.8081666666667,
-      "depth_km": 35.61,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71536693"
-    },
-    {
-      "id": "hv75056232",
-      "mag": 2.12,
-      "place": "6 km SSW of Pāhala, Hawaii",
-      "time": "2026-10-14T18:01:48.120000+00:00",
-      "lat": 19.15016746521,
-      "lon": -155.493835449219,
-      "depth_km": 30.9899997711182,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75056232"
-    },
-    {
-      "id": "hv75056222",
-      "mag": 1.71,
-      "place": "1 km NW of Pāhala, Hawaii",
-      "time": "2026-10-14T17:55:27.150000+00:00",
-      "lat": 19.212833404541,
-      "lon": -155.490829467773,
-      "depth_km": 27.8999996185303,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75056222"
-    },
-    {
-      "id": "nc75449336",
-      "mag": 1.04,
-      "place": "2 km NNW of The Geysers, CA",
-      "time": "2026-10-14T17:54:23.230000+00:00",
-      "lat": 38.7915000915527,
-      "lon": -122.760330200195,
-      "depth_km": 2.29999995231628,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449336"
-    },
-    {
-      "id": "hv75056217",
-      "mag": 1.45,
-      "place": "10 km NE of Pāhala, Hawaii",
-      "time": "2026-10-14T17:47:22.040000+00:00",
-      "lat": 19.2633333333333,
-      "lon": -155.3975,
-      "depth_km": 28.48,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75056217"
-    },
-    {
-      "id": "aka2026ujpvfy",
-      "mag": 1.2,
-      "place": "40 km ENE of Healy, Alaska",
-      "time": "2026-10-14T17:46:58.233000+00:00",
-      "lat": 63.993,
-      "lon": -148.204,
-      "depth_km": 13.4,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ujpvfy"
-    },
-    {
-      "id": "uu80159961",
-      "mag": 2.21,
-      "place": "16 km NNE of Milford, Utah",
-      "time": "2026-10-14T17:46:31.370000+00:00",
-      "lat": 38.5185,
-      "lon": -112.908333333333,
-      "depth_km": 4.29,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80159961"
-    },
-    {
-      "id": "aka2026ujondh",
-      "mag": 1.8,
-      "place": "44 km SSE of Glacier View, Alaska",
-      "time": "2026-10-14T17:07:09.209000+00:00",
-      "lat": 61.416,
-      "lon": -147.462,
-      "depth_km": 19.1,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ujondh"
-    },
-    {
-      "id": "nc75449331",
-      "mag": 0.7,
-      "place": "7 km NW of The Geysers, CA",
-      "time": "2026-10-14T17:05:53.860000+00:00",
-      "lat": 38.8240013122559,
-      "lon": -122.804496765137,
-      "depth_km": 2.5699999332428,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449331"
-    },
-    {
-      "id": "ci41347559",
-      "mag": 1.01,
-      "place": "16 km WSW of Olancha, CA",
-      "time": "2026-10-14T16:59:14.900000+00:00",
-      "lat": 36.2155,
-      "lon": -118.168,
-      "depth_km": 8.6,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347559"
-    },
-    {
-      "id": "uu80159956",
-      "mag": 1.27,
-      "place": "15 km NE of Milford, Utah",
-      "time": "2026-10-14T16:56:12.120000+00:00",
-      "lat": 38.5115,
-      "lon": -112.906,
-      "depth_km": 3.21,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80159956"
-    },
-    {
-      "id": "aka2026ujocvu",
-      "mag": 1.9,
-      "place": "61 km WNW of Happy Valley, Alaska",
-      "time": "2026-10-14T16:55:15.827000+00:00",
-      "lat": 60.072,
-      "lon": -152.803,
-      "depth_km": 112,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ujocvu"
-    },
-    {
-      "id": "av94448643",
-      "mag": 1,
-      "place": "95 km SSE of Kokhanok, Alaska",
-      "time": "2026-10-14T16:54:35+00:00",
-      "lat": 58.623,
-      "lon": -154.266833333333,
-      "depth_km": 8.55,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94448643"
-    },
-    {
-      "id": "ci41347551",
-      "mag": 1.03,
-      "place": "3 km SSE of Fontana, CA",
-      "time": "2026-10-14T16:30:22.780000+00:00",
-      "lat": 34.0745,
-      "lon": -117.4495,
-      "depth_km": 4.12,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347551"
-    },
-    {
-      "id": "ci41347535",
-      "mag": 0.9,
-      "place": "10 km SE of Winchester, CA",
-      "time": "2026-10-14T16:12:15.600000+00:00",
-      "lat": 33.6408333333333,
-      "lon": -117.007666666667,
-      "depth_km": 13.33,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347535"
-    },
-    {
-      "id": "aka2026ujmjdz",
-      "mag": 2.6,
-      "place": "65 km ENE of Pedro Bay, Alaska",
-      "time": "2026-10-14T16:02:44.832000+00:00",
-      "lat": 59.945,
-      "lon": -152.983,
-      "depth_km": 111.1,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ujmjdz"
-    },
-    {
-      "id": "nc75449306",
-      "mag": 1.48,
-      "place": "8 km ESE of Cloverdale, CA",
-      "time": "2026-10-14T16:00:33.720000+00:00",
-      "lat": 38.7763328552246,
-      "lon": -122.932830810547,
-      "depth_km": 4.8600001335144,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449306"
-    },
-    {
-      "id": "aka2026ujmdnb",
-      "mag": 2.4,
-      "place": "63 km WNW of Ninilchik, Alaska",
-      "time": "2026-10-14T15:56:04.599000+00:00",
-      "lat": 60.35,
-      "lon": -152.646,
-      "depth_km": 117.8,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ujmdnb"
-    },
-    {
-      "id": "nc75449301",
-      "mag": 1.68,
-      "place": "8 km ESE of Cloverdale, CA",
-      "time": "2026-10-14T15:55:57.780000+00:00",
-      "lat": 38.7783317565918,
-      "lon": -122.937835693359,
-      "depth_km": 7.34999990463257,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449301"
-    },
-    {
-      "id": "av93068224",
-      "mag": 0.5,
-      "place": "7 km W of Dutch Harbor, Alaska",
-      "time": "2026-10-14T15:49:21.400000+00:00",
-      "lat": 53.8996666666667,
-      "lon": -166.649,
-      "depth_km": 7.94,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93068224"
-    },
-    {
-      "id": "nc75449296",
-      "mag": 0.79,
-      "place": "13 km NW of The Geysers, CA",
-      "time": "2026-10-14T15:45:11+00:00",
-      "lat": 38.8428344726562,
-      "lon": -122.877334594727,
-      "depth_km": 2.51999998092651,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449296"
-    },
-    {
-      "id": "nc75449291",
-      "mag": 1.33,
-      "place": "35 km NE of Redway, CA",
-      "time": "2026-10-14T15:43:14.420000+00:00",
-      "lat": 40.3678321838379,
-      "lon": -123.561164855957,
-      "depth_km": 22.6499996185303,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449291"
     }
   ],
   "sources_ok": {
@@ -2884,316 +2968,316 @@
     "month": true
   },
   "us_weather_alerts": {
-    "active_count": 327,
+    "active_count": 436,
     "by_severity": {
-      "Severe": 45,
-      "Minor": 166,
-      "Moderate": 114,
-      "Unknown": 2
+      "Severe": 89,
+      "Minor": 191,
+      "Moderate": 153,
+      "Unknown": 3
     },
     "top_alerts": [
       {
-        "id": "urn:oid:2.49.0.1.840.0.bb24e3588dd7151f52f88682ff145a53ba77b2fd.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.1c8df14ec28969001532b9194923e7846ba00a8a.001.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Brewster, TX",
+        "headline": "Flood Warning issued October 15 at 2:26PM CDT until October 19 at 11:00AM CDT by NWS Midland/Odessa TX",
+        "sent": "2026-10-15T14:26:00-05:00",
+        "expires": "2026-10-16T14:30:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.1c8df14ec28969001532b9194923e7846ba00a8a.002.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Brewster, TX",
+        "headline": "Flood Warning issued October 15 at 2:26PM CDT until October 18 at 3:00PM CDT by NWS Midland/Odessa TX",
+        "sent": "2026-10-15T14:26:00-05:00",
+        "expires": "2026-10-16T14:30:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.1c8df14ec28969001532b9194923e7846ba00a8a.003.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Brewster, TX",
+        "headline": "Flood Warning issued October 15 at 2:26PM CDT until October 18 at 6:00PM CDT by NWS Midland/Odessa TX",
+        "sent": "2026-10-15T14:26:00-05:00",
+        "expires": "2026-10-16T14:30:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.d40d8f19eb0db30b5bf384707d879135b56e1133.001.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Wilbarger, TX",
+        "headline": "Flood Warning issued October 15 at 2:22PM CDT until October 17 at 1:00AM CDT by NWS Norman OK",
+        "sent": "2026-10-15T14:22:00-05:00",
+        "expires": "2026-10-16T02:30:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.e2ce8dbbb7caaeeeb8a4a89ca4db0070bc245d1f.001.1",
+        "event": "Freeze Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Towner; Cavalier; Benson; Ramsey; Western Walsh County",
+        "headline": "Freeze Warning issued October 15 at 2:19PM CDT until October 16 at 9:00AM CDT by NWS Grand Forks ND",
+        "sent": "2026-10-15T14:19:00-05:00",
+        "expires": "2026-10-15T22:30:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.41af30073aa8c9f36041f742716bd026d4d5bc73.001.1",
         "event": "Flash Flood Warning",
         "severity": "Severe",
         "urgency": "Immediate",
-        "area": "Foard, TX; Hardeman, TX",
-        "headline": "Flash Flood Warning issued October 15 at 10:39AM CDT until October 15 at 1:45PM CDT by NWS Norman OK",
-        "sent": "2026-10-15T10:39:00-05:00",
-        "expires": "2026-10-15T13:45:00-05:00"
+        "area": "King, TX; Stonewall, TX",
+        "headline": "Flash Flood Warning issued October 15 at 2:07PM CDT until October 15 at 5:00PM CDT by NWS Lubbock TX",
+        "sent": "2026-10-15T14:07:00-05:00",
+        "expires": "2026-10-15T17:00:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.de31f1445c0ca733372e666b8dfd1fe8c676cc29.001.1",
-        "event": "Flood Warning",
+        "id": "urn:oid:2.49.0.1.840.0.c7f19ba0a2d2b6c293e1e2a09f2e120ba64840aa.001.1",
+        "event": "Freeze Warning",
         "severity": "Severe",
         "urgency": "Expected",
-        "area": "Pottawatomie, OK; Seminole, OK",
-        "headline": "Flood Warning issued October 15 at 9:39AM CDT until October 15 at 10:00PM CDT by NWS Norman OK",
-        "sent": "2026-10-15T09:39:00-05:00",
-        "expires": "2026-10-15T21:45:00-05:00"
+        "area": "Divide; Burke; Renville; Bottineau; Rolette; Williams; Mountrail; McHenry; Pierce; McKenzie; Dunn; Mercer; Oliver; Sheridan; Golden Valley; Billings; Stark; Burleigh; Slope; Hettinger; Grant; Bowman; Adams; Northwest Ward; Central and Southern Ward/Minot Area; Western McLean; Eastern McLean; Western Morton; Eastern Morton; Western Sioux; Eastern Sioux",
+        "headline": "Freeze Warning issued October 15 at 2:04PM CDT until October 16 at 8:00AM CDT by NWS Bismarck ND",
+        "sent": "2026-10-15T14:04:00-05:00",
+        "expires": "2026-10-15T22:15:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.525bbf7898c641a578138077af98b5c5ed810bc5.001.1",
-        "event": "Fire Weather Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Vernon; Rapides; Avoyelles; Beauregard; Allen; Evangeline; St. Landry; Lafayette; Upper St. Martin; Northern Calcasieu; Northern Jefferson Davis; Northern Acadia; Tyler; Hardin; Northern Jasper; Northern Newton; Southern Jasper; Southern Newton",
-        "headline": "Fire Weather Watch issued October 15 at 9:39AM CDT until October 17 at 1:00AM CDT by NWS Lake Charles LA",
-        "sent": "2026-10-15T09:39:00-05:00",
-        "expires": "2026-10-15T17:45:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.52dbe29135fa6cbe6ee88511948ce51c12a518fc.001.1",
-        "event": "Typhoon Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Guam Coastal Waters; Rota Coastal Waters; Tinian Coastal Waters; Saipan Coastal Waters",
-        "headline": "Typhoon Watch issued October 16 at 12:25AM ChST by NWS Tiyan GU",
-        "sent": "2026-10-16T00:25:00+10:00",
-        "expires": "2026-10-16T16:00:00+10:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.798e65f1879957f432fd963e15e63195b112886c.001.1",
-        "event": "Flash Flood Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Foard, TX; Hardeman, TX; Wilbarger, TX",
-        "headline": "Flash Flood Warning issued October 15 at 9:07AM CDT until October 15 at 12:00PM CDT by NWS Norman OK",
-        "sent": "2026-10-15T09:07:00-05:00",
-        "expires": "2026-10-15T12:00:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.ba5122088fde19c7f248a961f4841c627cbee1eb.003.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Val Verde, TX",
-        "headline": "Flood Warning issued October 15 at 8:58AM CDT until October 17 at 3:00PM CDT by NWS Austin/San Antonio TX",
-        "sent": "2026-10-15T08:58:00-05:00",
-        "expires": "2026-10-15T21:00:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.ba5122088fde19c7f248a961f4841c627cbee1eb.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Val Verde, TX",
-        "headline": "Flood Warning issued October 15 at 8:58AM CDT until October 17 at 11:00PM CDT by NWS Austin/San Antonio TX",
-        "sent": "2026-10-15T08:58:00-05:00",
-        "expires": "2026-10-15T21:00:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.ba5122088fde19c7f248a961f4841c627cbee1eb.002.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Val Verde, TX",
-        "headline": "Flood Warning issued October 15 at 8:58AM CDT until October 18 at 1:00PM CDT by NWS Austin/San Antonio TX",
-        "sent": "2026-10-15T08:58:00-05:00",
-        "expires": "2026-10-15T21:00:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.ba5122088fde19c7f248a961f4841c627cbee1eb.004.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Val Verde, TX",
-        "headline": "Flood Warning issued October 15 at 8:58AM CDT until October 19 at 1:00AM CDT by NWS Austin/San Antonio TX",
-        "sent": "2026-10-15T08:58:00-05:00",
-        "expires": "2026-10-15T21:00:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.ba5122088fde19c7f248a961f4841c627cbee1eb.005.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Val Verde, TX",
-        "headline": "Flood Warning issued October 15 at 8:58AM CDT until October 19 at 1:00AM CDT by NWS Austin/San Antonio TX",
-        "sent": "2026-10-15T08:58:00-05:00",
-        "expires": "2026-10-15T21:00:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.954d913b8ae08ed3af7e112296f9aad2f5c6895e.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Wichita, TX; Wilbarger, TX",
-        "headline": "Flood Warning issued October 15 at 8:42AM CDT until October 19 at 9:00PM CDT by NWS Norman OK",
-        "sent": "2026-10-15T08:42:00-05:00",
-        "expires": "2026-10-15T20:45:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.1407022988282b242820300be8469dc385a104d2.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Cleveland, OK; McClain, OK; Pottawatomie, OK",
-        "headline": "Flood Warning issued October 15 at 8:34AM CDT until October 17 at 11:00AM CDT by NWS Norman OK",
-        "sent": "2026-10-15T08:34:00-05:00",
-        "expires": "2026-10-15T20:45:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.47e22f6deb9022f8a4a2f78180db3291ff246c27.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Cottle, TX; Dickens, TX; King, TX; Motley, TX",
-        "headline": "Flood Warning issued October 15 at 8:25AM CDT until October 15 at 11:30AM CDT by NWS Lubbock TX",
-        "sent": "2026-10-15T08:25:00-05:00",
-        "expires": "2026-10-15T11:30:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.ab58d9b0affb0eedc301e28fd4b9673079fe3c90.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Payne, OK",
-        "headline": "Flood Warning issued October 15 at 8:13AM CDT until October 16 at 7:00PM CDT by NWS Norman OK",
-        "sent": "2026-10-15T08:13:00-05:00",
-        "expires": "2026-10-15T20:15:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.abb67504328ee32af121beb3c43b2ea1a9fe529d.001.2",
-        "event": "Fire Weather Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Northern Lake Including Gravelly Valley; Eastern Lake Including Clearlake and Middletown",
-        "headline": "Fire Weather Watch issued October 15 at 6:07AM PDT until October 16 at 1:00PM PDT by NWS Eureka CA",
-        "sent": "2026-10-15T06:07:00-07:00",
-        "expires": "2026-10-15T15:00:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.abb67504328ee32af121beb3c43b2ea1a9fe529d.001.1",
-        "event": "Red Flag Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Northern Lake Including Gravelly Valley; Eastern Lake Including Clearlake and Middletown",
-        "headline": "Red Flag Warning issued October 15 at 6:07AM PDT until October 15 at 2:00PM PDT by NWS Eureka CA",
-        "sent": "2026-10-15T06:07:00-07:00",
-        "expires": "2026-10-15T15:00:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.afc40b83bf4bf54ff0e0ecf1ece53e4f1c3fc4f2.001.1",
-        "event": "Flash Flood Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Wichita, TX",
-        "headline": "Flash Flood Warning issued October 15 at 7:49AM CDT until October 15 at 10:45AM CDT by NWS Norman OK",
-        "sent": "2026-10-15T07:49:00-05:00",
-        "expires": "2026-10-15T10:45:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.bf1f86927c1afcbabc01816ed1e0e31e49491837.001.2",
-        "event": "High Wind Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Guadalupe Mountains of Eddy County; Guadalupe Mountains Above 7000 Feet; Guadalupe and Delaware Mountains",
-        "headline": "High Wind Warning issued October 15 at 2:24AM MDT until October 17 at 12:00PM MDT by NWS Midland/Odessa TX",
-        "sent": "2026-10-15T02:24:00-06:00",
-        "expires": "2026-10-15T10:30:00-06:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.46f3036ddee3337d197853fc5ac58e185a4e9dfb.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.342444b183f2274d298f030cb24be4103d5b763e.007.1",
         "event": "Freeze Watch",
         "severity": "Severe",
         "urgency": "Future",
-        "area": "Sheridan; Garden; Grant; Arthur; Deuel; Keith; Perkins; Chase; Western Cherry",
-        "headline": "Freeze Watch issued October 15 at 3:03AM CDT until October 16 at 10:00AM CDT by NWS North Platte NE",
-        "sent": "2026-10-15T03:03:00-05:00",
-        "expires": "2026-10-15T16:00:00-05:00"
+        "area": "Northwest Plateau; Espanola Valley; Santa Fe Metro Area; Eastern San Miguel County; Guadalupe County; Quay County; De Baca County; Eastern Lincoln County; San Agustin Plains and Adjacent Lowlands",
+        "headline": "Freeze Watch issued October 15 at 1:01PM MDT until October 17 at 8:00AM MDT by NWS Albuquerque NM",
+        "sent": "2026-10-15T13:01:00-06:00",
+        "expires": "2026-10-16T01:00:00-06:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.c9ad2be80d311ab3370f142b81cd8b00932d91ec.002.1",
-        "event": "Freeze Warning",
+        "id": "urn:oid:2.49.0.1.840.0.342444b183f2274d298f030cb24be4103d5b763e.004.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Harding County",
+        "headline": "Freeze Watch issued October 15 at 1:01PM MDT until October 17 at 8:00AM MDT by NWS Albuquerque NM",
+        "sent": "2026-10-15T13:01:00-06:00",
+        "expires": "2026-10-16T01:00:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.342444b183f2274d298f030cb24be4103d5b763e.005.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Curry County; Roosevelt County",
+        "headline": "Freeze Watch issued October 15 at 1:01PM MDT until October 17 at 8:00AM MDT by NWS Albuquerque NM",
+        "sent": "2026-10-15T13:01:00-06:00",
+        "expires": "2026-10-16T01:00:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.342444b183f2274d298f030cb24be4103d5b763e.003.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Middle Rio Grande Valley/Albuquerque Metro Area; Lower Rio Grande Valley; South Central Highlands; Upper Tularosa Valley",
+        "headline": "Freeze Watch issued October 15 at 1:01PM MDT until October 17 at 8:00AM MDT by NWS Albuquerque NM",
+        "sent": "2026-10-15T13:01:00-06:00",
+        "expires": "2026-10-16T01:00:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.342444b183f2274d298f030cb24be4103d5b763e.002.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Estancia Valley; Central Highlands; Northeast Highlands",
+        "headline": "Freeze Watch issued October 15 at 1:01PM MDT until October 17 at 8:00AM MDT by NWS Albuquerque NM",
+        "sent": "2026-10-15T13:01:00-06:00",
+        "expires": "2026-10-16T01:00:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.342444b183f2274d298f030cb24be4103d5b763e.001.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Far Northeast Highlands; Union County",
+        "headline": "Freeze Watch issued October 15 at 1:01PM MDT until October 17 at 8:00AM MDT by NWS Albuquerque NM",
+        "sent": "2026-10-15T13:01:00-06:00",
+        "expires": "2026-10-16T01:00:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.14fea440b79e1f8b7412e6c4808dd9be4bc0489f.002.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Winnebago; Boone; Ogle",
+        "headline": "Freeze Watch issued October 15 at 1:58PM CDT until October 17 at 9:00AM CDT by NWS Chicago IL",
+        "sent": "2026-10-15T13:58:00-05:00",
+        "expires": "2026-10-16T00:00:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.e9fec53a535fff03dba9958b596c738921e7a20e.001.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Iowa; Lafayette; Green; Rock; Walworth",
+        "headline": "Freeze Watch issued October 15 at 1:58PM CDT until October 17 at 9:00AM CDT by NWS Milwaukee/Sullivan WI",
+        "sent": "2026-10-15T13:58:00-05:00",
+        "expires": "2026-10-15T22:00:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.2a0e33fbfc2db2c62ad73bf23d1157ade7c6c703.001.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Buchanan; Delaware; Dubuque; Benton; Linn; Jones; Jackson; Iowa; Johnson; Cedar; Clinton; Keokuk; Jo Daviess; Stephenson; Carroll",
+        "headline": "Freeze Watch issued October 15 at 1:57PM CDT until October 17 at 9:00AM CDT by NWS Quad Cities IA IL",
+        "sent": "2026-10-15T13:57:00-05:00",
+        "expires": "2026-10-15T22:00:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.856df55b41a4287564820f1f58fb27ee0a060477.001.2",
+        "event": "High Wind Warning",
         "severity": "Severe",
         "urgency": "Expected",
-        "area": "Northern Foothills; Southern Foothills; Bennett; Hermosa Foothills; Eastern Fall River; Southern Oglala Lakota; Northern Campbell; Southern Campbell; Western Crook; Weston County Plains; Newcastle; Northeastern Crook",
-        "headline": "Freeze Warning issued October 15 at 1:51AM MDT until October 16 at 9:00AM MDT by NWS Rapid City SD",
-        "sent": "2026-10-15T01:51:00-06:00",
-        "expires": "2026-10-15T17:00:00-06:00"
+        "area": "Ketchikan Gateway Borough; Annette Island",
+        "headline": "High Wind Warning issued October 15 at 10:54AM AKDT until October 16 at 7:00AM AKDT by NWS Juneau AK",
+        "sent": "2026-10-15T10:54:00-08:00",
+        "expires": "2026-10-15T19:00:00-08:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.c9ad2be80d311ab3370f142b81cd8b00932d91ec.001.1",
-        "event": "Freeze Warning",
+        "id": "urn:oid:2.49.0.1.840.0.9dd512ec9427da1b7e7074eeb53419f1deddad96.001.1",
+        "event": "Freeze Watch",
         "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Harding; Northern Perkins; Butte; Northern Meade Co Plains; Ziebach; Rapid City; Custer Co Plains; Pennington Co Plains; Haakon; Western Fall River; Northern Oglala Lakota; Northern Jackson; Sturgis/Piedmont Foothills; Southern Meade Co Plains; Southern Jackson; Southern Perkins",
-        "headline": "Freeze Warning issued October 15 at 1:51AM MDT until October 16 at 9:00AM MDT by NWS Rapid City SD",
-        "sent": "2026-10-15T01:51:00-06:00",
-        "expires": "2026-10-15T17:00:00-06:00"
+        "urgency": "Future",
+        "area": "Mitchell; Howard; Winneshiek; Allamakee; Floyd; Chickasaw; Fayette; Clayton; Wabasha; Dodge; Olmsted; Winona; Mower; Fillmore; Houston; Taylor; Clark; Buffalo; Trempealeau; Jackson; La Crosse; Monroe; Juneau; Adams; Vernon; Crawford; Richland; Grant",
+        "headline": "Freeze Watch issued October 15 at 1:53PM CDT until October 17 at 9:00AM CDT by NWS La Crosse WI",
+        "sent": "2026-10-15T13:53:00-05:00",
+        "expires": "2026-10-16T02:00:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.be6d4c86dfac89fc28a2321898919c3efd8f78dc.001.2",
-        "event": "Freeze Warning",
+        "id": "urn:oid:2.49.0.1.840.0.edad4a2e4c5d3953cfb3f072119110106ec54d6b.001.1",
+        "event": "Freeze Watch",
         "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Southwest Bighorn Basin; Southeast Bighorn Basin; Northeast Johnson County; Southeast Johnson County; Upper Wind River Basin; Wind River Basin; Lander Foothills; Green Mountains and Rattlesnake Range; Natrona County Lower Elevations; Rock Springs and Green River; Flaming Gorge; East Sweetwater County",
-        "headline": "Freeze Warning issued October 15 at 1:46AM MDT until October 16 at 9:00AM MDT by NWS Riverton WY",
-        "sent": "2026-10-15T01:46:00-06:00",
-        "expires": "2026-10-15T17:00:00-06:00"
+        "urgency": "Future",
+        "area": "Emmet; Kossuth; Winnebago; Worth; Palo Alto; Hancock; Cerro Gordo; Pocahontas; Humboldt; Wright; Franklin; Butler; Bremer; Sac; Calhoun; Webster; Hamilton; Hardin; Grundy; Black Hawk; Crawford; Carroll; Greene; Boone; Story; Marshall; Tama; Audubon; Guthrie; Dallas; Polk; Jasper; Poweshiek; Cass; Adair; Madison; Warren; Marion; Mahaska; Adams; Union; Clarke; Lucas; Monroe; Taylor; Ringgold; Decatur; Wayne; Appanoose",
+        "headline": "Freeze Watch issued October 15 at 1:51PM CDT until October 17 at 9:00AM CDT by NWS Des Moines IA",
+        "sent": "2026-10-15T13:51:00-05:00",
+        "expires": "2026-10-16T00:00:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.0301b0881bc6b80afcd7d361d8cef2a02642df74.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.d3c84fe1762032979e8584e05e3e683c4d2d03f4.001.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Gaines; Dawson; Borden; Scurry; Andrews; Martin; Howard; Mitchell; Loving; Winkler; Ector; Midland; Glasscock; Ward; Crane; Upton; Reagan; Pecos; Terrell; Reeves County Plains; Chinati Mountains; Marfa Plateau; Davis Mountains; Davis Mountains Foothills; Central Brewster County; Chisos Basin; Presidio Valley; Lower Brewster County",
+        "headline": "Flood Watch issued October 15 at 1:48PM CDT until October 16 at 7:00AM CDT by NWS Midland/Odessa TX",
+        "sent": "2026-10-15T13:48:00-05:00",
+        "expires": "2026-10-16T07:00:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.4615383b85a8545281d3dc173e06a4712eae487a.001.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Atchison; Doniphan; Atchison; Nodaway; Worth; Gentry; Harrison; Mercer; Putnam; Holt; Andrew; De Kalb; Daviess; Grundy; Sullivan; Buchanan",
+        "headline": "Freeze Watch issued October 15 at 1:48PM CDT until October 17 at 9:00AM CDT by NWS Kansas City/Pleasant Hill MO",
+        "sent": "2026-10-15T13:48:00-05:00",
+        "expires": "2026-10-16T07:00:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.92bbc8bfe8b00b7381088fa85513b0cb66af13ff.001.1",
         "event": "Fire Weather Watch",
         "severity": "Severe",
         "urgency": "Future",
-        "area": "North Bay Interior Mountains",
-        "headline": "Fire Weather Watch issued October 15 at 12:18AM PDT until October 16 at 11:00AM PDT by NWS San Francisco CA",
-        "sent": "2026-10-15T00:18:00-07:00",
-        "expires": "2026-10-15T14:00:00-07:00"
+        "area": "Wayne; Perry; Greene; Stone; George",
+        "headline": "Fire Weather Watch issued October 15 at 1:47PM CDT until October 17 at 7:00PM CDT by NWS Mobile AL",
+        "sent": "2026-10-15T13:47:00-05:00",
+        "expires": "2026-10-16T07:00:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.b72bb466d0124f8f08808f31de4cdc50ca3caed9.001.2",
-        "event": "Freeze Warning",
+        "id": "urn:oid:2.49.0.1.840.0.77f149f3d3193cfb48551d63fa3c7f7389b49c31.001.2",
+        "event": "Red Flag Warning",
         "severity": "Severe",
         "urgency": "Expected",
-        "area": "Converse County Lower Elevations; Niobrara County; Ferris/Seminoe/Shirley Mountains; Shirley Basin; Central Laramie Range and Southwest Platte County; Central Carbon County; North Snowy Range Foothills; Southwest Carbon County; Upper North Platte River Basin; Laramie Valley; South Laramie Range",
-        "headline": "Freeze Warning issued October 15 at 12:50AM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
-        "sent": "2026-10-15T00:50:00-06:00",
-        "expires": "2026-10-15T15:00:00-06:00"
+        "area": "North Bay Interior Mountains",
+        "headline": "Red Flag Warning issued October 15 at 11:40AM PDT until October 16 at 11:00AM PDT by NWS San Francisco CA",
+        "sent": "2026-10-15T11:40:00-07:00",
+        "expires": "2026-10-16T11:00:00-07:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.9786b25e4f7f00a62a61dba10f3c86e55919c68e.008.1",
-        "event": "Storm Warning",
+        "id": "urn:oid:2.49.0.1.840.0.cd5c5df1824e4aea4fc722574e76eba36bac2338.001.1",
+        "event": "Freeze Watch",
         "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Cape Spencer to Cape Fairweather out to 15 NM",
-        "headline": "Storm Warning issued October 14 at 9:47PM AKDT until October 15 at 5:00PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-14T21:47:00-08:00",
-        "expires": "2026-10-15T16:00:00-08:00"
+        "urgency": "Future",
+        "area": "Douglas; Todd; Morrison; Mille Lacs; Kanabec; Stevens; Pope; Stearns; Benton; Sherburne; Isanti; Chisago; Lac Qui Parle; Swift; Chippewa; Kandiyohi; Meeker; Wright; Hennepin; Anoka; Ramsey; Washington; Yellow Medicine; Renville; McLeod; Sibley; Carver; Scott; Dakota; Redwood; Brown; Nicollet; Le Sueur; Rice; Goodhue; Watonwan; Blue Earth; Waseca; Steele; Martin; Faribault; Freeborn; Polk; Barron; Rusk; St. Croix; Pierce; Dunn; Pepin; Chippewa; Eau Claire",
+        "headline": "Freeze Watch issued October 15 at 1:38PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+        "sent": "2026-10-15T13:38:00-05:00",
+        "expires": "2026-10-16T07:00:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.9786b25e4f7f00a62a61dba10f3c86e55919c68e.009.1",
-        "event": "Storm Warning",
+        "id": "urn:oid:2.49.0.1.840.0.f1235a41f0b7d012828e1581b5dabacc49fd88a9.003.1",
+        "event": "Freeze Watch",
         "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Cape Spencer to Cape Fairweather from 15 to 85 NM",
-        "headline": "Storm Warning issued October 14 at 9:47PM AKDT until October 15 at 5:00PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-14T21:47:00-08:00",
-        "expires": "2026-10-15T16:00:00-08:00"
+        "urgency": "Future",
+        "area": "Lyon; Osceola; Dickinson; Sioux; O'Brien; Clay; Plymouth; Cherokee; Buena Vista; Woodbury; Ida; Lincoln; Lyon; Murray; Cottonwood; Nobles; Jackson; Pipestone; Rock; Dixon; Dakota; Union",
+        "headline": "Freeze Watch issued October 15 at 1:29PM CDT until October 17 at 8:00AM CDT by NWS Sioux Falls SD",
+        "sent": "2026-10-15T13:29:00-05:00",
+        "expires": "2026-10-15T20:00:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.9786b25e4f7f00a62a61dba10f3c86e55919c68e.013.1",
-        "event": "Storm Warning",
+        "id": "urn:oid:2.49.0.1.840.0.edb0f9d3fe74bbc1a13cfcb2098e45434d40c11f.001.1",
+        "event": "Freeze Watch",
         "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Icy Cape to Cape Suckling from 15 to 80 NM",
-        "headline": "Storm Warning issued October 14 at 9:47PM AKDT until October 15 at 5:00PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-14T21:47:00-08:00",
-        "expires": "2026-10-15T16:00:00-08:00"
+        "urgency": "Future",
+        "area": "Russell; Lincoln; Barton; Ellsworth; Saline",
+        "headline": "Freeze Watch issued October 15 at 1:27PM CDT until October 17 at 9:00AM CDT by NWS Wichita KS",
+        "sent": "2026-10-15T13:27:00-05:00",
+        "expires": "2026-10-16T08:00:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.9786b25e4f7f00a62a61dba10f3c86e55919c68e.011.1",
-        "event": "Storm Warning",
+        "id": "urn:oid:2.49.0.1.840.0.71201da10bb486622912d351121595420a6bdbe9.001.1",
+        "event": "Red Flag Warning",
         "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Cape Fairweather to Icy Cape from 15 to 80 NM",
-        "headline": "Storm Warning issued October 14 at 9:47PM AKDT until October 15 at 5:00PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-14T21:47:00-08:00",
-        "expires": "2026-10-15T16:00:00-08:00"
+        "urgency": "Expected",
+        "area": "Desha; Ouachita; Calhoun; Bradley; Drew",
+        "headline": "Red Flag Warning issued October 15 at 1:24PM CDT until October 16 at 8:00PM CDT by NWS Little Rock AR",
+        "sent": "2026-10-15T13:24:00-05:00",
+        "expires": "2026-10-15T21:30:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.9786b25e4f7f00a62a61dba10f3c86e55919c68e.007.1",
-        "event": "Storm Warning",
+        "id": "urn:oid:2.49.0.1.840.0.97bf099eb699026294b810f88be7e0e3c2bfc730.001.1",
+        "event": "Flood Warning",
         "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Cape Edgecumbe to Cape Spencer from 15 to 80 NM",
-        "headline": "Storm Warning issued October 14 at 9:47PM AKDT until October 15 at 5:00PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-14T21:47:00-08:00",
-        "expires": "2026-10-15T16:00:00-08:00"
+        "urgency": "Expected",
+        "area": "Foard, TX; Hardeman, TX; Wilbarger, TX",
+        "headline": "Flood Warning issued October 15 at 1:21PM CDT until October 15 at 3:15PM CDT by NWS Norman OK",
+        "sent": "2026-10-15T13:21:00-05:00",
+        "expires": "2026-10-15T15:15:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.ef43a7a5c6ee43fb76d6bd2c69ec0703de799b14.002.1",
-        "event": "Storm Warning",
+        "id": "urn:oid:2.49.0.1.840.0.90b576b7dcf17c143cb8569f97674d5f3e02975b.001.1",
+        "event": "Freeze Watch",
         "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Gulf of Alaska North of 57 Degrees North and East of 144 W",
-        "headline": "Storm Warning issued October 14 at 9:43PM AKDT until October 15 at 5:00PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-14T21:43:00-08:00",
-        "expires": "2026-10-15T15:45:00-08:00"
+        "urgency": "Future",
+        "area": "Monona; Harrison; Shelby; Pottawattamie; Mills; Montgomery; Fremont; Page; Knox; Cedar; Thurston; Antelope; Pierce; Wayne; Boone; Madison; Stanton; Cuming; Burt; Platte; Colfax; Dodge; Washington; Butler; Saunders; Douglas; Sarpy; Seward; Lancaster; Cass; Otoe; Saline; Jefferson; Gage; Johnson; Nemaha; Pawnee; Richardson",
+        "headline": "Freeze Watch issued October 15 at 1:18PM CDT until October 17 at 8:00AM CDT by NWS Omaha/Valley NE",
+        "sent": "2026-10-15T13:18:00-05:00",
+        "expires": "2026-10-15T21:30:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.583e4f5ca345a967c3a12309a1c5cadf7b5efc4e.001.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Republic; Washington; Marshall; Nemaha; Brown; Cloud; Clay; Riley; Pottawatomie; Jackson; Ottawa; Dickinson; Geary",
+        "headline": "Freeze Watch issued October 15 at 1:14PM CDT until October 17 at 9:00AM CDT by NWS Topeka KS",
+        "sent": "2026-10-15T13:14:00-05:00",
+        "expires": "2026-10-16T07:00:00-05:00"
       }
     ],
     "unavailable": false
   },
-  "generated_at": "2026-10-15T15:42:10.384761+00:00"
+  "generated_at": "2026-10-15T19:27:53.210087+00:00"
 }
