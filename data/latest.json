@@ -1,7 +1,7 @@
 {
   "counts": {
-    "today": 198,
-    "week": 375
+    "today": 201,
+    "week": 372
   },
   "strongest_today": {
     "id": "us6000u2mq",
@@ -27,24 +27,19 @@
     "alert": "green",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq"
   },
-  "avg_magnitude_today": 2.03,
+  "avg_magnitude_today": 2.04,
   "magnitude_distribution_week": {
-    "<3": 103,
-    "3-4": 58,
-    "4-5": 178,
-    "5-6": 29,
+    "<3": 105,
+    "3-4": 56,
+    "4-5": 177,
+    "5-6": 27,
     "6-7": 7,
     "7+": 0
   },
   "daily_trend_7d": [
     {
-      "date": "2026-10-09",
-      "count": 10,
-      "max_magnitude": 5.4
-    },
-    {
       "date": "2026-10-10",
-      "count": 64,
+      "count": 63,
       "max_magnitude": 6
     },
     {
@@ -69,16 +64,57 @@
     },
     {
       "date": "2026-10-15",
-      "count": 44,
+      "count": 45,
       "max_magnitude": 5.6
     },
     {
       "date": "2026-10-16",
-      "count": 48,
+      "count": 54,
       "max_magnitude": 6.9
+    },
+    {
+      "date": "2026-10-17",
+      "count": 1,
+      "max_magnitude": 2.5
     }
   ],
   "significant_recent": [
+    {
+      "id": "us6000u2wn",
+      "mag": 4.6,
+      "place": "12 km SSE of Tebario, Panama",
+      "time": "2026-10-16T22:41:03.562000+00:00",
+      "lat": 7.6127,
+      "lon": -80.9354,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2wn"
+    },
+    {
+      "id": "us6000u2w9",
+      "mag": 4.5,
+      "place": "70 km NNE of Mīnāb, Iran",
+      "time": "2026-10-16T21:30:26.101000+00:00",
+      "lat": 27.7264,
+      "lon": 57.3327,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w9"
+    },
+    {
+      "id": "us6000u2w7",
+      "mag": 4.5,
+      "place": "south of the Fiji Islands",
+      "time": "2026-10-16T21:26:37.613000+00:00",
+      "lat": -23.6209,
+      "lon": -179.7966,
+      "depth_km": 535.358,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w7"
+    },
     {
       "id": "us6000u2v8",
       "mag": 5.2,
@@ -642,45 +678,237 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20g"
-    },
-    {
-      "id": "us6000u207",
-      "mag": 5.3,
-      "place": "southern Mid-Atlantic Ridge",
-      "time": "2026-10-13T08:38:28.325000+00:00",
-      "lat": -28.556,
-      "lon": -12.5205,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u207"
-    },
-    {
-      "id": "us6000u200",
-      "mag": 4.6,
-      "place": "63 km W of Bayan Hot, China",
-      "time": "2026-10-13T08:15:04.080000+00:00",
-      "lat": 38.8294,
-      "lon": 104.9421,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u200"
-    },
-    {
-      "id": "us6000u1zh",
-      "mag": 4.7,
-      "place": "14 km WNW of Río Grande, Panama",
-      "time": "2026-10-13T06:39:04.944000+00:00",
-      "lat": 7.7685,
-      "lon": -81.4531,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zh"
     }
   ],
   "today_quakes": [
+    {
+      "id": "hv75059386",
+      "mag": 2.49,
+      "place": "19 km N of Pāhala, Hawaii",
+      "time": "2026-10-17T00:02:10.540000+00:00",
+      "lat": 19.3781661987305,
+      "lon": -155.502670288086,
+      "depth_km": 5.57000017166138,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75059386"
+    },
+    {
+      "id": "ci41348423",
+      "mag": 1.49,
+      "place": "6 km SSE of Lytle Creek, CA",
+      "time": "2026-10-16T23:53:20.480000+00:00",
+      "lat": 34.2116666666667,
+      "lon": -117.468833333333,
+      "depth_km": 5.76,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348423"
+    },
+    {
+      "id": "nc75450786",
+      "mag": 0.68,
+      "place": "7 km NW of The Geysers, CA",
+      "time": "2026-10-16T23:49:22.100000+00:00",
+      "lat": 38.8108329772949,
+      "lon": -122.819000244141,
+      "depth_km": 3.15000009536743,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450786"
+    },
+    {
+      "id": "hv75059381",
+      "mag": 1.7,
+      "place": "13 km SSW of Volcano, Hawaii",
+      "time": "2026-10-16T23:40:28.210000+00:00",
+      "lat": 19.3215007781982,
+      "lon": -155.263671875,
+      "depth_km": 31.2299995422363,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75059381"
+    },
+    {
+      "id": "us6000u2wr",
+      "mag": 2.5,
+      "place": "22 km W of Carlsbad, New Mexico",
+      "time": "2026-10-16T23:35:03.465000+00:00",
+      "lat": 32.381,
+      "lon": -104.4685,
+      "depth_km": 5.767,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2wr"
+    },
+    {
+      "id": "aka2026unsumj",
+      "mag": 0.4,
+      "place": "64 km ENE of Pedro Bay, Alaska",
+      "time": "2026-10-16T23:14:08.271000+00:00",
+      "lat": 60.02,
+      "lon": -153.051,
+      "depth_km": 3.1,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026unsumj"
+    },
+    {
+      "id": "nc75450771",
+      "mag": 0.97,
+      "place": "5 km WNW of The Geysers, CA",
+      "time": "2026-10-16T23:11:25.560000+00:00",
+      "lat": 38.796501159668,
+      "lon": -122.803497314453,
+      "depth_km": 1.62000000476837,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450771"
+    },
+    {
+      "id": "aka2026unsmgs",
+      "mag": 0.5,
+      "place": "70 km WNW of Tyonek, Alaska",
+      "time": "2026-10-16T23:04:39.681000+00:00",
+      "lat": 61.312,
+      "lon": -152.354,
+      "depth_km": 5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026unsmgs"
+    },
+    {
+      "id": "ci41348415",
+      "mag": 1.54,
+      "place": "10 km SW of Morongo Valley, CA",
+      "time": "2026-10-16T22:50:53.670000+00:00",
+      "lat": 33.9821666666667,
+      "lon": -116.655,
+      "depth_km": 16.01,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348415"
+    },
+    {
+      "id": "ci41348407",
+      "mag": 0.98,
+      "place": "21 km ESE of Anza, CA",
+      "time": "2026-10-16T22:50:26.530000+00:00",
+      "lat": 33.5108333333333,
+      "lon": -116.452,
+      "depth_km": 6.04,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348407"
+    },
+    {
+      "id": "nc75450756",
+      "mag": 0.76,
+      "place": "7 km NW of The Geysers, CA",
+      "time": "2026-10-16T22:45:01.490000+00:00",
+      "lat": 38.8158340454102,
+      "lon": -122.820663452148,
+      "depth_km": 2.76999998092651,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450756"
+    },
+    {
+      "id": "us6000u2wn",
+      "mag": 4.6,
+      "place": "12 km SSE of Tebario, Panama",
+      "time": "2026-10-16T22:41:03.562000+00:00",
+      "lat": 7.6127,
+      "lon": -80.9354,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2wn"
+    },
+    {
+      "id": "nc75450751",
+      "mag": 1.54,
+      "place": "10 km NW of Parkfield, CA",
+      "time": "2026-10-16T22:34:41.100000+00:00",
+      "lat": 35.9576683044434,
+      "lon": -120.510330200195,
+      "depth_km": 10.2700004577637,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450751"
+    },
+    {
+      "id": "nc75450746",
+      "mag": 1.35,
+      "place": "7 km S of Gilroy, CA",
+      "time": "2026-10-16T22:32:10.250000+00:00",
+      "lat": 36.9458351135254,
+      "lon": -121.56266784668,
+      "depth_km": 6.19000005722046,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450746"
+    },
+    {
+      "id": "us6000u2wk",
+      "mag": 2.5,
+      "place": "33 km SSE of Hope, New Mexico",
+      "time": "2026-10-16T22:29:29.181000+00:00",
+      "lat": 32.5198,
+      "lon": -104.6518,
+      "depth_km": 3.72,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2wk"
+    },
+    {
+      "id": "aka2026unrboo",
+      "mag": 1.3,
+      "place": "8 km W of Valdez, Alaska",
+      "time": "2026-10-16T22:22:19.835000+00:00",
+      "lat": 61.135,
+      "lon": -146.507,
+      "depth_km": 16.5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026unrboo"
+    },
+    {
+      "id": "hv75058112",
+      "mag": 1.84,
+      "place": "14 km S of Volcano, Hawaii",
+      "time": "2026-10-16T22:17:23.130000+00:00",
+      "lat": 19.3098335266113,
+      "lon": -155.217666625977,
+      "depth_km": 0.340000003576279,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75058112"
+    },
+    {
+      "id": "hv75058097",
+      "mag": 1.99,
+      "place": "0 km ENE of Pāhala, Hawaii",
+      "time": "2026-10-16T21:50:52.890000+00:00",
+      "lat": 19.2068328857422,
+      "lon": -155.470672607422,
+      "depth_km": 31.8999996185303,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75058097"
+    },
+    {
+      "id": "us6000u2wc",
+      "mag": 4.4,
+      "place": "80 km W of San Antonio de los Cobres, Argentina",
+      "time": "2026-10-16T21:46:59.763000+00:00",
+      "lat": -24.2543,
+      "lon": -67.1137,
+      "depth_km": 160.307,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2wc"
+    },
     {
       "id": "aka2026unpnov",
       "mag": 2.6,
@@ -692,6 +920,30 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026unpnov"
+    },
+    {
+      "id": "us6000u2w9",
+      "mag": 4.5,
+      "place": "70 km NNE of Mīnāb, Iran",
+      "time": "2026-10-16T21:30:26.101000+00:00",
+      "lat": 27.7264,
+      "lon": 57.3327,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w9"
+    },
+    {
+      "id": "us6000u2w7",
+      "mag": 4.5,
+      "place": "south of the Fiji Islands",
+      "time": "2026-10-16T21:26:37.613000+00:00",
+      "lat": -23.6209,
+      "lon": -179.7966,
+      "depth_km": 535.358,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w7"
     },
     {
       "id": "tx2026ukhkit",
@@ -776,6 +1028,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925852"
+    },
+    {
+      "id": "uw714121012",
+      "mag": 0.69,
+      "place": "3 km N of North Saanich, Canada",
+      "time": "2026-10-16T20:29:54.060000+00:00",
+      "lat": 48.6933333333333,
+      "lon": -123.4185,
+      "depth_km": 18.34,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714121012"
     },
     {
       "id": "ci41348375",
@@ -1942,6 +2206,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umoxru"
     },
     {
+      "id": "hv75057712",
+      "mag": 1.51,
+      "place": "7 km SW of Volcano, Hawaii",
+      "time": "2026-10-16T08:01:47.570000+00:00",
+      "lat": 19.3893333333333,
+      "lon": -155.281833333333,
+      "depth_km": 1.58,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75057712"
+    },
+    {
       "id": "aka2026umogej",
       "mag": 1.8,
       "place": "77 km W of Karluk, Alaska",
@@ -2362,6 +2638,42 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq"
     },
     {
+      "id": "av93068274",
+      "mag": 1.04,
+      "place": "70 km W of Nikolski, Alaska",
+      "time": "2026-10-16T03:19:34.420000+00:00",
+      "lat": 52.8325,
+      "lon": -169.8975,
+      "depth_km": 11.61,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93068274"
+    },
+    {
+      "id": "av93068269",
+      "mag": 1.18,
+      "place": "71 km WSW of Nikolski, Alaska",
+      "time": "2026-10-16T03:19:17.200000+00:00",
+      "lat": 52.7818333333333,
+      "lon": -169.896,
+      "depth_km": 6.66,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93068269"
+    },
+    {
+      "id": "av94451958",
+      "mag": 2.21,
+      "place": "72 km WSW of Nikolski, Alaska",
+      "time": "2026-10-16T03:17:48.260000+00:00",
+      "lat": 52.7731666666667,
+      "lon": -169.904833333333,
+      "depth_km": 9.51,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94451958"
+    },
+    {
       "id": "nc75450336",
       "mag": 1.67,
       "place": "20 km SW of New Idria, CA",
@@ -2372,6 +2684,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450336"
+    },
+    {
+      "id": "av94451938",
+      "mag": -0.19,
+      "place": "61 km WNW of Beluga, Alaska",
+      "time": "2026-10-16T03:03:54.210000+00:00",
+      "lat": 61.4206666666667,
+      "lon": -152.0655,
+      "depth_km": 10.28,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94451938"
     },
     {
       "id": "nc75450331",
@@ -2602,6 +2926,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714120752"
     },
     {
+      "id": "av94451863",
+      "mag": 0.52,
+      "place": "41 km NE of Adak, Alaska",
+      "time": "2026-10-16T01:20:54.250000+00:00",
+      "lat": 52.094,
+      "lon": -176.153333333333,
+      "depth_km": 4.94,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94451863"
+    },
+    {
       "id": "tx2026uitkzf",
       "mag": 2,
       "place": "15 km ESE of Pearsall, Texas",
@@ -2756,306 +3092,6 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulytdq"
-    },
-    {
-      "id": "tx2026uirovd",
-      "mag": 1.6,
-      "place": "17 km S of Nixon, Texas",
-      "time": "2026-10-16T00:13:08.959000+00:00",
-      "lat": 29.106,
-      "lon": -97.767,
-      "depth_km": 8.7895,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uirovd"
-    },
-    {
-      "id": "uw714120732",
-      "mag": 1.72,
-      "place": "13 km S of Princeton, Canada",
-      "time": "2026-10-16T00:12:25.030000+00:00",
-      "lat": 49.3378333333333,
-      "lon": -120.4775,
-      "depth_km": -0.51,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714120732"
-    },
-    {
-      "id": "tx2026uirkpn",
-      "mag": 1.6,
-      "place": "17 km S of Nixon, Texas",
-      "time": "2026-10-16T00:08:14.532000+00:00",
-      "lat": 29.113,
-      "lon": -97.769,
-      "depth_km": 7.8915,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uirkpn"
-    },
-    {
-      "id": "aka2026ulylmf",
-      "mag": 3.1,
-      "place": "5 km N of Nikiski, Alaska",
-      "time": "2026-10-16T00:04:22.267000+00:00",
-      "lat": 60.742,
-      "lon": -151.271,
-      "depth_km": 67.5,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulylmf"
-    },
-    {
-      "id": "nc75450231",
-      "mag": 0.77,
-      "place": "10 km WNW of The Geysers, CA",
-      "time": "2026-10-15T23:57:21.260000+00:00",
-      "lat": 38.8246650695801,
-      "lon": -122.854499816895,
-      "depth_km": 2.77999997138977,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450231"
-    },
-    {
-      "id": "nn00925819",
-      "mag": 1.64,
-      "place": "25 km ESE of Fallon Station, Nevada",
-      "time": "2026-10-15T23:57:06.176000+00:00",
-      "lat": 39.2969,
-      "lon": -118.464,
-      "depth_km": 11.8613,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925819"
-    },
-    {
-      "id": "nc75450226",
-      "mag": 1.75,
-      "place": "10 km WNW of The Geysers, CA",
-      "time": "2026-10-15T23:55:19.560000+00:00",
-      "lat": 38.8240013122559,
-      "lon": -122.852836608887,
-      "depth_km": 2.3199999332428,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450226"
-    },
-    {
-      "id": "nc75450216",
-      "mag": 1.47,
-      "place": "10 km WNW of The Geysers, CA",
-      "time": "2026-10-15T23:55:01.930000+00:00",
-      "lat": 38.8248329162598,
-      "lon": -122.853500366211,
-      "depth_km": 2.35999989509583,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450216"
-    },
-    {
-      "id": "nc75450211",
-      "mag": 1.08,
-      "place": "10 km WNW of The Geysers, CA",
-      "time": "2026-10-15T23:54:29.300000+00:00",
-      "lat": 38.8251647949219,
-      "lon": -122.852668762207,
-      "depth_km": 2.16000008583069,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450211"
-    },
-    {
-      "id": "nc75450206",
-      "mag": 1.5,
-      "place": "10 km WNW of The Geysers, CA",
-      "time": "2026-10-15T23:54:06.820000+00:00",
-      "lat": 38.8235015869141,
-      "lon": -122.85383605957,
-      "depth_km": 2.42000007629395,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450206"
-    },
-    {
-      "id": "nc75450201",
-      "mag": 2.3,
-      "place": "8 km NE of Mendocino, CA",
-      "time": "2026-10-15T23:50:57.430000+00:00",
-      "lat": 39.349666595459,
-      "lon": -123.720497131348,
-      "depth_km": 3,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450201"
-    },
-    {
-      "id": "uw714120722",
-      "mag": 1.14,
-      "place": "10 km SSE of Toledo, Washington",
-      "time": "2026-10-15T23:50:15.240000+00:00",
-      "lat": 46.3476666666667,
-      "lon": -122.803833333333,
-      "depth_km": -0.47,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714120722"
-    },
-    {
-      "id": "aka2026ulxybv",
-      "mag": 1.4,
-      "place": "10 km E of Fox, Alaska",
-      "time": "2026-10-15T23:48:55.758000+00:00",
-      "lat": 64.975,
-      "lon": -147.406,
-      "depth_km": 5,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulxybv"
-    },
-    {
-      "id": "hv75057287",
-      "mag": 1.8,
-      "place": "12 km ESE of Pāhala, Hawaii",
-      "time": "2026-10-15T23:44:42.840000+00:00",
-      "lat": 19.158166885376,
-      "lon": -155.365493774414,
-      "depth_km": 45.1100006103516,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75057287"
-    },
-    {
-      "id": "aka2026ulxtho",
-      "mag": 2.4,
-      "place": "62 km ENE of Lake Minchumina, Alaska",
-      "time": "2026-10-15T23:43:16.753000+00:00",
-      "lat": 64.185,
-      "lon": -151.243,
-      "depth_km": 11.6,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulxtho"
-    },
-    {
-      "id": "ci41348103",
-      "mag": 1.32,
-      "place": "5 km ESE of Wofford Heights, CA",
-      "time": "2026-10-15T23:36:46.850000+00:00",
-      "lat": 35.6885,
-      "lon": -118.410666666667,
-      "depth_km": 4.85,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348103"
-    },
-    {
-      "id": "nc75450181",
-      "mag": 1.33,
-      "place": "9 km ESE of Cloverdale, CA",
-      "time": "2026-10-15T23:33:23.800000+00:00",
-      "lat": 38.7594985961914,
-      "lon": -122.928497314453,
-      "depth_km": 5.90000009536743,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450181"
-    },
-    {
-      "id": "aka2026ulxhxz",
-      "mag": 2.9,
-      "place": "72 km SSE of Cantwell, Alaska",
-      "time": "2026-10-15T23:30:20.010000+00:00",
-      "lat": 62.79,
-      "lon": -148.391,
-      "depth_km": 51.9,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulxhxz"
-    },
-    {
-      "id": "aka2026ulwqid",
-      "mag": 2.2,
-      "place": "4 km NNE of Salamatof, Alaska",
-      "time": "2026-10-15T23:10:01.864000+00:00",
-      "lat": 60.651,
-      "lon": -151.293,
-      "depth_km": 69.7,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulwqid"
-    },
-    {
-      "id": "tx2026uiplzw",
-      "mag": 1.5,
-      "place": "16 km ESE of Pearsall, Texas",
-      "time": "2026-10-15T23:09:40.288000+00:00",
-      "lat": 28.82,
-      "lon": -98.946,
-      "depth_km": 8.4226,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uiplzw"
-    },
-    {
-      "id": "av94451728",
-      "mag": 0.07,
-      "place": "59 km ENE of Pedro Bay, Alaska",
-      "time": "2026-10-15T23:05:08.940000+00:00",
-      "lat": 60.0378333333333,
-      "lon": -153.172,
-      "depth_km": 0.69,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94451728"
-    },
-    {
-      "id": "nn00925810",
-      "mag": 3.41,
-      "place": "19 km W of Preston, Nevada",
-      "time": "2026-10-15T22:55:34.180000+00:00",
-      "lat": 38.9351,
-      "lon": -115.2815,
-      "depth_km": 5.4126,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925810"
-    },
-    {
-      "id": "uw714120702",
-      "mag": 0.64,
-      "place": "3 km SSW of Bainbridge Island, Washington",
-      "time": "2026-10-15T22:50:07.510000+00:00",
-      "lat": 47.5991666666667,
-      "lon": -122.535666666667,
-      "depth_km": 18.94,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714120702"
-    },
-    {
-      "id": "nc75450151",
-      "mag": 0.78,
-      "place": "7 km WNW of The Geysers, CA",
-      "time": "2026-10-15T22:23:15+00:00",
-      "lat": 38.8118324279785,
-      "lon": -122.824333190918,
-      "depth_km": 8.67000007629395,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450151"
-    },
-    {
-      "id": "hv75057202",
-      "mag": 1.76,
-      "place": "18 km SE of Pāhala, Hawaii",
-      "time": "2026-10-15T22:13:36.160000+00:00",
-      "lat": 19.0900001525879,
-      "lon": -155.345993041992,
-      "depth_km": 35.1399993896484,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75057202"
     }
   ],
   "sources_ok": {
@@ -3064,23 +3100,53 @@
     "month": true
   },
   "us_weather_alerts": {
-    "active_count": 357,
+    "active_count": 391,
     "by_severity": {
-      "Severe": 62,
-      "Moderate": 69,
-      "Minor": 222,
-      "Unknown": 4
+      "Severe": 50,
+      "Minor": 280,
+      "Moderate": 58,
+      "Unknown": 3
     },
     "top_alerts": [
       {
-        "id": "urn:oid:2.49.0.1.840.0.96b48f4190142bd12f00184dea951123f29a573b.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.92494b819cd9c4201b2cbc2128013ba78d3f6874.001.1",
+        "event": "High Wind Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Eastern Toole and Liberty",
+        "headline": "High Wind Warning issued October 16 at 6:06PM MDT until October 18 at 12:00AM MDT by NWS Great Falls MT",
+        "sent": "2026-10-16T18:06:00-06:00",
+        "expires": "2026-10-17T06:00:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.463bea3121302ac54f67d4364201fbd4a2d59664.001.1",
         "event": "Special Marine Warning",
         "severity": "Severe",
         "urgency": "Immediate",
-        "area": "Tidal Potomac from Key Bridge to Indian Head MD; Tidal Potomac from Indian Head to Cobb Island MD",
-        "headline": "Special Marine Warning issued October 16 at 5:45PM EDT until October 16 at 7:45PM EDT by NWS Baltimore MD/Washington DC",
-        "sent": "2026-10-16T17:45:00-04:00",
-        "expires": "2026-10-16T19:45:00-04:00"
+        "area": "Chesapeake Bay from North Beach to Drum Point MD; Chesapeake Bay from Drum Point MD to Smith Point VA; Tidal Potomac from Indian Head to Cobb Island MD; Tidal Potomac from Cobb Island MD to Smith Point VA; Choptank River to Cambridge MD and the Little Choptank River; Patuxent River to Broomes Island MD; Tangier Sound and the inland waters surrounding Bloodsworth Island",
+        "headline": "Special Marine Warning issued October 16 at 7:32PM EDT until October 16 at 9:30PM EDT by NWS Baltimore MD/Washington DC",
+        "sent": "2026-10-16T19:32:00-04:00",
+        "expires": "2026-10-16T21:30:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.bff0403f88af8c84b38cda13c7eab16e3cbe5220.001.1",
+        "event": "Freeze Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Arthur; Keith; Perkins; Chase",
+        "headline": "Freeze Warning issued October 16 at 5:01PM CDT until October 17 at 10:00AM CDT by NWS North Platte NE",
+        "sent": "2026-10-16T17:01:00-05:00",
+        "expires": "2026-10-17T09:00:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.f50dc475fc02684ef070fd3399cf585eb257d400.001.2",
+        "event": "Freeze Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Hennepin; Ramsey",
+        "headline": "Freeze Warning issued October 16 at 4:57PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+        "sent": "2026-10-16T16:57:00-05:00",
+        "expires": "2026-10-17T09:00:00-05:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.26b913b2029babcc0badbd23a5bea62d86323f19.001.2",
@@ -3091,16 +3157,6 @@
         "headline": "Coastal Flood Warning issued October 17 at 7:26AM ChST until October 19 at 4:00AM ChST by NWS Tiyan GU",
         "sent": "2026-10-17T07:26:00+10:00",
         "expires": "2026-10-17T23:00:00+10:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.b88883143f1e380c8795e8021e3910c76e3b3577.001.1",
-        "event": "Severe Thunderstorm Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Orange, NY; Putnam, NY; Westchester, NY",
-        "headline": "Severe Thunderstorm Warning issued October 16 at 5:24PM EDT until October 16 at 6:30PM EDT by NWS Upton NY",
-        "sent": "2026-10-16T17:24:00-04:00",
-        "expires": "2026-10-16T18:30:00-04:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.ae9ad2297219252f7a7db83004932eff2578290a.001.1",
@@ -3123,56 +3179,6 @@
         "expires": "2026-10-17T04:00:00-04:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.e769676467988006b8678da52a76d35932f86e0f.001.1",
-        "event": "Severe Thunderstorm Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Fairfield, CT; New Haven, CT; Bergen, NJ; Essex, NJ; Hudson, NJ; Passaic, NJ; Union, NJ; Bronx, NY; Kings, NY; Nassau, NY; New York, NY; Orange, NY; Putnam, NY; Queens, NY; Richmond, NY; Rockland, NY; Westchester, NY",
-        "headline": "Severe Thunderstorm Watch issued October 16 at 4:02PM EDT until October 16 at 10:00PM EDT by NWS Upton NY",
-        "sent": "2026-10-16T16:02:00-04:00",
-        "expires": "2026-10-16T22:00:00-04:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.e769676467988006b8678da52a76d35932f86e0f.002.1",
-        "event": "Severe Thunderstorm Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Long Island Sound West of New Haven CT/Port Jefferson NY; New York Harbor; Sandy Hook NJ to Fire Island Inlet NY out 20 NM",
-        "headline": "Severe Thunderstorm Watch issued October 16 at 4:02PM EDT until October 16 at 10:00PM EDT by NWS Upton NY",
-        "sent": "2026-10-16T16:02:00-04:00",
-        "expires": "2026-10-16T22:00:00-04:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.24d8f1bf359c11b269c0d96f2d1201c561dda55a.002.1",
-        "event": "Severe Thunderstorm Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Delaware Bay waters north of East Point NJ to Slaughter Beach DE; Delaware Bay waters south of East Point NJ to Slaughter Beach DE; Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM; Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM; Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM; Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM; Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM; Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM",
-        "headline": "Severe Thunderstorm Watch issued October 16 at 3:52PM EDT until October 16 at 10:00PM EDT by NWS Mount Holly NJ",
-        "sent": "2026-10-16T15:52:00-04:00",
-        "expires": "2026-10-16T22:00:00-04:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.24d8f1bf359c11b269c0d96f2d1201c561dda55a.001.1",
-        "event": "Severe Thunderstorm Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Kent, DE; New Castle, DE; Sussex, DE; Caroline, MD; Kent, MD; Queen Anne's, MD; Talbot, MD; Atlantic, NJ; Burlington, NJ; Camden, NJ; Cape May, NJ; Cumberland, NJ; Gloucester, NJ; Hunterdon, NJ; Mercer, NJ; Middlesex, NJ; Monmouth, NJ; Morris, NJ; Ocean, NJ; Salem, NJ; Somerset, NJ; Sussex, NJ; Warren, NJ",
-        "headline": "Severe Thunderstorm Watch issued October 16 at 3:52PM EDT until October 16 at 10:00PM EDT by NWS Mount Holly NJ",
-        "sent": "2026-10-16T15:52:00-04:00",
-        "expires": "2026-10-16T22:00:00-04:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.a247054c90deaa10742da537c4b64679cddc8941.001.1",
-        "event": "Severe Thunderstorm Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Litchfield, CT; Dutchess, NY; Ulster, NY",
-        "headline": "Severe Thunderstorm Watch issued October 16 at 3:51PM EDT until October 16 at 10:00PM EDT by NWS Albany NY",
-        "sent": "2026-10-16T15:51:00-04:00",
-        "expires": "2026-10-16T22:00:00-04:00"
-      },
-      {
         "id": "urn:oid:2.49.0.1.840.0.2d79c727f6a70451ce4e5f9a75634f362e011af4.001.1",
         "event": "Freeze Warning",
         "severity": "Severe",
@@ -3193,22 +3199,22 @@
         "expires": "2026-10-17T06:15:00-06:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.97338fb0294bf0fa13c04c4db17a4aef48f59f9f.003.2",
-        "event": "Storm Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM; Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
-        "headline": "Storm Watch issued October 16 at 2:29PM EDT until October 19 at 12:00AM EDT by NWS Newport/Morehead City NC",
-        "sent": "2026-10-16T14:29:00-04:00",
-        "expires": "2026-10-17T02:30:00-04:00"
-      },
-      {
         "id": "urn:oid:2.49.0.1.840.0.97338fb0294bf0fa13c04c4db17a4aef48f59f9f.004.2",
         "event": "Storm Watch",
         "severity": "Severe",
         "urgency": "Future",
         "area": "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM; Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
         "headline": "Storm Watch issued October 16 at 2:29PM EDT until October 19 at 1:00AM EDT by NWS Newport/Morehead City NC",
+        "sent": "2026-10-16T14:29:00-04:00",
+        "expires": "2026-10-17T02:30:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.97338fb0294bf0fa13c04c4db17a4aef48f59f9f.003.2",
+        "event": "Storm Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM; Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
+        "headline": "Storm Watch issued October 16 at 2:29PM EDT until October 19 at 12:00AM EDT by NWS Newport/Morehead City NC",
         "sent": "2026-10-16T14:29:00-04:00",
         "expires": "2026-10-17T02:30:00-04:00"
       },
@@ -3223,16 +3229,6 @@
         "expires": "2026-10-17T03:00:00-04:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.eec6c1694402c02cd2196b727fbb3afa625e9a14.001.2",
-        "event": "High Wind Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "East Glacier Park Region; Northern High Plains; Eastern Glacier, Western Toole, and Central Pondera; Southern Rocky Mountain Front; Southern High Plains",
-        "headline": "High Wind Warning issued October 16 at 12:23PM MDT until October 18 at 12:00AM MDT by NWS Great Falls MT",
-        "sent": "2026-10-16T12:23:00-06:00",
-        "expires": "2026-10-17T03:30:00-06:00"
-      },
-      {
         "id": "urn:oid:2.49.0.1.840.0.ee218611a5d0b7e9530766ca0611eb7bec21261a.001.1",
         "event": "Freeze Warning",
         "severity": "Severe",
@@ -3243,16 +3239,6 @@
         "expires": "2026-10-16T21:30:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.422490bfe646959e71739c3fdb1623dd7ccac267.001.1",
-        "event": "Freeze Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Northern Fairfield; Northern New Haven; Northern Middlesex; Northern New London; Western Passaic; Orange; Putnam",
-        "headline": "Freeze Watch issued October 16 at 2:18PM EDT until October 18 at 9:00AM EDT by NWS Upton NY",
-        "sent": "2026-10-16T14:18:00-04:00",
-        "expires": "2026-10-17T04:00:00-04:00"
-      },
-      {
         "id": "urn:oid:2.49.0.1.840.0.6c416b7f34f187ab0a47b41c289729a75df2ac9c.002.1",
         "event": "High Wind Watch",
         "severity": "Severe",
@@ -3261,6 +3247,16 @@
         "headline": "High Wind Watch issued October 16 at 2:18PM EDT until October 19 at 2:00AM EDT by NWS Newport/Morehead City NC",
         "sent": "2026-10-16T14:18:00-04:00",
         "expires": "2026-10-17T03:00:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.422490bfe646959e71739c3fdb1623dd7ccac267.001.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Northern Fairfield; Northern New Haven; Northern Middlesex; Northern New London; Western Passaic; Orange; Putnam",
+        "headline": "Freeze Watch issued October 16 at 2:18PM EDT until October 18 at 9:00AM EDT by NWS Upton NY",
+        "sent": "2026-10-16T14:18:00-04:00",
+        "expires": "2026-10-17T04:00:00-04:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.90042774e8b48d1e31ee471630f63b69314fc6ac.001.1",
@@ -3333,16 +3329,6 @@
         "expires": "2026-10-17T05:00:00-04:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.86b65f2aab1867ae45820306e8ffa3d83c1bc8e8.004.1",
-        "event": "Freeze Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Allen; Miami; Wabash; Huntington; Wells; Adams; Grant; Blackford; Jay; Williams; Fulton; Defiance; Henry; Paulding; Putnam; Van Wert; Allen",
-        "headline": "Freeze Watch issued October 16 at 1:43PM EDT until October 18 at 9:00AM EDT by NWS Northern Indiana",
-        "sent": "2026-10-16T13:43:00-04:00",
-        "expires": "2026-10-17T01:45:00-04:00"
-      },
-      {
         "id": "urn:oid:2.49.0.1.840.0.4f304350415ffa6d982932603b2c7ce233000d50.001.1",
         "event": "Freeze Watch",
         "severity": "Severe",
@@ -3351,6 +3337,16 @@
         "headline": "Freeze Watch issued October 16 at 1:43PM EDT until October 18 at 9:00AM EDT by NWS Binghamton NY",
         "sent": "2026-10-16T13:43:00-04:00",
         "expires": "2026-10-16T21:45:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.86b65f2aab1867ae45820306e8ffa3d83c1bc8e8.004.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Allen; Miami; Wabash; Huntington; Wells; Adams; Grant; Blackford; Jay; Williams; Fulton; Defiance; Henry; Paulding; Putnam; Van Wert; Allen",
+        "headline": "Freeze Watch issued October 16 at 1:43PM EDT until October 18 at 9:00AM EDT by NWS Northern Indiana",
+        "sent": "2026-10-16T13:43:00-04:00",
+        "expires": "2026-10-17T01:45:00-04:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.86b65f2aab1867ae45820306e8ffa3d83c1bc8e8.001.2",
@@ -3371,9 +3367,49 @@
         "headline": "Freeze Watch issued October 16 at 1:38PM EDT until October 18 at 9:00AM EDT by NWS Blacksburg VA",
         "sent": "2026-10-16T13:38:00-04:00",
         "expires": "2026-10-17T02:00:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.ee06dd7fc1d93486dc3947ef077b1aecad9569c7.001.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Scott; Harrison; Fayette; Bourbon; Nicholas; Clark",
+        "headline": "Freeze Watch issued October 16 at 1:35PM EDT until October 18 at 9:00AM EDT by NWS Louisville KY",
+        "sent": "2026-10-16T13:35:00-04:00",
+        "expires": "2026-10-17T05:00:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.5e87f3b99021edb950a01df2a3ef328373b05784.001.1",
+        "event": "Freeze Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Wayne; Fayette; Union; Franklin; Ripley; Dearborn; Ohio; Switzerland; Carroll; Gallatin; Boone; Kenton; Campbell; Owen; Grant; Pendleton; Bracken; Robertson; Mason; Lewis; Hardin; Mercer; Auglaize; Darke; Shelby; Logan; Union; Delaware; Miami; Champaign; Clark; Madison; Franklin; Licking; Preble; Montgomery; Greene; Fayette; Pickaway; Fairfield; Butler; Warren; Clinton; Ross; Hocking; Hamilton; Clermont; Brown; Highland; Adams; Pike; Scioto",
+        "headline": "Freeze Watch issued October 16 at 1:30PM EDT until October 18 at 9:00AM EDT by NWS Wilmington OH",
+        "sent": "2026-10-16T13:30:00-04:00",
+        "expires": "2026-10-17T05:00:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.6d2148bbc058fd3c80b642f80146b19475a28a8d.001.2",
+        "event": "Red Flag Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Pointe Coupee; West Feliciana; East Feliciana; St. Helena; Washington; Iberville; West Baton Rouge; East Baton Rouge; Assumption; St. James; Northern Tangipahoa; Southeast St. Tammany; Northern St. Tammany; Southwestern St. Tammany; Central Tangipahoa; Lower Tangipahoa; Northern Livingston; Southern Livingston; Western Ascension; Eastern Ascension; Wilkinson; Amite; Pike; Walthall; Pearl River; Hancock; Harrison; Jackson",
+        "headline": "Red Flag Warning issued October 16 at 12:28PM CDT until October 17 at 8:00PM CDT by NWS New Orleans LA",
+        "sent": "2026-10-16T12:28:00-05:00",
+        "expires": "2026-10-17T02:30:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.4fa329b7014136c7df9efc45b18019e30d599ea7.001.1",
+        "event": "Freeze Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Sedgwick County; Phillips County",
+        "headline": "Freeze Warning issued October 16 at 11:26AM MDT until October 17 at 9:00AM MDT by NWS Denver CO",
+        "sent": "2026-10-16T11:26:00-06:00",
+        "expires": "2026-10-17T09:00:00-06:00"
       }
     ],
     "unavailable": false
   },
-  "generated_at": "2026-10-16T21:46:46.164144+00:00"
+  "generated_at": "2026-10-17T00:16:23.146835+00:00"
 }
