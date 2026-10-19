@@ -1,6 +1,6 @@
 {
   "counts": {
-    "today": 222,
+    "today": 233,
     "week": 341
   },
   "strongest_today": {
@@ -27,21 +27,16 @@
     "alert": "green",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq"
   },
-  "avg_magnitude_today": 1.72,
+  "avg_magnitude_today": 1.76,
   "magnitude_distribution_week": {
     "<3": 118,
     "3-4": 63,
-    "4-5": 134,
-    "5-6": 21,
+    "4-5": 133,
+    "5-6": 22,
     "6-7": 5,
     "7+": 0
   },
   "daily_trend_7d": [
-    {
-      "date": "2026-10-11",
-      "count": 5,
-      "max_magnitude": 4.6
-    },
     {
       "date": "2026-10-12",
       "count": 71,
@@ -74,11 +69,47 @@
     },
     {
       "date": "2026-10-18",
-      "count": 30,
+      "count": 35,
       "max_magnitude": 5.2
     }
   ],
   "significant_recent": [
+    {
+      "id": "us6000u38i",
+      "mag": 4.5,
+      "place": "Fiji region",
+      "time": "2026-10-18T22:34:22.230000+00:00",
+      "lat": -20.9271,
+      "lon": -178.6587,
+      "depth_km": 551.945,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38i"
+    },
+    {
+      "id": "us6000u38g",
+      "mag": 5.1,
+      "place": "129 km SSE of Kokopo, Papua New Guinea",
+      "time": "2026-10-18T22:31:43.272000+00:00",
+      "lat": -5.4567,
+      "lon": 152.6162,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38g"
+    },
+    {
+      "id": "us6000u38b",
+      "mag": 4.7,
+      "place": "147 km SSW of Kokopo, Papua New Guinea",
+      "time": "2026-10-18T22:06:13.969000+00:00",
+      "lat": -5.6049,
+      "lon": 151.8407,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38b"
+    },
     {
       "id": "us6000u37h",
       "mag": 5.2,
@@ -642,45 +673,225 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2d6"
-    },
-    {
-      "id": "us6000u2gk",
-      "mag": 4.7,
-      "place": "central Mid-Atlantic Ridge",
-      "time": "2026-10-14T14:17:21.408000+00:00",
-      "lat": -0.343,
-      "lon": -19.2064,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2gk"
-    },
-    {
-      "id": "us6000u28y",
-      "mag": 5.9,
-      "place": "Fiji region",
-      "time": "2026-10-14T10:49:47.588000+00:00",
-      "lat": -20.9899,
-      "lon": -178.7711,
-      "depth_km": 585.07,
-      "tsunami": false,
-      "alert": "green",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28y"
-    },
-    {
-      "id": "us6000u28e",
-      "mag": 4.6,
-      "place": "42 km NNE of Kilimatinde, Tanzania",
-      "time": "2026-10-14T09:16:18.828000+00:00",
-      "lat": -5.4767,
-      "lon": 35.0428,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28e"
     }
   ],
   "today_quakes": [
+    {
+      "id": "nn00925925",
+      "mag": 1.95,
+      "place": "14 km ESE of Fernley, Nevada",
+      "time": "2026-10-19T00:02:34.035000+00:00",
+      "lat": 39.5747,
+      "lon": -119.0924,
+      "depth_km": 0.0223,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925925"
+    },
+    {
+      "id": "aka2026urltqy",
+      "mag": 0.3,
+      "place": "76 km NW of Ninilchik, Alaska",
+      "time": "2026-10-18T23:42:14.982000+00:00",
+      "lat": 60.444,
+      "lon": -152.792,
+      "depth_km": 5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026urltqy"
+    },
+    {
+      "id": "ci41349143",
+      "mag": 0.91,
+      "place": "2 km ESE of Loma Linda, CA",
+      "time": "2026-10-18T23:35:32.800000+00:00",
+      "lat": 34.0403333333333,
+      "lon": -117.244333333333,
+      "depth_km": 15.81,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349143"
+    },
+    {
+      "id": "nc75451851",
+      "mag": 1.47,
+      "place": "2 km NNW of The Geysers, CA",
+      "time": "2026-10-18T23:32:42.540000+00:00",
+      "lat": 38.7891654968262,
+      "lon": -122.766166687012,
+      "depth_km": 1.5900000333786,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451851"
+    },
+    {
+      "id": "ci41349135",
+      "mag": 1.72,
+      "place": "5 km NW of Boron, CA",
+      "time": "2026-10-18T23:30:57.330000+00:00",
+      "lat": 35.0365,
+      "lon": -117.687,
+      "depth_km": -0.75,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349135"
+    },
+    {
+      "id": "us6000u38u",
+      "mag": 4.4,
+      "place": "Kermadec Islands region",
+      "time": "2026-10-18T23:30:43.709000+00:00",
+      "lat": -28.3596,
+      "lon": -179.9252,
+      "depth_km": 444.195,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38u"
+    },
+    {
+      "id": "nc75451836",
+      "mag": 1.07,
+      "place": "8 km W of Cobb, CA",
+      "time": "2026-10-18T23:21:44.480000+00:00",
+      "lat": 38.8311653137207,
+      "lon": -122.809501647949,
+      "depth_km": 1.94000005722046,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451836"
+    },
+    {
+      "id": "nc75451821",
+      "mag": 1.11,
+      "place": "2 km E of The Geysers, CA",
+      "time": "2026-10-18T22:56:13.120000+00:00",
+      "lat": 38.775333404541,
+      "lon": -122.730499267578,
+      "depth_km": 1.4099999666214,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451821"
+    },
+    {
+      "id": "nc75451811",
+      "mag": 0.78,
+      "place": "2 km NNW of Anderson Springs, CA",
+      "time": "2026-10-18T22:48:13.080000+00:00",
+      "lat": 38.7931671142578,
+      "lon": -122.69766998291,
+      "depth_km": 2.72000002861023,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451811"
+    },
+    {
+      "id": "ci41349127",
+      "mag": 1.22,
+      "place": "7 km NE of Imperial, CA",
+      "time": "2026-10-18T22:36:09.910000+00:00",
+      "lat": 32.8943333333333,
+      "lon": -115.516833333333,
+      "depth_km": 6.77,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349127"
+    },
+    {
+      "id": "us6000u38i",
+      "mag": 4.5,
+      "place": "Fiji region",
+      "time": "2026-10-18T22:34:22.230000+00:00",
+      "lat": -20.9271,
+      "lon": -178.6587,
+      "depth_km": 551.945,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38i"
+    },
+    {
+      "id": "hv75060576",
+      "mag": 2.36,
+      "place": "27 km SSE of Volcano, Hawaii",
+      "time": "2026-10-18T22:32:57.830000+00:00",
+      "lat": 19.2080001831055,
+      "lon": -155.148498535156,
+      "depth_km": 39.4500007629395,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75060576"
+    },
+    {
+      "id": "us6000u38g",
+      "mag": 5.1,
+      "place": "129 km SSE of Kokopo, Papua New Guinea",
+      "time": "2026-10-18T22:31:43.272000+00:00",
+      "lat": -5.4567,
+      "lon": 152.6162,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38g"
+    },
+    {
+      "id": "nc75451806",
+      "mag": 2.39,
+      "place": "4 km NNW of Hollister, CA",
+      "time": "2026-10-18T22:27:47.820000+00:00",
+      "lat": 36.8846664428711,
+      "lon": -121.41283416748,
+      "depth_km": 8.92000007629395,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451806"
+    },
+    {
+      "id": "uu80160806",
+      "mag": 2.49,
+      "place": "15 km NE of Milford, Utah",
+      "time": "2026-10-18T22:08:34.120000+00:00",
+      "lat": 38.5111666666667,
+      "lon": -112.908666666667,
+      "depth_km": 4.02,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80160806"
+    },
+    {
+      "id": "us6000u38b",
+      "mag": 4.7,
+      "place": "147 km SSW of Kokopo, Papua New Guinea",
+      "time": "2026-10-18T22:06:13.969000+00:00",
+      "lat": -5.6049,
+      "lon": 151.8407,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38b"
+    },
+    {
+      "id": "aka2026urikzj",
+      "mag": 2.1,
+      "place": "84 km S of Kokhanok, Alaska",
+      "time": "2026-10-18T22:01:53.372000+00:00",
+      "lat": 58.691,
+      "lon": -155.03,
+      "depth_km": 136.6,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026urikzj"
+    },
+    {
+      "id": "ci41349119",
+      "mag": 0.78,
+      "place": "16 km NNE of Indio, CA",
+      "time": "2026-10-18T21:55:15.870000+00:00",
+      "lat": 33.8466666666667,
+      "lon": -116.129166666667,
+      "depth_km": 2.16,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349119"
+    },
     {
       "id": "ci41349111",
       "mag": 0.84,
@@ -3260,90 +3471,6 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348671"
-    },
-    {
-      "id": "ci41348663",
-      "mag": 1.45,
-      "place": "10 km SE of Olancha, CA",
-      "time": "2026-10-17T23:30:27.100000+00:00",
-      "lat": 36.2191666666667,
-      "lon": -117.928333333333,
-      "depth_km": 4.35,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348663"
-    },
-    {
-      "id": "nc75451281",
-      "mag": 0.98,
-      "place": "6 km NNW of The Geysers, CA",
-      "time": "2026-10-17T23:26:29.780000+00:00",
-      "lat": 38.8228340148926,
-      "lon": -122.791664123535,
-      "depth_km": 0.720000028610229,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451281"
-    },
-    {
-      "id": "hv75059911",
-      "mag": 1.81,
-      "place": "12 km NE of Pāhala, Hawaii",
-      "time": "2026-10-17T22:54:53.500000+00:00",
-      "lat": 19.2638339996338,
-      "lon": -155.383331298828,
-      "depth_km": 31.1399993896484,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75059911"
-    },
-    {
-      "id": "hv75059891",
-      "mag": 2.05,
-      "place": "5 km NNE of Honaunau-Napoopoo, Hawaii",
-      "time": "2026-10-17T22:38:09.380000+00:00",
-      "lat": 19.5073337554932,
-      "lon": -155.851669311523,
-      "depth_km": 22.75,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75059891"
-    },
-    {
-      "id": "nc75451266",
-      "mag": 0.74,
-      "place": "3 km NW of The Geysers, CA",
-      "time": "2026-10-17T22:38:01.790000+00:00",
-      "lat": 38.7963333129883,
-      "lon": -122.775833129883,
-      "depth_km": 2.74000000953674,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451266"
-    },
-    {
-      "id": "nc75451231",
-      "mag": 1.08,
-      "place": "4 km NW of The Geysers, CA",
-      "time": "2026-10-17T22:15:25.650000+00:00",
-      "lat": 38.8036651611328,
-      "lon": -122.782501220703,
-      "depth_km": 0.330000013113022,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451231"
-    },
-    {
-      "id": "tx2026umexzb",
-      "mag": 3.1,
-      "place": "8 km NW of Stanton, Texas",
-      "time": "2026-10-17T22:11:42.130000+00:00",
-      "lat": 32.172,
-      "lon": -101.863,
-      "depth_km": 6.543,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026umexzb"
     }
   ],
   "sources_ok": {
@@ -3352,33 +3479,62 @@
     "month": true
   },
   "us_weather_alerts": {
-    "active_count": 218,
+    "active_count": 314,
     "by_severity": {
-      "Severe": 13,
-      "Moderate": 25,
-      "Minor": 179,
-      "Unknown": 1
+      "Moderate": 45,
+      "Minor": 257,
+      "Severe": 12
     },
     "top_alerts": [
       {
-        "id": "urn:oid:2.49.0.1.840.0.7d13abb9980855690b7b0c4b9033bd6db0bc0f3d.006.1",
-        "event": "High Wind Watch",
+        "id": "urn:oid:2.49.0.1.840.0.23ae83307aa8c261b5a5090b522490f8bed264f5.001.1",
+        "event": "Special Marine Warning",
         "severity": "Severe",
-        "urgency": "Future",
-        "area": "Municipality of Skagway",
-        "headline": "High Wind Watch issued October 18 at 1:41PM AKDT until October 21 at 4:00PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-18T13:41:00-08:00",
-        "expires": "2026-10-18T21:45:00-08:00"
+        "urgency": "Immediate",
+        "area": "Guam Coastal Waters",
+        "headline": "Special Marine Warning issued October 19 at 9:47AM ChST until October 19 at 10:30AM ChST by NWS Tiyan GU",
+        "sent": "2026-10-19T09:48:00+10:00",
+        "expires": "2026-10-19T10:30:00+10:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.4da8fbbf1baa3d55ecfe51d13d80931cd56a7d9f.002.1",
-        "event": "Flood Watch",
+        "id": "urn:oid:2.49.0.1.840.0.987d3c4e9efaa2dad169d04ff8129042a0eb2c42.001.1",
+        "event": "Winter Storm Warning",
         "severity": "Severe",
-        "urgency": "Future",
-        "area": "City and Borough of Juneau",
-        "headline": "Flood Watch issued October 18 at 12:33PM AKDT until October 21 at 4:00AM AKDT by NWS Juneau AK",
-        "sent": "2026-10-18T12:33:00-08:00",
-        "expires": "2026-10-19T00:45:00-08:00"
+        "urgency": "Expected",
+        "area": "Noatak Valley",
+        "headline": "Winter Storm Warning issued October 18 at 3:08PM AKDT until October 19 at 4:00PM AKDT by NWS Fairbanks AK",
+        "sent": "2026-10-18T15:08:00-08:00",
+        "expires": "2026-10-19T07:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.5bcf99b73db5941c7d57ec150e113a34c2c891ff.003.2",
+        "event": "Winter Storm Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Yukon Flats; White Mountains and High Terrain South of the Yukon River; Upper Chena River Valley",
+        "headline": "Winter Storm Warning issued October 18 at 2:59PM AKDT until October 21 at 4:00PM AKDT by NWS Fairbanks AK",
+        "sent": "2026-10-18T14:59:00-08:00",
+        "expires": "2026-10-19T07:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.5bcf99b73db5941c7d57ec150e113a34c2c891ff.002.2",
+        "event": "Winter Storm Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Fortymile Country; Upper Tanana Valley; Delta Junction",
+        "headline": "Winter Storm Warning issued October 18 at 2:59PM AKDT until October 21 at 4:00PM AKDT by NWS Fairbanks AK",
+        "sent": "2026-10-18T14:59:00-08:00",
+        "expires": "2026-10-19T07:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.5bcf99b73db5941c7d57ec150e113a34c2c891ff.001.2",
+        "event": "Winter Storm Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Eastern Alaska Range North of Trims Camp; Eastern Alaska Range South of Trims Camp",
+        "headline": "Winter Storm Warning issued October 18 at 2:59PM AKDT until October 22 at 4:00AM AKDT by NWS Fairbanks AK",
+        "sent": "2026-10-18T14:59:00-08:00",
+        "expires": "2026-10-19T07:00:00-08:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.4da8fbbf1baa3d55ecfe51d13d80931cd56a7d9f.001.1",
@@ -3386,6 +3542,16 @@
         "severity": "Severe",
         "urgency": "Future",
         "area": "City and Borough of Yakutat; Glacier Bay; Cape Fairweather to Lisianski Strait",
+        "headline": "Flood Watch issued October 18 at 12:33PM AKDT until October 21 at 4:00AM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T12:33:00-08:00",
+        "expires": "2026-10-19T00:45:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.4da8fbbf1baa3d55ecfe51d13d80931cd56a7d9f.002.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "City and Borough of Juneau",
         "headline": "Flood Watch issued October 18 at 12:33PM AKDT until October 21 at 4:00AM AKDT by NWS Juneau AK",
         "sent": "2026-10-18T12:33:00-08:00",
         "expires": "2026-10-19T00:45:00-08:00"
@@ -3401,16 +3567,6 @@
         "expires": "2026-10-18T21:00:00-04:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.2505fd35e019594f732fc9f36faec2bad3a1b6d2.001.1",
-        "event": "Freeze Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Frederick; Carroll; Culpeper; Northern Fauquier; Southern Fauquier; Western Loudoun",
-        "headline": "Freeze Warning issued October 18 at 1:50PM EDT until October 19 at 9:00AM EDT by NWS Baltimore MD/Washington DC",
-        "sent": "2026-10-18T13:50:00-04:00",
-        "expires": "2026-10-18T22:00:00-04:00"
-      },
-      {
         "id": "urn:oid:2.49.0.1.840.0.07c162e5f7c2f4056b67ec873812d748f22e3352.001.1",
         "event": "Freeze Warning",
         "severity": "Severe",
@@ -3421,34 +3577,14 @@
         "expires": "2026-10-19T09:00:00-04:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.015e276ec830f7f557225b895ba7b32f9602aab7.003.1",
-        "event": "Winter Storm Watch",
+        "id": "urn:oid:2.49.0.1.840.0.446e1ab62f8cc1ac6e89ab7c82dcfb7d4c3076f9.001.3",
+        "event": "Storm Watch",
         "severity": "Severe",
-        "urgency": "Future",
-        "area": "Tanana Flats; Eielson AFB and Salcha; Goldstream Valley and Nenana Hills; Chatanika River Valley; Two Rivers; Fairbanks Metro Area; Nenana",
-        "headline": "Winter Storm Watch issued October 18 at 6:06AM AKDT until October 21 at 4:00PM AKDT by NWS Fairbanks AK",
-        "sent": "2026-10-18T06:06:00-08:00",
-        "expires": "2026-10-18T16:00:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.015e276ec830f7f557225b895ba7b32f9602aab7.001.1",
-        "event": "Winter Storm Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Northern Denali Borough; Southern Denali Borough",
-        "headline": "Winter Storm Watch issued October 18 at 6:06AM AKDT until October 21 at 4:00PM AKDT by NWS Fairbanks AK",
-        "sent": "2026-10-18T06:06:00-08:00",
-        "expires": "2026-10-18T16:00:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.015e276ec830f7f557225b895ba7b32f9602aab7.002.1",
-        "event": "Winter Storm Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Yukon Flats",
-        "headline": "Winter Storm Watch issued October 18 at 6:06AM AKDT until October 21 at 4:00PM AKDT by NWS Fairbanks AK",
-        "sent": "2026-10-18T06:06:00-08:00",
-        "expires": "2026-10-18T16:00:00-08:00"
+        "urgency": "Past",
+        "area": "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM; Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
+        "headline": "The Storm Watch has been replaced. Please see the latest information from NWS Newport/Morehead City NC on this developing situation.",
+        "sent": "2026-10-17T03:04:00-04:00",
+        "expires": "2026-10-17T03:19:33-04:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.446e1ab62f8cc1ac6e89ab7c82dcfb7d4c3076f9.002.2",
@@ -3456,16 +3592,6 @@
         "severity": "Severe",
         "urgency": "Past",
         "area": "Waters from Oregon Inlet to Cape Hatteras NC from 20 to 60 NM; Waters from Cape Hatteras to Ocracoke Inlet NC from 20 to 60 NM",
-        "headline": "The Storm Watch has been replaced. Please see the latest information from NWS Newport/Morehead City NC on this developing situation.",
-        "sent": "2026-10-17T03:04:00-04:00",
-        "expires": "2026-10-17T03:19:33-04:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.446e1ab62f8cc1ac6e89ab7c82dcfb7d4c3076f9.001.3",
-        "event": "Storm Watch",
-        "severity": "Severe",
-        "urgency": "Past",
-        "area": "Waters from Ocracoke Inlet to Cape Lookout NC from 20 to 60 NM; Waters from Cape Lookout  to Surf City NC from 20 to 60 NM",
         "headline": "The Storm Watch has been replaced. Please see the latest information from NWS Newport/Morehead City NC on this developing situation.",
         "sent": "2026-10-17T03:04:00-04:00",
         "expires": "2026-10-17T03:19:33-04:00"
@@ -3481,187 +3607,187 @@
         "expires": "2026-10-17T03:14:30-04:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.8e15595ac38991a25d6cbdd3951d992decef60b7.001.1",
-        "event": "Heavy Freezing Spray Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Western US Arctic Offshore",
-        "headline": "Heavy Freezing Spray Warning issued October 11 at 4:00PM AKDT until October 18 at 5:00PM AKDT by NWS Fairbanks AK",
-        "sent": "2026-10-11T15:45:00-08:00",
-        "expires": "2026-10-12T04:00:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7d13abb9980855690b7b0c4b9033bd6db0bc0f3d.003.1",
-        "event": "Wind Advisory",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Ketchikan Gateway Borough; Annette Island",
-        "headline": "Wind Advisory issued October 18 at 1:41PM AKDT until October 21 at 4:00AM AKDT by NWS Juneau AK",
-        "sent": "2026-10-18T13:41:00-08:00",
-        "expires": "2026-10-18T21:45:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7d13abb9980855690b7b0c4b9033bd6db0bc0f3d.001.1",
-        "event": "Wind Advisory",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Glacier Bay; Eastern Chichagof Island; Cape Fairweather to Lisianski Strait; City and Borough of Juneau",
-        "headline": "Wind Advisory issued October 18 at 1:41PM AKDT until October 21 at 4:00AM AKDT by NWS Juneau AK",
-        "sent": "2026-10-18T13:41:00-08:00",
-        "expires": "2026-10-18T21:45:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7d13abb9980855690b7b0c4b9033bd6db0bc0f3d.002.1",
-        "event": "Wind Advisory",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "City and Borough of Sitka; Admiralty Island; Western Kupreanof and Kuiu Island",
-        "headline": "Wind Advisory issued October 18 at 1:41PM AKDT until October 21 at 4:00AM AKDT by NWS Juneau AK",
-        "sent": "2026-10-18T13:41:00-08:00",
-        "expires": "2026-10-18T21:45:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7d13abb9980855690b7b0c4b9033bd6db0bc0f3d.004.1",
-        "event": "Wind Advisory",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Haines Borough and Klukwan",
-        "headline": "Wind Advisory issued October 18 at 1:41PM AKDT until October 20 at 10:00PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-18T13:41:00-08:00",
-        "expires": "2026-10-18T21:45:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.9d7dcd12d8d4d11383846bba592f9bee99c9f2bb.001.1",
-        "event": "Special Weather Statement",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Municipality of Skagway; Haines Borough and Klukwan",
-        "headline": "Special Weather Statement issued October 18 at 1:04PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-18T13:04:00-08:00",
-        "expires": "2026-10-18T21:15:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.8eb9d0665e23b4d778ff6c6ff3fe100fcab7d84e.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.002.3",
         "event": "Gale Warning",
         "severity": "Moderate",
         "urgency": "Expected",
-        "area": "Waters from Sandy Hook NJ to Manasquan Inlet NJ from 20 to 40 NM",
-        "headline": "Gale Warning issued October 18 at 3:35PM EDT until October 21 at 6:00AM EDT by NWS Mount Holly NJ",
-        "sent": "2026-10-18T15:35:00-04:00",
-        "expires": "2026-10-19T06:00:00-04:00"
+        "area": "Northern Chatham Strait",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.79114285c30e34b73bcf76418a28659a110a170a.001.2",
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.016.2",
         "event": "Gale Warning",
         "severity": "Moderate",
         "urgency": "Expected",
-        "area": "Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM; Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM; Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM",
-        "headline": "Gale Warning issued October 18 at 2:42PM EDT until October 21 at 6:00AM EDT by NWS Upton NY",
-        "sent": "2026-10-18T14:42:00-04:00",
-        "expires": "2026-10-19T03:45:00-04:00"
+        "area": "Cape Spencer to Cape Fairweather out to 15 NM",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 10:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.79114285c30e34b73bcf76418a28659a110a170a.002.2",
-        "event": "Gale Watch",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "area": "Moriches Inlet NY to Montauk Point NY out 20 NM",
-        "headline": "Gale Watch issued October 18 at 2:42PM EDT until October 21 at 6:00AM EDT by NWS Upton NY",
-        "sent": "2026-10-18T14:42:00-04:00",
-        "expires": "2026-10-19T03:45:00-04:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.a7ca5a09c07744dead5e4e12f9248ec5c48a5cd1.002.2",
-        "event": "Gale Watch",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "area": "Chesapeake Bay from Drum Point MD to Smith Point VA; Tangier Sound and the inland waters surrounding Bloodsworth Island",
-        "headline": "Gale Watch issued October 18 at 2:24PM EDT until October 20 at 11:00AM EDT by NWS Baltimore MD/Washington DC",
-        "sent": "2026-10-18T14:24:00-04:00",
-        "expires": "2026-10-18T22:30:00-04:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.8c9f4812a1b7bd9374739d6e15968c44d7811c9f.001.2",
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.015.3",
         "event": "Gale Warning",
         "severity": "Moderate",
         "urgency": "Expected",
-        "area": "Coastal waters from Provincetown MA to Chatham MA to Nantucket MA out 20 NM; Coastal Waters extending out to 25 NM South of Marthas Vineyard and Nantucket; Coastal Waters from Montauk NY to Marthas Vineyard extending out to 20 NM South of Block Island; Ocean Waters from Provincetown to Nantucket from 20 to 60 NM; Ocean Waters from Marthas Vineyard to Nantucket from 25 to 60 NM; Ocean Waters from Montauk NY to Marthas Vineyard from 25 to 60 NM",
-        "headline": "Gale Warning issued October 18 at 2:16PM EDT until October 21 at 8:00PM EDT by NWS Boston/Norton MA",
-        "sent": "2026-10-18T14:16:00-04:00",
-        "expires": "2026-10-19T03:30:00-04:00"
+        "area": "Cape Edgecumbe to Cape Spencer from 15 to 80 NM",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 10:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.8c9f4812a1b7bd9374739d6e15968c44d7811c9f.002.1",
-        "event": "Gale Watch",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "area": "Cape Cod Bay; Nantucket Sound; Vineyard Sound; Buzzards Bay; Rhode Island Sound; Block Island Sound",
-        "headline": "Gale Watch issued October 18 at 2:16PM EDT until October 21 at 8:00PM EDT by NWS Boston/Norton MA",
-        "sent": "2026-10-18T14:16:00-04:00",
-        "expires": "2026-10-19T03:30:00-04:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7090c340f07bf2cd2b20b4a35b233a339d2a498a.001.3",
-        "event": "Beach Hazards Statement",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Coastal New Hanover",
-        "headline": "Beach Hazards Statement issued October 18 at 1:58PM EDT until October 18 at 8:00PM EDT by NWS Wilmington NC",
-        "sent": "2026-10-18T13:58:00-04:00",
-        "expires": "2026-10-19T05:00:00-04:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.b501197c81d1d9e414f6092f4218f81b06252be6.001.1",
-        "event": "Lake Wind Advisory",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Central and Southeast Phillips; Central and Southern Valley; Petroleum; Garfield; McCone",
-        "headline": "Lake Wind Advisory issued October 18 at 11:53AM MDT until October 19 at 12:00PM MDT by NWS Glasgow MT",
-        "sent": "2026-10-18T11:53:00-06:00",
-        "expires": "2026-10-19T12:00:00-06:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.d71584b26bfb39b58a1073ade931c0a2ed30e5dc.001.1",
-        "event": "Special Weather Statement",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Eastern Norton Sound and Nulato Hills; Yukon Delta Coast; Lower Yukon River; Lower Yukon and Innoko Valleys",
-        "headline": "Special Weather Statement issued October 18 at 6:29AM AKDT by NWS Fairbanks AK",
-        "sent": "2026-10-18T06:29:00-08:00",
-        "expires": "2026-10-18T16:00:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7e0f895622ce6ad2dd1195778df47aa2698c1561.001.1",
-        "event": "Special Weather Statement",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Noatak Valley; Kivalina and Red Dog Dock",
-        "headline": "Special Weather Statement issued October 18 at 6:16AM AKDT by NWS Fairbanks AK",
-        "sent": "2026-10-18T06:16:00-08:00",
-        "expires": "2026-10-18T16:00:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.baf388d6888090e97656862a191f1ba9c989cd12.001.1",
-        "event": "Winter Weather Advisory",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Northern Copper Valley",
-        "headline": "Winter Weather Advisory issued October 18 at 4:54AM AKDT until October 20 at 4:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-18T04:54:00-08:00",
-        "expires": "2026-10-18T16:45:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.94d58e77ec6606f234f2a99184b1af7fb04c4805.009.1",
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.011.2",
         "event": "Gale Warning",
         "severity": "Moderate",
         "urgency": "Expected",
-        "area": "Central and Eastern Prince William Sound",
-        "headline": "Gale Warning issued October 18 at 4:10AM AKDT until October 19 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-18T04:10:00-08:00",
-        "expires": "2026-10-18T17:15:00-08:00"
+        "area": "Frederick Sound",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 10:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.013.2",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Yakutat Bay",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 10:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.006.3",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Cape Decision to Cape Edgecumbe from 15 to 80 NM",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.007.2",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Glacier Bay",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.008.2",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Southern Lynn Canal; Cape Edgecumbe to Cape Spencer out to 15 NM",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.012.2",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Sumner Strait",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.004.3",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Dixon Entrance to Cape Decision out to 15 NM",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.005.3",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Cape Decision to Cape Edgecumbe out to 15 NM",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.010.2",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Stephens Passage; Southern Chatham Strait",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.009.2",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Cross Sound",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.001.3",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Icy Strait",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.003.3",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Dixon Entrance to Cape Decision from 15 to 90 NM",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 20 at 4:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.018.2",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Northern Lynn Canal",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 21 at 4:00AM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.014.2",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Clarence Strait",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 21 at 1:00AM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.afdd3dca6c983f92fdf2463dfda241248efe1008.017.2",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Cape Fairweather to Icy Cape out to 15 NM",
+        "headline": "Gale Warning issued October 18 at 3:54PM AKDT until October 21 at 1:00AM AKDT by NWS Juneau AK",
+        "sent": "2026-10-18T15:54:00-08:00",
+        "expires": "2026-10-19T00:00:00-08:00"
       }
     ],
     "unavailable": false
   },
-  "generated_at": "2026-10-18T21:55:56.892603+00:00"
+  "generated_at": "2026-10-19T00:06:19.184476+00:00"
 }
