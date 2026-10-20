@@ -1,7 +1,7 @@
 {
   "counts": {
-    "today": 211,
-    "week": 331
+    "today": 218,
+    "week": 338
   },
   "strongest_today": {
     "id": "us6000u3jl",
@@ -27,20 +27,20 @@
     "alert": "green",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq"
   },
-  "avg_magnitude_today": 1.97,
+  "avg_magnitude_today": 1.96,
   "magnitude_distribution_week": {
-    "<3": 120,
+    "<3": 122,
     "3-4": 62,
-    "4-5": 114,
-    "5-6": 31,
-    "6-7": 4,
+    "4-5": 118,
+    "5-6": 33,
+    "6-7": 3,
     "7+": 0
   },
   "daily_trend_7d": [
     {
       "date": "2026-10-13",
-      "count": 13,
-      "max_magnitude": 6
+      "count": 6,
+      "max_magnitude": 4.8
     },
     {
       "date": "2026-10-14",
@@ -74,11 +74,95 @@
     },
     {
       "date": "2026-10-20",
-      "count": 27,
+      "count": 41,
       "max_magnitude": 6.3
     }
   ],
   "significant_recent": [
+    {
+      "id": "us6000u3p1",
+      "mag": 5.1,
+      "place": "39 km W of Mosteiros, Portugal",
+      "time": "2026-10-20T18:07:18.131000+00:00",
+      "lat": 37.9575,
+      "lon": -26.2588,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3p1"
+    },
+    {
+      "id": "us6000u3nn",
+      "mag": 4.5,
+      "place": "215 km S of Burica, Panama",
+      "time": "2026-10-20T17:18:36.707000+00:00",
+      "lat": 6.0926,
+      "lon": -82.6622,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nn"
+    },
+    {
+      "id": "us6000u3nl",
+      "mag": 5.4,
+      "place": "192 km S of Burica, Panama",
+      "time": "2026-10-20T17:05:48.338000+00:00",
+      "lat": 6.3226,
+      "lon": -82.5693,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nl"
+    },
+    {
+      "id": "us6000u3nd",
+      "mag": 4.8,
+      "place": "south of the Fiji Islands",
+      "time": "2026-10-20T16:29:43.678000+00:00",
+      "lat": -24.1803,
+      "lon": -177.0103,
+      "depth_km": 109.548,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nd"
+    },
+    {
+      "id": "us6000u3nc",
+      "mag": 5,
+      "place": "21 km SW of Meulaboh, Indonesia",
+      "time": "2026-10-20T16:29:38.818000+00:00",
+      "lat": 4.0005,
+      "lon": 95.993,
+      "depth_km": 75.876,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nc"
+    },
+    {
+      "id": "us6000u3m7",
+      "mag": 4.5,
+      "place": "111 km S of Kokopo, Papua New Guinea",
+      "time": "2026-10-20T14:20:49.305000+00:00",
+      "lat": -5.3459,
+      "lon": 152.1448,
+      "depth_km": 57.367,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3m7"
+    },
+    {
+      "id": "us6000u3lx",
+      "mag": 4.5,
+      "place": "142 km SSW of Abepura, Indonesia",
+      "time": "2026-10-20T13:27:24.320000+00:00",
+      "lat": -3.7134,
+      "lon": 139.9987,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3lx"
+    },
     {
       "id": "us6000u3li",
       "mag": 4.9,
@@ -594,93 +678,357 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38g"
-    },
-    {
-      "id": "us6000u38b",
-      "mag": 4.7,
-      "place": "147 km SSW of Kokopo, Papua New Guinea",
-      "time": "2026-10-18T22:06:13.969000+00:00",
-      "lat": -5.6049,
-      "lon": 151.8407,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38b"
-    },
-    {
-      "id": "us6000u37h",
-      "mag": 5.2,
-      "place": "71 km ESE of ‘Ohonua, Tonga",
-      "time": "2026-10-18T19:32:28.734000+00:00",
-      "lat": -21.541,
-      "lon": -174.2956,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u37h"
-    },
-    {
-      "id": "us6000u36m",
-      "mag": 4.5,
-      "place": "0 km NE of Río Grande, Panama",
-      "time": "2026-10-18T16:12:55.030000+00:00",
-      "lat": 7.7244,
-      "lon": -81.3297,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u36m"
-    },
-    {
-      "id": "us6000u36d",
-      "mag": 4.7,
-      "place": "20 km SW of Sandy Point Town, Saint Kitts and Nevis",
-      "time": "2026-10-18T15:35:47.580000+00:00",
-      "lat": 17.2531,
-      "lon": -63.0065,
-      "depth_km": 149.951,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u36d"
-    },
-    {
-      "id": "us6000u366",
-      "mag": 4.6,
-      "place": "Carlsberg Ridge",
-      "time": "2026-10-18T14:30:07.877000+00:00",
-      "lat": 1.452,
-      "lon": 66.9867,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u366"
-    },
-    {
-      "id": "us6000u35l",
-      "mag": 4.5,
-      "place": "Kermadec Islands, New Zealand",
-      "time": "2026-10-18T12:42:22.533000+00:00",
-      "lat": -30.1265,
-      "lon": -177.3838,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u35l"
-    },
-    {
-      "id": "us6000u34e",
-      "mag": 5.2,
-      "place": "55 km NNW of Ruteng, Indonesia",
-      "time": "2026-10-18T08:00:06.054000+00:00",
-      "lat": -8.1449,
-      "lon": 120.2734,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u34e"
     }
   ],
   "today_quakes": [
+    {
+      "id": "ci41349831",
+      "mag": 1,
+      "place": "7 km NNE of Fontana, CA",
+      "time": "2026-10-20T19:23:17.800000+00:00",
+      "lat": 34.1515,
+      "lon": -117.4245,
+      "depth_km": 6.27,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349831"
+    },
+    {
+      "id": "aka2026uuvelx",
+      "mag": 1.7,
+      "place": "11 km SE of Rampart, Alaska",
+      "time": "2026-10-20T19:23:08.043000+00:00",
+      "lat": 65.44,
+      "lon": -149.983,
+      "depth_km": 2.2,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uuvelx"
+    },
+    {
+      "id": "ci41349823",
+      "mag": 1.01,
+      "place": "9 km ENE of Moreno Valley, CA",
+      "time": "2026-10-20T19:21:19.680000+00:00",
+      "lat": 33.9576666666667,
+      "lon": -117.143166666667,
+      "depth_km": 13.21,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349823"
+    },
+    {
+      "id": "uu80161106",
+      "mag": 0.9,
+      "place": "13 km NNE of Beaver, Utah",
+      "time": "2026-10-20T18:36:19.540000+00:00",
+      "lat": 38.3986666666667,
+      "lon": -112.603666666667,
+      "depth_km": 9.32,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161106"
+    },
+    {
+      "id": "us6000u3p9",
+      "mag": 4.2,
+      "place": "south of the Fiji Islands",
+      "time": "2026-10-20T18:36:03.727000+00:00",
+      "lat": -25.9915,
+      "lon": -178.9413,
+      "depth_km": 353.846,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3p9"
+    },
+    {
+      "id": "nc75452636",
+      "mag": 1.06,
+      "place": "7 km NW of The Geysers, CA",
+      "time": "2026-10-20T18:31:08.910000+00:00",
+      "lat": 38.8158340454102,
+      "lon": -122.820663452148,
+      "depth_km": 2.33999991416931,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452636"
+    },
+    {
+      "id": "aka2026uusvca",
+      "mag": 2.7,
+      "place": "88 km NNW of Karluk, Alaska",
+      "time": "2026-10-20T18:12:36.729000+00:00",
+      "lat": 58.348,
+      "lon": -154.78,
+      "depth_km": 103.4,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uusvca"
+    },
+    {
+      "id": "aka2026uussbk",
+      "mag": 1.7,
+      "place": "28 km W of Kalifornsky, Alaska",
+      "time": "2026-10-20T18:08:51.707000+00:00",
+      "lat": 60.46,
+      "lon": -151.793,
+      "depth_km": 78.9,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uussbk"
+    },
+    {
+      "id": "us6000u3p1",
+      "mag": 5.1,
+      "place": "39 km W of Mosteiros, Portugal",
+      "time": "2026-10-20T18:07:18.131000+00:00",
+      "lat": 37.9575,
+      "lon": -26.2588,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3p1"
+    },
+    {
+      "id": "us6000u3nz",
+      "mag": 4.2,
+      "place": "152 km WNW of Tobelo, Indonesia",
+      "time": "2026-10-20T18:02:57.367000+00:00",
+      "lat": 2.4707,
+      "lon": 126.8562,
+      "depth_km": 35,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nz"
+    },
+    {
+      "id": "nc75452621",
+      "mag": 0.75,
+      "place": "6 km WNW of Cobb, CA",
+      "time": "2026-10-20T17:22:59.170000+00:00",
+      "lat": 38.8371658325195,
+      "lon": -122.790168762207,
+      "depth_km": 1.79999995231628,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452621"
+    },
+    {
+      "id": "us6000u3nn",
+      "mag": 4.5,
+      "place": "215 km S of Burica, Panama",
+      "time": "2026-10-20T17:18:36.707000+00:00",
+      "lat": 6.0926,
+      "lon": -82.6622,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nn"
+    },
+    {
+      "id": "uw714122432",
+      "mag": 1.36,
+      "place": "10 km SSW of Tri-Cities, Washington",
+      "time": "2026-10-20T17:09:21.990000+00:00",
+      "lat": 46.1596666666667,
+      "lon": -119.2595,
+      "depth_km": -0.21,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714122432"
+    },
+    {
+      "id": "us6000u3nl",
+      "mag": 5.4,
+      "place": "192 km S of Burica, Panama",
+      "time": "2026-10-20T17:05:48.338000+00:00",
+      "lat": 6.3226,
+      "lon": -82.5693,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nl"
+    },
+    {
+      "id": "nc75452606",
+      "mag": 1.04,
+      "place": "1 km SW of Anderson Springs, CA",
+      "time": "2026-10-20T17:02:30.890000+00:00",
+      "lat": 38.7693328857422,
+      "lon": -122.701667785645,
+      "depth_km": 1.4099999666214,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452606"
+    },
+    {
+      "id": "nc75452596",
+      "mag": 1.1,
+      "place": "1 km N of The Geysers, CA",
+      "time": "2026-10-20T16:52:03.160000+00:00",
+      "lat": 38.7853317260742,
+      "lon": -122.754997253418,
+      "depth_km": 2.16000008583069,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452596"
+    },
+    {
+      "id": "nc75452591",
+      "mag": 2,
+      "place": "14 km NE of Hollister, CA",
+      "time": "2026-10-20T16:47:18.940000+00:00",
+      "lat": 36.9305000305176,
+      "lon": -121.276168823242,
+      "depth_km": 6.51999998092651,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452591"
+    },
+    {
+      "id": "tx2026urhjrp",
+      "mag": 1.9,
+      "place": "41 km NW of Toyah, Texas",
+      "time": "2026-10-20T16:45:46.297000+00:00",
+      "lat": 31.548,
+      "lon": -104.138,
+      "depth_km": 9.6246,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026urhjrp"
+    },
+    {
+      "id": "ci41349791",
+      "mag": 2.02,
+      "place": "34 km SSW of Primo Tapia, B.C., MX",
+      "time": "2026-10-20T16:40:41.610000+00:00",
+      "lat": 31.9648333333333,
+      "lon": -117.112,
+      "depth_km": 16.47,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349791"
+    },
+    {
+      "id": "ci41349783",
+      "mag": 1.2,
+      "place": "7 km E of Coso Junction, CA",
+      "time": "2026-10-20T16:38:02.860000+00:00",
+      "lat": 36.038,
+      "lon": -117.870166666667,
+      "depth_km": 1.76,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349783"
+    },
+    {
+      "id": "hv75061376",
+      "mag": 2.81,
+      "place": "17 km SSE of Pāhala, Hawaii",
+      "time": "2026-10-20T16:31:23.430000+00:00",
+      "lat": 19.059,
+      "lon": -155.407833333333,
+      "depth_km": 34.35,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75061376"
+    },
+    {
+      "id": "us6000u3nd",
+      "mag": 4.8,
+      "place": "south of the Fiji Islands",
+      "time": "2026-10-20T16:29:43.678000+00:00",
+      "lat": -24.1803,
+      "lon": -177.0103,
+      "depth_km": 109.548,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nd"
+    },
+    {
+      "id": "us6000u3nc",
+      "mag": 5,
+      "place": "21 km SW of Meulaboh, Indonesia",
+      "time": "2026-10-20T16:29:38.818000+00:00",
+      "lat": 4.0005,
+      "lon": 95.993,
+      "depth_km": 75.876,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nc"
+    },
+    {
+      "id": "nc75452571",
+      "mag": 2.51,
+      "place": "2 km NW of The Geysers, CA",
+      "time": "2026-10-20T16:23:04.060000+00:00",
+      "lat": 38.7866668701172,
+      "lon": -122.771667480469,
+      "depth_km": 0.469999998807907,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452571"
+    },
+    {
+      "id": "tx2026urgmrp",
+      "mag": 1.7,
+      "place": "5 km W of Stanton, Texas",
+      "time": "2026-10-20T16:22:26.347000+00:00",
+      "lat": 32.125,
+      "lon": -101.847,
+      "depth_km": 8.9111,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026urgmrp"
+    },
+    {
+      "id": "us6000u3mb",
+      "mag": 3,
+      "place": "22 km SSW of Lovington, New Mexico",
+      "time": "2026-10-20T15:56:32.914000+00:00",
+      "lat": 32.7737,
+      "lon": -103.4761,
+      "depth_km": 1.814,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3mb"
+    },
+    {
+      "id": "ci41349759",
+      "mag": 1.13,
+      "place": "7 km SSW of Olancha, CA",
+      "time": "2026-10-20T15:34:26.930000+00:00",
+      "lat": 36.2176666666667,
+      "lon": -118.023666666667,
+      "depth_km": 3.99,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349759"
+    },
+    {
+      "id": "nc75452556",
+      "mag": 0.23,
+      "place": "11 km WNW of Cobb, CA",
+      "time": "2026-10-20T15:20:46.920000+00:00",
+      "lat": 38.8476676940918,
+      "lon": -122.845336914062,
+      "depth_km": 1.57000005245209,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452556"
+    },
+    {
+      "id": "uu80161086",
+      "mag": 2.15,
+      "place": "15 km NNE of Milford, Utah",
+      "time": "2026-10-20T14:54:58.830000+00:00",
+      "lat": 38.5173333333333,
+      "lon": -112.912333333333,
+      "depth_km": 2.32,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161086"
+    },
     {
       "id": "nc75452546",
       "mag": 1.05,
@@ -730,6 +1078,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349735"
     },
     {
+      "id": "tx2026urcydf",
+      "mag": 2,
+      "place": "16 km SSW of Jal, New Mexico",
+      "time": "2026-10-20T14:31:40.976000+00:00",
+      "lat": 31.987,
+      "lon": -103.282,
+      "depth_km": 6.2024,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026urcydf"
+    },
+    {
       "id": "tx2026urcpbj",
       "mag": 2.8,
       "place": "17 km SSW of Jal, New Mexico",
@@ -740,6 +1100,30 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026urcpbj"
+    },
+    {
+      "id": "us6000u3m7",
+      "mag": 4.5,
+      "place": "111 km S of Kokopo, Papua New Guinea",
+      "time": "2026-10-20T14:20:49.305000+00:00",
+      "lat": -5.3459,
+      "lon": 152.1448,
+      "depth_km": 57.367,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3m7"
+    },
+    {
+      "id": "uu80161081",
+      "mag": 0.86,
+      "place": "15 km NE of Milford, Utah",
+      "time": "2026-10-20T14:12:14.170000+00:00",
+      "lat": 38.5131666666667,
+      "lon": -112.909666666667,
+      "depth_km": 3.28,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161081"
     },
     {
       "id": "nc75452526",
@@ -755,12 +1139,12 @@
     },
     {
       "id": "nn00926001",
-      "mag": 2.25,
-      "place": "82 km SSW of Eureka, Nevada",
-      "time": "2026-10-20T14:08:31.806000+00:00",
-      "lat": 38.7932,
-      "lon": -116.1836,
-      "depth_km": 8.1415,
+      "mag": 1.54,
+      "place": "78 km S of Eureka, Nevada",
+      "time": "2026-10-20T14:08:30.112000+00:00",
+      "lat": 38.8049,
+      "lon": -116.0368,
+      "depth_km": 1.5666,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926001"
@@ -814,6 +1198,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75061331"
     },
     {
+      "id": "us6000u3lx",
+      "mag": 4.5,
+      "place": "142 km SSW of Abepura, Indonesia",
+      "time": "2026-10-20T13:27:24.320000+00:00",
+      "lat": -3.7134,
+      "lon": 139.9987,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3lx"
+    },
+    {
       "id": "ci41349719",
       "mag": 0.8,
       "place": "11 km NE of Julian, CA",
@@ -826,6 +1222,42 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349719"
     },
     {
+      "id": "uu80161076",
+      "mag": 0.97,
+      "place": "13 km NNE of Beaver, Utah",
+      "time": "2026-10-20T13:23:17.600000+00:00",
+      "lat": 38.3961666666667,
+      "lon": -112.599666666667,
+      "depth_km": 3.58,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161076"
+    },
+    {
+      "id": "uu80161071",
+      "mag": 1.81,
+      "place": "15 km NE of Milford, Utah",
+      "time": "2026-10-20T13:22:04.920000+00:00",
+      "lat": 38.5106666666667,
+      "lon": -112.907333333333,
+      "depth_km": 2.89,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161071"
+    },
+    {
+      "id": "uw714122312",
+      "mag": 1.31,
+      "place": "2 km ENE of Southworth, Washington",
+      "time": "2026-10-20T13:15:19.230000+00:00",
+      "lat": 47.5238333333333,
+      "lon": -122.473666666667,
+      "depth_km": 27.85,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714122312"
+    },
+    {
       "id": "ci41349711",
       "mag": 1.18,
       "place": "6 km NW of Pine Valley, CA",
@@ -836,6 +1268,30 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349711"
+    },
+    {
+      "id": "tx2026uraaij",
+      "mag": 2.3,
+      "place": "16 km SSW of Jal, New Mexico",
+      "time": "2026-10-20T13:04:25.593000+00:00",
+      "lat": 31.986,
+      "lon": -103.288,
+      "depth_km": 6.0999,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uraaij"
+    },
+    {
+      "id": "tx2026uqzncp",
+      "mag": 2.5,
+      "place": "15 km SSW of Jal, New Mexico",
+      "time": "2026-10-20T12:48:26.842000+00:00",
+      "lat": 31.991,
+      "lon": -103.282,
+      "depth_km": 6.4716,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uqzncp"
     },
     {
       "id": "uu80161066",
@@ -872,6 +1328,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uqyqxq"
+    },
+    {
+      "id": "uw714122292",
+      "mag": 0.43,
+      "place": "3 km S of Quilcene, Washington",
+      "time": "2026-10-20T12:09:45.620000+00:00",
+      "lat": 47.7928333333333,
+      "lon": -122.883666666667,
+      "depth_km": 21.28,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714122292"
     },
     {
       "id": "nn00925999",
@@ -958,6 +1426,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452466"
     },
     {
+      "id": "uu80161056",
+      "mag": 1.03,
+      "place": "16 km NE of Milford, Utah",
+      "time": "2026-10-20T11:07:57.880000+00:00",
+      "lat": 38.5116666666667,
+      "lon": -112.898333333333,
+      "depth_km": 3.04,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161056"
+    },
+    {
       "id": "ci41349679",
       "mag": 1.01,
       "place": "5 km NW of Pine Valley, CA",
@@ -1018,16 +1498,16 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161041"
     },
     {
-      "id": "us6000u3la",
+      "id": "tx2026uqtkvl",
       "mag": 2.5,
-      "place": "44 km NW of Toyah, Texas",
-      "time": "2026-10-20T09:44:42.476000+00:00",
-      "lat": 31.6076,
-      "lon": -104.1102,
-      "depth_km": 9.541,
+      "place": "45 km NW of Toyah, Texas",
+      "time": "2026-10-20T09:44:42.319000+00:00",
+      "lat": 31.615,
+      "lon": -104.114,
+      "depth_km": 6.1127,
       "tsunami": false,
       "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3la"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uqtkvl"
     },
     {
       "id": "ci41349663",
@@ -1726,6 +2206,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uqipsf"
     },
     {
+      "id": "hv75061151",
+      "mag": 2.06,
+      "place": "27 km E of Honaunau-Napoopoo, Hawaii",
+      "time": "2026-10-20T04:16:13.500000+00:00",
+      "lat": 19.4208333333333,
+      "lon": -155.6095,
+      "depth_km": -1,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75061151"
+    },
+    {
       "id": "aka2026utqsuj",
       "mag": 1.9,
       "place": "3 km ENE of Anchor Point, Alaska",
@@ -1736,6 +2228,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026utqsuj"
+    },
+    {
+      "id": "uw714122242",
+      "mag": 0.18,
+      "place": "34 km W of Forks, Washington",
+      "time": "2026-10-20T04:01:51.530000+00:00",
+      "lat": 47.9215,
+      "lon": -124.845833333333,
+      "depth_km": 4.2,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714122242"
     },
     {
       "id": "nc75452366",
@@ -1846,6 +2350,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3jd"
     },
     {
+      "id": "tx2026uqfqif",
+      "mag": 1.4,
+      "place": "17 km SW of Jal, New Mexico",
+      "time": "2026-10-20T02:48:45.113000+00:00",
+      "lat": 31.984,
+      "lon": -103.296,
+      "depth_km": 5.8435,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uqfqif"
+    },
+    {
       "id": "tx2026uqffke",
       "mag": 1.9,
       "place": "17 km ESE of Pearsall, Texas",
@@ -1904,6 +2420,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026utmkfr"
+    },
+    {
+      "id": "uu80161016",
+      "mag": 1.1,
+      "place": "15 km NE of Milford, Utah",
+      "time": "2026-10-20T01:58:07.330000+00:00",
+      "lat": 38.49,
+      "lon": -112.882,
+      "depth_km": 1.25,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161016"
     },
     {
       "id": "ci41349575",
@@ -2220,14 +2748,26 @@
     {
       "id": "uw714122182",
       "mag": 1.62,
-      "place": "4 km NNW of Venersborg, Washington",
-      "time": "2026-10-19T23:25:28.380000+00:00",
-      "lat": 45.8083333333333,
-      "lon": -122.457166666667,
-      "depth_km": 1.58,
+      "place": "4 km E of Lewisville, Washington",
+      "time": "2026-10-19T23:25:28.320000+00:00",
+      "lat": 45.8116666666667,
+      "lon": -122.4615,
+      "depth_km": -0.79,
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714122182"
+    },
+    {
+      "id": "uu80161006",
+      "mag": 1.78,
+      "place": "15 km NE of Milford, Utah",
+      "time": "2026-10-19T23:22:45.070000+00:00",
+      "lat": 38.4901666666667,
+      "lon": -112.881666666667,
+      "depth_km": -0.02,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161006"
     },
     {
       "id": "aka2026uthdkl",
@@ -2312,6 +2852,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349527"
+    },
+    {
+      "id": "uw714122162",
+      "mag": 1.25,
+      "place": "7 km NE of Fall City, Washington",
+      "time": "2026-10-19T22:53:47.290000+00:00",
+      "lat": 47.615,
+      "lon": -121.826666666667,
+      "depth_km": 16.93,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714122162"
     },
     {
       "id": "av94457638",
@@ -2530,6 +3082,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71537288"
     },
     {
+      "id": "uu80161001",
+      "mag": 1.78,
+      "place": "15 km NE of Milford, Utah",
+      "time": "2026-10-19T21:15:00.800000+00:00",
+      "lat": 38.5148333333333,
+      "lon": -112.907166666667,
+      "depth_km": 3.11,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161001"
+    },
+    {
       "id": "aka2026utctzh",
       "mag": 2.8,
       "place": "39 km S of Tolsona, Alaska",
@@ -2564,6 +3128,18 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349471"
+    },
+    {
+      "id": "uu80160996",
+      "mag": 2.09,
+      "place": "16 km NNE of Milford, Utah",
+      "time": "2026-10-19T21:05:32.050000+00:00",
+      "lat": 38.5206666666667,
+      "lon": -112.912,
+      "depth_km": 1.96,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80160996"
     },
     {
       "id": "aka2026utcksn",
@@ -2638,6 +3214,18 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452221"
     },
     {
+      "id": "uu80008218",
+      "mag": 1.29,
+      "place": "17 km WSW of Levan, Utah",
+      "time": "2026-10-19T20:34:54.730000+00:00",
+      "lat": 39.5046666666667,
+      "lon": -112.053,
+      "depth_km": 0.69,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80008218"
+    },
+    {
       "id": "tx2026upsmdf",
       "mag": 1.8,
       "place": "19 km WSW of Charlotte, Texas",
@@ -2708,510 +3296,6 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uprevb"
-    },
-    {
-      "id": "us6000u3gm",
-      "mag": 4.3,
-      "place": "248 km SW of Tambolaka, Indonesia",
-      "time": "2026-10-19T19:16:50.241000+00:00",
-      "lat": -11.2335,
-      "lon": 117.885,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3gm"
-    },
-    {
-      "id": "us6000u3ge",
-      "mag": 5.7,
-      "place": "203 km WNW of Port-Olry, Vanuatu",
-      "time": "2026-10-19T18:55:37.471000+00:00",
-      "lat": -14.0266,
-      "lon": 165.4974,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": "green",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ge"
-    },
-    {
-      "id": "us6000u3ga",
-      "mag": 5.7,
-      "place": "198 km NW of Port-Olry, Vanuatu",
-      "time": "2026-10-19T18:52:36.659000+00:00",
-      "lat": -14.0371,
-      "lon": 165.5508,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": "green",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ga"
-    },
-    {
-      "id": "uw714121992",
-      "mag": 1.74,
-      "place": "5 km SSE of Monroe, Oregon",
-      "time": "2026-10-19T18:33:24.320000+00:00",
-      "lat": 44.2646666666667,
-      "lon": -123.275666666667,
-      "depth_km": -0.33,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714121992"
-    },
-    {
-      "id": "us6000u3g6",
-      "mag": 4.8,
-      "place": "88 km WNW of Hihifo, Tonga",
-      "time": "2026-10-19T18:27:46.554000+00:00",
-      "lat": -15.6727,
-      "lon": -174.5697,
-      "depth_km": 156.799,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3g6"
-    },
-    {
-      "id": "aka2026usxgtp",
-      "mag": 0.7,
-      "place": "62 km ENE of Pedro Bay, Alaska",
-      "time": "2026-10-19T18:26:28.177000+00:00",
-      "lat": 60.059,
-      "lon": -153.132,
-      "depth_km": 5,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026usxgtp"
-    },
-    {
-      "id": "tx2026upoxoa",
-      "mag": 2.7,
-      "place": "16 km SSW of Jal, New Mexico",
-      "time": "2026-10-19T18:24:08.267000+00:00",
-      "lat": 31.987,
-      "lon": -103.29,
-      "depth_km": 6.5613,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026upoxoa"
-    },
-    {
-      "id": "av94457308",
-      "mag": -0.9,
-      "place": "61 km ENE of Pedro Bay, Alaska",
-      "time": "2026-10-19T18:23:33.840000+00:00",
-      "lat": 60.0161666666667,
-      "lon": -153.101,
-      "depth_km": -0.96,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94457308"
-    },
-    {
-      "id": "aka2026uswzye",
-      "mag": 1.6,
-      "place": "44 km WNW of Valdez, Alaska",
-      "time": "2026-10-19T18:18:36.670000+00:00",
-      "lat": 61.23,
-      "lon": -147.144,
-      "depth_km": 15.7,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uswzye"
-    },
-    {
-      "id": "tx2026upooxm",
-      "mag": 2.3,
-      "place": "17 km SW of Jal, New Mexico",
-      "time": "2026-10-19T18:14:10.754000+00:00",
-      "lat": 31.981,
-      "lon": -103.301,
-      "depth_km": 6.3434,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026upooxm"
-    },
-    {
-      "id": "tx2026upolzm",
-      "mag": 2.8,
-      "place": "17 km SW of Jal, New Mexico",
-      "time": "2026-10-19T18:11:05.285000+00:00",
-      "lat": 31.981,
-      "lon": -103.299,
-      "depth_km": 7.6892,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026upolzm"
-    },
-    {
-      "id": "ok2026unbi",
-      "mag": 1.35,
-      "place": "3 km S of Owasso, Oklahoma",
-      "time": "2026-10-19T18:09:03.450000+00:00",
-      "lat": 36.237,
-      "lon": -95.86183333,
-      "depth_km": 0,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026unbi"
-    },
-    {
-      "id": "ci41349399",
-      "mag": 0.72,
-      "place": "9 km WNW of Anza, CA",
-      "time": "2026-10-19T17:52:35.490000+00:00",
-      "lat": 33.5813333333333,
-      "lon": -116.761333333333,
-      "depth_km": 11.81,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349399"
-    },
-    {
-      "id": "aka2026usvzyw",
-      "mag": 2.1,
-      "place": "63 km WNW of Aleneva, Alaska",
-      "time": "2026-10-19T17:48:39.980000+00:00",
-      "lat": 58.364,
-      "lon": -153.818,
-      "depth_km": 71.5,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026usvzyw"
-    },
-    {
-      "id": "uw714121982",
-      "mag": 0.5,
-      "place": "15 km SSE of Carbonado, Washington",
-      "time": "2026-10-19T17:46:26.890000+00:00",
-      "lat": 46.9416666666667,
-      "lon": -122.004166666667,
-      "depth_km": 8.2,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714121982"
-    },
-    {
-      "id": "us6000u3ft",
-      "mag": 5.1,
-      "place": "South Sandwich Islands region",
-      "time": "2026-10-19T17:45:50.479000+00:00",
-      "lat": -56.3542,
-      "lon": -27.0851,
-      "depth_km": 101.462,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ft"
-    },
-    {
-      "id": "ci41349383",
-      "mag": 0.58,
-      "place": "7 km N of Lake Henshaw, CA",
-      "time": "2026-10-19T17:32:51.380000+00:00",
-      "lat": 33.3021666666667,
-      "lon": -116.761666666667,
-      "depth_km": 12.02,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349383"
-    },
-    {
-      "id": "aka2026usvked",
-      "mag": 1.9,
-      "place": "66 km WNW of Happy Valley, Alaska",
-      "time": "2026-10-19T17:32:31.819000+00:00",
-      "lat": 60.075,
-      "lon": -152.903,
-      "depth_km": 116.5,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026usvked"
-    },
-    {
-      "id": "us6000u3fl",
-      "mag": 3.3,
-      "place": "23 km SSW of Lovington, New Mexico",
-      "time": "2026-10-19T17:25:28.209000+00:00",
-      "lat": 32.759,
-      "lon": -103.4715,
-      "depth_km": 6.52,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3fl"
-    },
-    {
-      "id": "av94457228",
-      "mag": -0.4,
-      "place": "60 km ENE of Pedro Bay, Alaska",
-      "time": "2026-10-19T17:21:27.300000+00:00",
-      "lat": 59.9226666666667,
-      "lon": -153.060666666667,
-      "depth_km": 9.37,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94457228"
-    },
-    {
-      "id": "us6000u3fm",
-      "mag": 4.4,
-      "place": "147 km ENE of Lospalos, Timor Leste",
-      "time": "2026-10-19T17:20:55.008000+00:00",
-      "lat": -7.9636,
-      "lon": 128.2132,
-      "depth_km": 41.455,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3fm"
-    },
-    {
-      "id": "nn00925960",
-      "mag": 1.67,
-      "place": "13 km ESE of Fernley, Nevada",
-      "time": "2026-10-19T17:12:03.375000+00:00",
-      "lat": 39.5827,
-      "lon": -119.0992,
-      "depth_km": 11.5628,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925960"
-    },
-    {
-      "id": "tx2026upmkhq",
-      "mag": 2.4,
-      "place": "17 km SW of Jal, New Mexico",
-      "time": "2026-10-19T17:08:29.600000+00:00",
-      "lat": 31.981,
-      "lon": -103.301,
-      "depth_km": 6.369,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026upmkhq"
-    },
-    {
-      "id": "aka2026usurdb",
-      "mag": 2,
-      "place": "58 km SSE of Kokhanok, Alaska",
-      "time": "2026-10-19T17:08:23.773000+00:00",
-      "lat": 58.944,
-      "lon": -154.457,
-      "depth_km": 124.3,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026usurdb"
-    },
-    {
-      "id": "ci41349359",
-      "mag": 1.06,
-      "place": "10 km NNE of Banning, CA",
-      "time": "2026-10-19T16:37:43.460000+00:00",
-      "lat": 34.008,
-      "lon": -116.839666666667,
-      "depth_km": 17.06,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349359"
-    },
-    {
-      "id": "nm60628666",
-      "mag": 1.94,
-      "place": "13 km W of Trimble, Tennessee",
-      "time": "2026-10-19T16:37:05.510000+00:00",
-      "lat": 36.2146666666667,
-      "lon": -89.3358333333333,
-      "depth_km": 4.86,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60628666"
-    },
-    {
-      "id": "ok2026umyh",
-      "mag": 1.69,
-      "place": "4 km WNW of Ratliff City, Oklahoma",
-      "time": "2026-10-19T16:36:56.979000+00:00",
-      "lat": 34.46933333,
-      "lon": -97.55616667,
-      "depth_km": 3.9,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026umyh"
-    },
-    {
-      "id": "nc75452166",
-      "mag": 1.14,
-      "place": "3 km W of Cobb, CA",
-      "time": "2026-10-19T16:30:30.570000+00:00",
-      "lat": 38.8250007629395,
-      "lon": -122.760665893555,
-      "depth_km": 1.73000001907349,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452166"
-    },
-    {
-      "id": "us6000u3de",
-      "mag": 4.2,
-      "place": "Rat Islands, Aleutian Islands, Alaska",
-      "time": "2026-10-19T16:27:45.503000+00:00",
-      "lat": 51.5183,
-      "lon": 178.3686,
-      "depth_km": 52.174,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3de"
-    },
-    {
-      "id": "us6000u3db",
-      "mag": 4.6,
-      "place": "south of the Fiji Islands",
-      "time": "2026-10-19T16:13:53.665000+00:00",
-      "lat": -23.5497,
-      "lon": 179.8713,
-      "depth_km": 536.111,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3db"
-    },
-    {
-      "id": "nc75452156",
-      "mag": 1.9,
-      "place": "23 km W of Petrolia, CA",
-      "time": "2026-10-19T16:13:37.540000+00:00",
-      "lat": 40.3026657104492,
-      "lon": -124.559501647949,
-      "depth_km": 9.55000019073486,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452156"
-    },
-    {
-      "id": "ok2026umxm",
-      "mag": 1.16,
-      "place": "15 km NNE of Morrison, Oklahoma",
-      "time": "2026-10-19T16:12:47.520000+00:00",
-      "lat": 36.42866667,
-      "lon": -96.94316667,
-      "depth_km": 6.7,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026umxm"
-    },
-    {
-      "id": "nc75452151",
-      "mag": 1.21,
-      "place": "7 km WNW of Cobb, CA",
-      "time": "2026-10-19T16:10:11.740000+00:00",
-      "lat": 38.8348350524902,
-      "lon": -122.797500610352,
-      "depth_km": 2.14000010490417,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452151"
-    },
-    {
-      "id": "uu80160971",
-      "mag": 1.9,
-      "place": "17 km WSW of Levan, Utah",
-      "time": "2026-10-19T16:10:03.920000+00:00",
-      "lat": 39.5148333333333,
-      "lon": -112.054166666667,
-      "depth_km": 0.66,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80160971"
-    },
-    {
-      "id": "av94457133",
-      "mag": -1.26,
-      "place": "61 km ENE of Pedro Bay, Alaska",
-      "time": "2026-10-19T16:06:29.650000+00:00",
-      "lat": 59.9978333333333,
-      "lon": -153.099666666667,
-      "depth_km": 1.66,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94457133"
-    },
-    {
-      "id": "aka2026usrrwp",
-      "mag": 2.2,
-      "place": "57 km SSW of Cantwell, Alaska",
-      "time": "2026-10-19T15:39:23.236000+00:00",
-      "lat": 62.915,
-      "lon": -149.382,
-      "depth_km": 62.3,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026usrrwp"
-    },
-    {
-      "id": "us6000u3d2",
-      "mag": 4.9,
-      "place": "77 km WSW of Murghob, Tajikistan",
-      "time": "2026-10-19T15:35:36.914000+00:00",
-      "lat": 37.838,
-      "lon": 73.1842,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3d2"
-    },
-    {
-      "id": "hv75060826",
-      "mag": 2.29,
-      "place": "2 km SW of Pāhala, Hawaii",
-      "time": "2026-10-19T15:32:57.540000+00:00",
-      "lat": 19.1881675720215,
-      "lon": -155.499664306641,
-      "depth_km": 29.9599990844727,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75060826"
-    },
-    {
-      "id": "aka2026usrjsf",
-      "mag": 1.4,
-      "place": "27 km ENE of Salcha, Alaska",
-      "time": "2026-10-19T15:29:56.902000+00:00",
-      "lat": 64.635,
-      "lon": -146.388,
-      "depth_km": 5.7,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026usrjsf"
-    },
-    {
-      "id": "av94457083",
-      "mag": -0.44,
-      "place": "11 km WNW of Dutch Harbor, Alaska",
-      "time": "2026-10-19T15:28:10.880000+00:00",
-      "lat": 53.929,
-      "lon": -166.7,
-      "depth_km": 4.56,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94457083"
-    },
-    {
-      "id": "ci41349343",
-      "mag": 1.34,
-      "place": "3 km SE of Loma Linda, CA",
-      "time": "2026-10-19T15:27:40.280000+00:00",
-      "lat": 34.0313333333333,
-      "lon": -117.236833333333,
-      "depth_km": 16.52,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349343"
-    },
-    {
-      "id": "ci41349335",
-      "mag": 1.3,
-      "place": "3 km SE of Loma Linda, CA",
-      "time": "2026-10-19T15:24:01.380000+00:00",
-      "lat": 34.0321666666667,
-      "lon": -117.234666666667,
-      "depth_km": 16.93,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349335"
     }
   ],
   "sources_ok": {
@@ -3220,21 +3304,141 @@
     "month": true
   },
   "us_weather_alerts": {
-    "active_count": 238,
+    "active_count": 253,
     "by_severity": {
-      "Minor": 91,
-      "Unknown": 2,
+      "Severe": 17,
       "Moderate": 138,
-      "Severe": 7
+      "Minor": 96,
+      "Unknown": 2
     },
     "top_alerts": [
       {
-        "id": "urn:oid:2.49.0.1.840.0.556d0c221c8330e8c73f2f6416edfeb78d7347a8.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.d5ff66c00a794be0a73cf2d2143f3be98551066e.001.2",
+        "event": "High Wind Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Haines Borough and Klukwan",
+        "headline": "High Wind Warning issued October 20 at 11:30AM AKDT until October 20 at 7:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-20T11:30:00-08:00",
+        "expires": "2026-10-20T19:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.d5ff66c00a794be0a73cf2d2143f3be98551066e.003.2",
+        "event": "High Wind Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "City and Borough of Sitka",
+        "headline": "High Wind Warning issued October 20 at 11:30AM AKDT until October 20 at 2:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-20T11:30:00-08:00",
+        "expires": "2026-10-20T14:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.d5ff66c00a794be0a73cf2d2143f3be98551066e.002.2",
+        "event": "High Wind Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Cape Fairweather to Lisianski Strait",
+        "headline": "High Wind Warning issued October 20 at 11:30AM AKDT until October 20 at 2:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-20T11:30:00-08:00",
+        "expires": "2026-10-20T14:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.7d87785117a5f603f13f438f0f71acf3ff0107df.002.1",
         "event": "Flood Watch",
         "severity": "Severe",
         "urgency": "Future",
-        "area": "Upper Gila River and Aravaipa Valleys including Clifton/Safford; White Mountains of Graham and Greenlee Counties including Hannagan Meadow; Galiuro and Pinaleno Mountains including Mount Graham",
-        "headline": "Flood Watch issued October 20 at 1:30AM MST until October 22 at 10:00PM MST by NWS Tucson AZ",
+        "area": "Malibu Coast; Western Santa Monica Mountains Recreational Area; Eastern Santa Monica Mountains Recreational Area",
+        "headline": "Flood Watch issued October 20 at 12:11PM PDT until October 22 at 4:00PM PDT by NWS Los Angeles/Oxnard CA",
+        "sent": "2026-10-20T12:11:00-07:00",
+        "expires": "2026-10-21T08:00:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.7d87785117a5f603f13f438f0f71acf3ff0107df.001.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Santa Ynez Valley; Santa Barbara County Southwestern Coast; Santa Barbara County Southeastern Coast; Santa Ynez Mountains Western Range; Santa Ynez Mountains Eastern Range; Santa Barbara County Interior Mountains",
+        "headline": "Flood Watch issued October 20 at 12:11PM PDT until October 22 at 4:00PM PDT by NWS Los Angeles/Oxnard CA",
+        "sent": "2026-10-20T12:11:00-07:00",
+        "expires": "2026-10-21T08:00:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.a6ccf4b4aef540660ed1c5b3c3850e47fd667828.001.1",
+        "event": "Special Marine Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Atlantic Waters of Puerto Rico AND USVI from 10 NM to 19.5N; Coastal Waters of Northern Puerto Rico out 10 NM",
+        "headline": "Special Marine Warning issued October 20 at 3:01PM AST until October 20 at 4:00PM AST by NWS San Juan PR",
+        "sent": "2026-10-20T15:01:00-04:00",
+        "expires": "2026-10-20T16:00:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.9ec79098186eb3f78ed80d83a6973b4c562fbb09.001.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Northwest Plateau; Chuska Mountains; Far Northwest Highlands; Northwest Highlands; West Central Plateau; West Central Mountains; West Central Highlands; Southwest Mountains; San Francisco River Valley; Tusas Mountains Including Chama; San Agustin Plains and Adjacent Lowlands",
+        "headline": "Flood Watch issued October 20 at 12:46PM MDT until October 23 at 6:00AM MDT by NWS Albuquerque NM",
+        "sent": "2026-10-20T12:46:00-06:00",
+        "expires": "2026-10-21T02:15:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.24c9bbff958c164eaafa5d0cae63a9e86417d628.001.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Upper Rio Grande Valley/Eastern San Juan Mountains Below 10000 Ft; Eastern San Juan Mountains Above 10000 Ft",
+        "headline": "Flood Watch issued October 20 at 12:10PM MDT until October 23 at 6:00PM MDT by NWS Pueblo CO",
+        "sent": "2026-10-20T12:10:00-06:00",
+        "expires": "2026-10-20T20:15:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.b9ceefaf3efe717e54dcd6d8fa6fa5c5c0319cea.001.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Central Mountains; Lower Washington County; Zion National Park; Southern Mountains; Upper Sevier River Valleys; Bryce Canyon Country; South Central Utah; Capitol Reef National Park and Vicinity; Western Canyonlands; Glen Canyon Recreation Area/Lake Powell",
+        "headline": "Flood Watch issued October 20 at 11:29AM MDT until October 23 at 12:00AM MDT by NWS Salt Lake City UT",
+        "sent": "2026-10-20T11:29:00-06:00",
+        "expires": "2026-10-21T00:00:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.b9ceefaf3efe717e54dcd6d8fa6fa5c5c0319cea.002.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Castle Country; San Rafael Swell",
+        "headline": "Flood Watch issued October 20 at 11:29AM MDT until October 23 at 12:00AM MDT by NWS Salt Lake City UT",
+        "sent": "2026-10-20T11:29:00-06:00",
+        "expires": "2026-10-21T00:00:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.8363fc98c172b6fa12bc0c247b7fe914cd6740e7.001.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Southwest San Juan Mountains; Four Corners/Upper Dolores River; Animas River Basin; San Juan River Basin; Southeast Utah; Arches/Grand Flat; La Sal and Abajo Mountains; Canyonlands/Natural Bridges",
+        "headline": "Flood Watch issued October 20 at 11:13AM MDT until October 23 at 12:00PM MDT by NWS Grand Junction CO",
+        "sent": "2026-10-20T11:13:00-06:00",
+        "expires": "2026-10-21T00:00:00-06:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.c8a8be47c0ae040cdf0ca46d2876b2967741274d.001.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Northwest Plateau",
+        "headline": "Flood Watch issued October 20 at 9:17AM PDT until October 22 at 5:00PM PDT by NWS Las Vegas NV",
+        "sent": "2026-10-20T09:17:00-07:00",
+        "expires": "2026-10-21T05:15:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.556d0c221c8330e8c73f2f6416edfeb78d7347a8.003.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "South Central Pinal County including Eloy/Picacho Peak State Park",
+        "headline": "Flood Watch issued October 20 at 1:30AM MST until October 22 at 5:00PM MST by NWS Tucson AZ",
         "sent": "2026-10-20T01:30:00-07:00",
         "expires": "2026-10-20T17:00:00-07:00"
       },
@@ -3249,12 +3453,12 @@
         "expires": "2026-10-20T17:00:00-07:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.556d0c221c8330e8c73f2f6416edfeb78d7347a8.003.1",
+        "id": "urn:oid:2.49.0.1.840.0.556d0c221c8330e8c73f2f6416edfeb78d7347a8.001.1",
         "event": "Flood Watch",
         "severity": "Severe",
         "urgency": "Future",
-        "area": "South Central Pinal County including Eloy/Picacho Peak State Park",
-        "headline": "Flood Watch issued October 20 at 1:30AM MST until October 22 at 5:00PM MST by NWS Tucson AZ",
+        "area": "Upper Gila River and Aravaipa Valleys including Clifton/Safford; White Mountains of Graham and Greenlee Counties including Hannagan Meadow; Galiuro and Pinaleno Mountains including Mount Graham",
+        "headline": "Flood Watch issued October 20 at 1:30AM MST until October 22 at 10:00PM MST by NWS Tucson AZ",
         "sent": "2026-10-20T01:30:00-07:00",
         "expires": "2026-10-20T17:00:00-07:00"
       },
@@ -3269,26 +3473,6 @@
         "expires": "2026-10-21T06:00:00-07:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.6e93f7e4c535dd27f16fd41e4e9184460785d1c3.001.1",
-        "event": "Flood Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "New River Mesa; Rio Verde/Salt River; Superior; Tonto Basin; Mazatzal Mountains; Pinal/Superstition Mountains; San Carlos; Dripping Springs; Globe/Miami; Southeast Gila County",
-        "headline": "Flood Watch issued October 20 at 12:04AM MST until October 22 at 11:00PM MST by NWS Phoenix AZ",
-        "sent": "2026-10-20T00:04:00-07:00",
-        "expires": "2026-10-20T14:00:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.6e93f7e4c535dd27f16fd41e4e9184460785d1c3.002.1",
-        "event": "Flood Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Aguila Valley; Northwest Valley; Tonopah Desert; Buckeye/Avondale; Cave Creek/New River; Deer Valley; Central Phoenix; North Phoenix/Glendale; Scottsdale/Paradise Valley; East Valley; Fountain Hills/East Mesa; South Mountain/Ahwatukee; Southeast Valley/Queen Creek; Northwest Pinal County; West Pinal County; Apache Junction/Gold Canyon",
-        "headline": "Flood Watch issued October 20 at 12:04AM MST until October 22 at 5:00PM MST by NWS Phoenix AZ",
-        "sent": "2026-10-20T00:04:00-07:00",
-        "expires": "2026-10-20T14:00:00-07:00"
-      },
-      {
         "id": "urn:oid:2.49.0.1.840.0.d713d7beae227be88ab31f00e1d5b3d7c1d962ce.003.1",
         "event": "Storm Warning",
         "severity": "Severe",
@@ -3299,14 +3483,64 @@
         "expires": "2026-10-19T16:15:00-08:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.f85311ad19b6976ae02a1d174d99692f3268087a.003.1",
+        "id": "urn:oid:2.49.0.1.840.0.6c9e9948f61f44ec87f4cddef8a6c44ecc89c714.001.1",
+        "event": "Special Weather Statement",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Municipality of Skagway; Haines Borough and Klukwan",
+        "headline": "Special Weather Statement issued October 20 at 11:25AM AKDT by NWS Juneau AK",
+        "sent": "2026-10-20T11:25:00-08:00",
+        "expires": "2026-10-20T13:00:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.6101908649987c22e814cd7a23b607acf377413d.001.1",
+        "event": "Special Weather Statement",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Orange; Washington; Scott; Jefferson; Crawford; Perry; Harrison; Floyd; Clark; Breckinridge; Meade; Grayson; Hardin; Bullitt; Jefferson; Oldham; Trimble; Henry; Shelby; Franklin; Scott; Harrison; Spencer; Anderson; Woodford; Fayette; Bourbon; Nicholas; Nelson; Washington; Mercer; Jessamine; Clark; Larue; Marion; Boyle; Garrard; Madison; Edmonson; Hart; Green; Taylor; Casey; Lincoln; Barren; Monroe; Metcalfe; Adair; Russell; Cumberland; Clinton",
+        "headline": "Special Weather Statement issued October 20 at 3:21PM EDT by NWS Louisville KY",
+        "sent": "2026-10-20T15:21:00-04:00",
+        "expires": "2026-10-21T05:00:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.5308f5be1e852c4306a0af77b6d1c5cfe1b99694.001.1",
+        "event": "Special Weather Statement",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "San Juan and Vicinity; North Central",
+        "headline": "Special Weather Statement issued October 20 at 2:40PM AST by NWS San Juan PR",
+        "sent": "2026-10-20T14:40:00-04:00",
+        "expires": "2026-10-20T15:45:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.c3d6bc17838b9a80dcd5cc918752cfe0ade54af5.001.1",
+        "event": "Wind Advisory",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Northern Outer Banks; Ocracoke Island; Hatteras Island",
+        "headline": "Wind Advisory issued October 20 at 2:31PM EDT until October 21 at 12:00AM EDT by NWS Newport/Morehead City NC",
+        "sent": "2026-10-20T14:31:00-04:00",
+        "expires": "2026-10-21T00:00:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.2cd7f81869c4ed3b960054948bbee418b7b54622.001.1",
+        "event": "Special Weather Statement",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Rabun; Habersham; Stephens; Franklin; Hart; Elbert",
+        "headline": "Special Weather Statement issued October 20 at 12:23PM EDT by NWS Greenville-Spartanburg SC",
+        "sent": "2026-10-20T12:23:00-04:00",
+        "expires": "2026-10-20T19:00:00-04:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.d5dd17f12c11f45035acb201fef9b80187e3000a.003.1",
         "event": "Gale Warning",
         "severity": "Moderate",
         "urgency": "Expected",
-        "area": "Gulf of Alaska South of 57 Degrees North and East of 144 W",
-        "headline": "Gale Warning issued October 20 at 4:13AM AKDT until October 20 at 5:00PM AKDT by NWS Juneau AK",
+        "area": "Northern Lynn Canal",
+        "headline": "Gale Warning issued October 20 at 4:13AM AKDT until October 21 at 5:00PM AKDT by NWS Juneau AK",
         "sent": "2026-10-20T04:13:00-08:00",
-        "expires": "2026-10-20T22:15:00-08:00"
+        "expires": "2026-10-20T18:45:00-08:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.f85311ad19b6976ae02a1d174d99692f3268087a.002.1",
@@ -3314,6 +3548,16 @@
         "severity": "Moderate",
         "urgency": "Expected",
         "area": "Gulf of Alaska North of 57 Degrees North and East of 144 W",
+        "headline": "Gale Warning issued October 20 at 4:13AM AKDT until October 20 at 5:00PM AKDT by NWS Juneau AK",
+        "sent": "2026-10-20T04:13:00-08:00",
+        "expires": "2026-10-20T22:15:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.f85311ad19b6976ae02a1d174d99692f3268087a.003.1",
+        "event": "Gale Warning",
+        "severity": "Moderate",
+        "urgency": "Expected",
+        "area": "Gulf of Alaska South of 57 Degrees North and East of 144 W",
         "headline": "Gale Warning issued October 20 at 4:13AM AKDT until October 20 at 5:00PM AKDT by NWS Juneau AK",
         "sent": "2026-10-20T04:13:00-08:00",
         "expires": "2026-10-20T22:15:00-08:00"
@@ -3327,26 +3571,6 @@
         "headline": "Gale Warning issued October 20 at 4:13AM AKDT until October 21 at 5:00AM AKDT by NWS Juneau AK",
         "sent": "2026-10-20T04:13:00-08:00",
         "expires": "2026-10-20T18:45:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.d5dd17f12c11f45035acb201fef9b80187e3000a.003.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Northern Lynn Canal",
-        "headline": "Gale Warning issued October 20 at 4:13AM AKDT until October 21 at 5:00PM AKDT by NWS Juneau AK",
-        "sent": "2026-10-20T04:13:00-08:00",
-        "expires": "2026-10-20T18:45:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.54dff5df470345da66d236d626f995761af7f0b2.001.1",
-        "event": "Special Weather Statement",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "East Turnagain Arm; Portage; Interior Kenai Peninsula; Turnagain Pass",
-        "headline": "Special Weather Statement issued October 20 at 3:55AM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:55:00-08:00",
-        "expires": "2026-10-20T10:00:00-08:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.fa49ef4c9b2d4a5095f5e7529bbcbac55e2c7316.002.1",
@@ -3369,36 +3593,6 @@
         "expires": "2026-10-20T16:15:00-08:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.f2b729492f6db34f08c6e3ae5ed9a0947a99a7a6.001.1",
-        "event": "Special Weather Statement",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Municipality of Skagway; Haines Borough and Klukwan",
-        "headline": "Special Weather Statement issued October 20 at 3:18AM AKDT by NWS Juneau AK",
-        "sent": "2026-10-20T03:18:00-08:00",
-        "expires": "2026-10-20T11:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.aed9b9b3ed91a788f0b3a0b10594515e369a1f4e.001.1",
-        "event": "Wind Advisory",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Municipality of Skagway",
-        "headline": "Wind Advisory issued October 20 at 3:11AM AKDT until October 21 at 10:00AM AKDT by NWS Juneau AK",
-        "sent": "2026-10-20T03:11:00-08:00",
-        "expires": "2026-10-20T12:00:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.47e730bd863ea23e7e00c4573312a011238b1b78.002.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Gulf of Alaska Offshore North of 57N and West of 144W",
-        "headline": "Gale Warning issued October 20 at 3:01AM AKDT until October 20 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:01:00-08:00",
-        "expires": "2026-10-20T17:45:00-08:00"
-      },
-      {
         "id": "urn:oid:2.49.0.1.840.0.47e730bd863ea23e7e00c4573312a011238b1b78.003.1",
         "event": "Gale Warning",
         "severity": "Moderate",
@@ -3409,127 +3603,17 @@
         "expires": "2026-10-20T17:45:00-08:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.005.1",
+        "id": "urn:oid:2.49.0.1.840.0.47e730bd863ea23e7e00c4573312a011238b1b78.002.1",
         "event": "Gale Warning",
         "severity": "Moderate",
         "urgency": "Expected",
-        "area": "Cape Cleare to Gore Point out to 15 NM",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 20 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.006.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Cape Cleare to Gore Point from 15 to 75 NM",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 21 at 5:00AM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.018.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Marmot Island to Sitkinak out to 15 NM",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 20 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.015.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "West of Barren Islands Including Kamishak Bay",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 21 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.002.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Cape Suckling to Gravel Point out to 15 NM",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 20 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.004.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Cape Suckling to Cape Cleare from 15 to 75 NM",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 20 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.003.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Gravel Point to Cape Cleare out to 15 NM",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 20 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.016.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Barren Islands East",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 21 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.017.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Gore Point to Marmot Island from 15 to 80 NM",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 21 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7ee66b95870f39ad6e91e968b1131e6c4266999c.019.1",
-        "event": "Gale Warning",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Marmot Island To Sitkinak from 15 to 85 NM",
-        "headline": "Gale Warning issued October 20 at 3:00AM AKDT until October 21 at 5:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T03:00:00-08:00",
-        "expires": "2026-10-20T15:30:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.91d9bd4d7b72db083b6c52f9e2d65ce82325a2b9.001.1",
-        "event": "Dense Fog Advisory",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Southern Susitna Valley; Central Susitna Valley",
-        "headline": "Dense Fog Advisory issued October 20 at 2:52AM AKDT until October 20 at 10:00AM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T02:52:00-08:00",
-        "expires": "2026-10-20T10:00:00-08:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.fbe5abbd162e99cc9078c508ff28fb0a251bc6d3.002.1",
-        "event": "Winter Weather Advisory",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "area": "Central Copper Valley",
-        "headline": "Winter Weather Advisory issued October 20 at 2:48AM AKDT until October 20 at 10:00PM AKDT by NWS Anchorage AK",
-        "sent": "2026-10-20T02:48:00-08:00",
-        "expires": "2026-10-20T16:00:00-08:00"
+        "area": "Gulf of Alaska Offshore North of 57N and West of 144W",
+        "headline": "Gale Warning issued October 20 at 3:01AM AKDT until October 20 at 5:00PM AKDT by NWS Anchorage AK",
+        "sent": "2026-10-20T03:01:00-08:00",
+        "expires": "2026-10-20T17:45:00-08:00"
       }
     ],
     "unavailable": false
   },
-  "generated_at": "2026-10-20T15:19:54.366045+00:00"
+  "generated_at": "2026-10-20T19:32:28.999914+00:00"
 }
