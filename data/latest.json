@@ -1,7 +1,7 @@
 {
   "counts": {
-    "today": 202,
-    "week": 331
+    "today": 199,
+    "week": 332
   },
   "strongest_today": {
     "id": "us7000tupl",
@@ -27,11 +27,11 @@
     "alert": "green",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttxz"
   },
-  "avg_magnitude_today": 1.9,
+  "avg_magnitude_today": 1.93,
   "magnitude_distribution_week": {
     "<3": 90,
     "3-4": 52,
-    "4-5": 137,
+    "4-5": 138,
     "5-6": 47,
     "6-7": 5,
     "7+": 0
@@ -39,8 +39,8 @@
   "daily_trend_7d": [
     {
       "date": "2026-10-25",
-      "count": 9,
-      "max_magnitude": 5.3
+      "count": 1,
+      "max_magnitude": 4.3
     },
     {
       "date": "2026-10-26",
@@ -64,7 +64,7 @@
     },
     {
       "date": "2026-10-30",
-      "count": 41,
+      "count": 43,
       "max_magnitude": 5.1
     },
     {
@@ -74,11 +74,83 @@
     },
     {
       "date": "2026-11-01",
-      "count": 36,
+      "count": 43,
       "max_magnitude": 6
     }
   ],
   "significant_recent": [
+    {
+      "id": "us7000turv",
+      "mag": 4.6,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-11-01T22:22:44.414000+00:00",
+      "lat": -35.403,
+      "lon": 78.404,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000turv"
+    },
+    {
+      "id": "us7000turj",
+      "mag": 4.7,
+      "place": "Kermadec Islands region",
+      "time": "2026-11-01T21:26:57.524000+00:00",
+      "lat": -27.291,
+      "lon": -177.8708,
+      "depth_km": 150.95,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000turj"
+    },
+    {
+      "id": "us7000tur0",
+      "mag": 4.8,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-11-01T18:53:57.590000+00:00",
+      "lat": -35.441,
+      "lon": 78.4169,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tur0"
+    },
+    {
+      "id": "us7000tuqy",
+      "mag": 4.6,
+      "place": "101 km SW of Basco, Philippines",
+      "time": "2026-11-01T18:42:57.023000+00:00",
+      "lat": 19.7626,
+      "lon": 121.328,
+      "depth_km": 38.488,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqy"
+    },
+    {
+      "id": "us7000tuqx",
+      "mag": 5,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-11-01T18:34:39.200000+00:00",
+      "lat": -23.8735,
+      "lon": 69.5217,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqx"
+    },
+    {
+      "id": "us7000tuqv",
+      "mag": 4.6,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-11-01T18:30:23.197000+00:00",
+      "lat": -23.9496,
+      "lon": 69.5065,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqv"
+    },
     {
       "id": "us7000tuqk",
       "mag": 5.1,
@@ -606,81 +678,381 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu3u"
-    },
-    {
-      "id": "us7000tu3j",
-      "mag": 5,
-      "place": "143 km S of False Pass, Alaska",
-      "time": "2026-10-29T20:14:32.548000+00:00",
-      "lat": 53.5843,
-      "lon": -163.0279,
-      "depth_km": 15.602,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu3j"
-    },
-    {
-      "id": "us7000tu2j",
-      "mag": 4.5,
-      "place": "141 km E of Miyako, Japan",
-      "time": "2026-10-29T17:37:01.805000+00:00",
-      "lat": 39.8625,
-      "lon": 143.5623,
-      "depth_km": 35,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu2j"
-    },
-    {
-      "id": "us7000ttyw",
-      "mag": 4.7,
-      "place": "6 km SE of Pitaloza Arriba, Panama",
-      "time": "2026-10-29T13:42:57.953000+00:00",
-      "lat": 7.5923,
-      "lon": -80.6309,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttyw"
-    },
-    {
-      "id": "us7000ttyk",
-      "mag": 4.6,
-      "place": "Pulau Pulau Tanimbar, Indonesia",
-      "time": "2026-10-29T11:38:24.162000+00:00",
-      "lat": -7.5288,
-      "lon": 130.0224,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttyk"
-    },
-    {
-      "id": "us7000ttyd",
-      "mag": 4.9,
-      "place": "111 km SW of Port-Vila, Vanuatu",
-      "time": "2026-10-29T10:33:22.424000+00:00",
-      "lat": -18.4979,
-      "lon": 167.6261,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttyd"
-    },
-    {
-      "id": "us7000tty7",
-      "mag": 5.1,
-      "place": "218 km NNW of Bamboo Flat, India",
-      "time": "2026-10-29T08:49:42.448000+00:00",
-      "lat": 13.3785,
-      "lon": 91.6593,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tty7"
     }
   ],
   "today_quakes": [
+    {
+      "id": "aka2026vrfvny",
+      "mag": 2,
+      "place": "12 km SE of Eureka Roadhouse, Alaska",
+      "time": "2026-11-01T22:34:58.754000+00:00",
+      "lat": 61.862,
+      "lon": -146.991,
+      "depth_km": 15.8,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vrfvny"
+    },
+    {
+      "id": "ci41570936",
+      "mag": 0.92,
+      "place": "11 km ENE of Coso Junction, CA",
+      "time": "2026-11-01T22:24:24.460000+00:00",
+      "lat": 36.0731666666667,
+      "lon": -117.8345,
+      "depth_km": 3.57,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570936"
+    },
+    {
+      "id": "us7000turv",
+      "mag": 4.6,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-11-01T22:22:44.414000+00:00",
+      "lat": -35.403,
+      "lon": 78.404,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000turv"
+    },
+    {
+      "id": "ci41570928",
+      "mag": 0.63,
+      "place": "10 km S of Idyllwild, CA",
+      "time": "2026-11-01T22:22:22.670000+00:00",
+      "lat": 33.6493333333333,
+      "lon": -116.720833333333,
+      "depth_km": 15.65,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570928"
+    },
+    {
+      "id": "ci41570920",
+      "mag": 0.71,
+      "place": "8 km NNE of Lake Henshaw, CA",
+      "time": "2026-11-01T22:14:00.790000+00:00",
+      "lat": 33.3055,
+      "lon": -116.734333333333,
+      "depth_km": 21.3,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570920"
+    },
+    {
+      "id": "ci41570912",
+      "mag": 1.31,
+      "place": "19 km SSE of Bodfish, CA",
+      "time": "2026-11-01T22:02:48.910000+00:00",
+      "lat": 35.4428333333333,
+      "lon": -118.389,
+      "depth_km": 3.2,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570912"
+    },
+    {
+      "id": "nc75461017",
+      "mag": 0.27,
+      "place": "7 km NW of The Geysers, CA",
+      "time": "2026-11-01T22:02:01.120000+00:00",
+      "lat": 38.8278350830078,
+      "lon": -122.807998657227,
+      "depth_km": -0.419999986886978,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461017"
+    },
+    {
+      "id": "aka2026vreqwe",
+      "mag": 1.8,
+      "place": "3 km WNW of Willow, Alaska",
+      "time": "2026-11-01T21:59:29.965000+00:00",
+      "lat": 61.757,
+      "lon": -150.109,
+      "depth_km": 5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vreqwe"
+    },
+    {
+      "id": "nc75461007",
+      "mag": 0.78,
+      "place": "3 km NW of The Geysers, CA",
+      "time": "2026-11-01T21:54:35.430000+00:00",
+      "lat": 38.798168182373,
+      "lon": -122.784332275391,
+      "depth_km": 3.88000011444092,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461007"
+    },
+    {
+      "id": "nn00926536",
+      "mag": 1.91,
+      "place": "84 km NE of Tonopah, Nevada",
+      "time": "2026-11-01T21:50:14.144000+00:00",
+      "lat": 38.5242,
+      "lon": -116.4575,
+      "depth_km": 0.0073,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926536"
+    },
+    {
+      "id": "ci41570904",
+      "mag": 0.89,
+      "place": "32 km NNE of Kernville, CA",
+      "time": "2026-11-01T21:41:13+00:00",
+      "lat": 36.0245,
+      "lon": -118.307166666667,
+      "depth_km": 2.24,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570904"
+    },
+    {
+      "id": "us7000turj",
+      "mag": 4.7,
+      "place": "Kermadec Islands region",
+      "time": "2026-11-01T21:26:57.524000+00:00",
+      "lat": -27.291,
+      "lon": -177.8708,
+      "depth_km": 150.95,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000turj"
+    },
+    {
+      "id": "aka2026vrcsbt",
+      "mag": 2.2,
+      "place": "29 km NNW of Susitna, Alaska",
+      "time": "2026-11-01T21:00:56.949000+00:00",
+      "lat": 61.798,
+      "lon": -150.685,
+      "depth_km": 68.1,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vrcsbt"
+    },
+    {
+      "id": "hv75067486",
+      "mag": 1.76,
+      "place": "13 km E of Pāhala, Hawaii",
+      "time": "2026-11-01T21:00:35.170000+00:00",
+      "lat": 19.1816673278809,
+      "lon": -155.356002807617,
+      "depth_km": 29,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75067486"
+    },
+    {
+      "id": "ci41570896",
+      "mag": 0.79,
+      "place": "19 km SW of La Quinta, CA",
+      "time": "2026-11-01T20:55:17.810000+00:00",
+      "lat": 33.534,
+      "lon": -116.4395,
+      "depth_km": 6.37,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570896"
+    },
+    {
+      "id": "aka2026vrcdzy",
+      "mag": 1.8,
+      "place": "59 km W of Anchor Point, Alaska",
+      "time": "2026-11-01T20:45:48.573000+00:00",
+      "lat": 59.838,
+      "lon": -152.891,
+      "depth_km": 103.7,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vrcdzy"
+    },
+    {
+      "id": "aka2026vrccap",
+      "mag": 2.3,
+      "place": "15 km WNW of Tatitlek, Alaska",
+      "time": "2026-11-01T20:42:25.674000+00:00",
+      "lat": 60.899,
+      "lon": -146.961,
+      "depth_km": 22.9,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vrccap"
+    },
+    {
+      "id": "hv75067461",
+      "mag": 0.83,
+      "place": "24 km WNW of Volcano, Hawaii",
+      "time": "2026-11-01T20:32:18.020000+00:00",
+      "lat": 19.5148333333333,
+      "lon": -155.4535,
+      "depth_km": 3.25,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75067461"
+    },
+    {
+      "id": "aka2026vrbhzh",
+      "mag": 2.2,
+      "place": "69 km S of Port Graham, Alaska",
+      "time": "2026-11-01T20:19:27.345000+00:00",
+      "lat": 58.728,
+      "lon": -151.979,
+      "depth_km": 41.5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vrbhzh"
+    },
+    {
+      "id": "aka2026vrataq",
+      "mag": 2.7,
+      "place": "7 km E of Ridgeway, Alaska",
+      "time": "2026-11-01T20:02:05.041000+00:00",
+      "lat": 60.54,
+      "lon": -150.953,
+      "depth_km": 52.2,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vrataq"
+    },
+    {
+      "id": "nc75460962",
+      "mag": 0.76,
+      "place": "5 km NW of The Geysers, CA",
+      "time": "2026-11-01T19:49:56.700000+00:00",
+      "lat": 38.8046684265137,
+      "lon": -122.795829772949,
+      "depth_km": 3.74000000953674,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460962"
+    },
+    {
+      "id": "aka2026vragpl",
+      "mag": 2.1,
+      "place": "55 km WNW of Skwentna, Alaska",
+      "time": "2026-11-01T19:47:44.371000+00:00",
+      "lat": 62.256,
+      "lon": -152.297,
+      "depth_km": 5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vragpl"
+    },
+    {
+      "id": "aka2026vrafvs",
+      "mag": 1.8,
+      "place": "45 km SSE of Denali National Park, Alaska",
+      "time": "2026-11-01T19:46:50.617000+00:00",
+      "lat": 63.188,
+      "lon": -151.285,
+      "depth_km": 5,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vrafvs"
+    },
+    {
+      "id": "ci41570880",
+      "mag": 0.27,
+      "place": "4 km WSW of Anza, CA",
+      "time": "2026-11-01T19:31:13.840000+00:00",
+      "lat": 33.5376666666667,
+      "lon": -116.7075,
+      "depth_km": 5.97,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570880"
+    },
+    {
+      "id": "aka2026vqzscu",
+      "mag": 1.9,
+      "place": "5 km NW of Houston, Alaska",
+      "time": "2026-11-01T19:31:03.727000+00:00",
+      "lat": 61.665,
+      "lon": -149.882,
+      "depth_km": 54.7,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vqzscu"
+    },
+    {
+      "id": "ci41570872",
+      "mag": 1.15,
+      "place": "9 km NE of Ocotillo Wells, CA",
+      "time": "2026-11-01T19:27:44.070000+00:00",
+      "lat": 33.1996666666667,
+      "lon": -116.057166666667,
+      "depth_km": 7.31,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570872"
+    },
+    {
+      "id": "nc75460952",
+      "mag": 0.96,
+      "place": "1 km NW of The Geysers, CA",
+      "time": "2026-11-01T19:24:12.020000+00:00",
+      "lat": 38.7826652526855,
+      "lon": -122.765502929688,
+      "depth_km": 4.44999980926514,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460952"
+    },
+    {
+      "id": "uu80162331",
+      "mag": 1.94,
+      "place": "15 km NNE of Milford, Utah",
+      "time": "2026-11-01T19:15:53.980000+00:00",
+      "lat": 38.5171666666667,
+      "lon": -112.92,
+      "depth_km": 2.83,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80162331"
+    },
+    {
+      "id": "nc75460947",
+      "mag": 0.45,
+      "place": "7 km NW of The Geysers, CA",
+      "time": "2026-11-01T19:01:46.650000+00:00",
+      "lat": 38.8253326416016,
+      "lon": -122.814163208008,
+      "depth_km": 2.14000010490417,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460947"
+    },
+    {
+      "id": "us7000tur0",
+      "mag": 4.8,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-11-01T18:53:57.590000+00:00",
+      "lat": -35.441,
+      "lon": 78.4169,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tur0"
+    },
+    {
+      "id": "us7000tuqy",
+      "mag": 4.6,
+      "place": "101 km SW of Basco, Philippines",
+      "time": "2026-11-01T18:42:57.023000+00:00",
+      "lat": 19.7626,
+      "lon": 121.328,
+      "depth_km": 38.488,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqy"
+    },
     {
       "id": "aka2026vqyafq",
       "mag": 1.6,
@@ -704,6 +1076,30 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460922"
+    },
+    {
+      "id": "us7000tuqx",
+      "mag": 5,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-11-01T18:34:39.200000+00:00",
+      "lat": -23.8735,
+      "lon": 69.5217,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqx"
+    },
+    {
+      "id": "us7000tuqv",
+      "mag": 4.6,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-11-01T18:30:23.197000+00:00",
+      "lat": -23.9496,
+      "lon": 69.5065,
+      "depth_km": 10,
+      "tsunami": false,
+      "alert": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqv"
     },
     {
       "id": "hv75067426",
@@ -2672,438 +3068,6 @@
       "tsunami": false,
       "alert": null,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuky"
-    },
-    {
-      "id": "aka2026vpjzvt",
-      "mag": 1.8,
-      "place": "55 km W of Happy Valley, Alaska",
-      "time": "2026-10-31T22:40:32.675000+00:00",
-      "lat": 60.008,
-      "lon": -152.72,
-      "depth_km": 99.3,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vpjzvt"
-    },
-    {
-      "id": "ci41570592",
-      "mag": 0.61,
-      "place": "17 km SSW of Searles Valley, CA",
-      "time": "2026-10-31T22:34:32.210000+00:00",
-      "lat": 35.626,
-      "lon": -117.469833333333,
-      "depth_km": 6.81,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570592"
-    },
-    {
-      "id": "nc75460577",
-      "mag": 1.06,
-      "place": "7 km NW of The Geysers, CA",
-      "time": "2026-10-31T22:33:06.930000+00:00",
-      "lat": 38.814998626709,
-      "lon": -122.81600189209,
-      "depth_km": 2.77999997138977,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460577"
-    },
-    {
-      "id": "aka2026vpjpod",
-      "mag": 1.7,
-      "place": "24 km SW of Anchor Point, Alaska",
-      "time": "2026-10-31T22:28:38.651000+00:00",
-      "lat": 59.655,
-      "lon": -152.186,
-      "depth_km": 72.3,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vpjpod"
-    },
-    {
-      "id": "ci41570576",
-      "mag": 0.54,
-      "place": "8 km SSW of Idyllwild, CA",
-      "time": "2026-10-31T22:25:23.770000+00:00",
-      "lat": 33.6758333333333,
-      "lon": -116.759166666667,
-      "depth_km": 15.8,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570576"
-    },
-    {
-      "id": "pr71538158",
-      "mag": 2.33,
-      "place": "11 km SSE of Maria Antonia, Puerto Rico",
-      "time": "2026-10-31T22:20:40.480000+00:00",
-      "lat": 17.8775,
-      "lon": -66.8543333333333,
-      "depth_km": 9.39,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538158"
-    },
-    {
-      "id": "pr71538153",
-      "mag": 2.44,
-      "place": "9 km SSE of Maria Antonia, Puerto Rico",
-      "time": "2026-10-31T22:19:24.820000+00:00",
-      "lat": 17.8946666666667,
-      "lon": -66.8558333333333,
-      "depth_km": 10.52,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538153"
-    },
-    {
-      "id": "us7000tuku",
-      "mag": 6,
-      "place": "58 km SSE of Shima, Japan",
-      "time": "2026-10-31T22:15:02.901000+00:00",
-      "lat": 33.822,
-      "lon": 136.9854,
-      "depth_km": 352.449,
-      "tsunami": false,
-      "alert": "green",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuku"
-    },
-    {
-      "id": "ci41570560",
-      "mag": 1.12,
-      "place": "2 km SE of Rancho Cucamonga, CA",
-      "time": "2026-10-31T22:04:52.800000+00:00",
-      "lat": 34.108,
-      "lon": -117.5645,
-      "depth_km": 11.84,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570560"
-    },
-    {
-      "id": "nc75460547",
-      "mag": 1.29,
-      "place": "4 km W of Cobb, CA",
-      "time": "2026-10-31T22:04:16.260000+00:00",
-      "lat": 38.821834564209,
-      "lon": -122.765167236328,
-      "depth_km": 1.92999994754791,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460547"
-    },
-    {
-      "id": "ci41570552",
-      "mag": 0.57,
-      "place": "4 km WSW of Anza, CA",
-      "time": "2026-10-31T22:03:31.530000+00:00",
-      "lat": 33.5376666666667,
-      "lon": -116.708,
-      "depth_km": 6.34,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570552"
-    },
-    {
-      "id": "ci41570544",
-      "mag": 1.14,
-      "place": "10 km SSW of Borrego Springs, CA",
-      "time": "2026-10-31T21:52:57.820000+00:00",
-      "lat": 33.1711666666667,
-      "lon": -116.407,
-      "depth_km": 10.36,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570544"
-    },
-    {
-      "id": "pr71538133",
-      "mag": 1.83,
-      "place": "3 km S of Maria Antonia, Puerto Rico",
-      "time": "2026-10-31T21:51:12.060000+00:00",
-      "lat": 17.9491666666667,
-      "lon": -66.8836666666667,
-      "depth_km": 15.8,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538133"
-    },
-    {
-      "id": "nc75460527",
-      "mag": 0.83,
-      "place": "7 km NW of The Geysers, CA",
-      "time": "2026-10-31T21:50:02.350000+00:00",
-      "lat": 38.8158340454102,
-      "lon": -122.816497802734,
-      "depth_km": 2.53999996185303,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460527"
-    },
-    {
-      "id": "ci41570536",
-      "mag": 0.79,
-      "place": "8 km ENE of Julian, CA",
-      "time": "2026-10-31T21:42:30+00:00",
-      "lat": 33.1061666666667,
-      "lon": -116.519833333333,
-      "depth_km": 12.36,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570536"
-    },
-    {
-      "id": "ci41570528",
-      "mag": 1.8,
-      "place": "2 km ENE of Gardena, CA",
-      "time": "2026-10-31T21:31:35.310000+00:00",
-      "lat": 33.8973333333333,
-      "lon": -118.290833333333,
-      "depth_km": 12.52,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570528"
-    },
-    {
-      "id": "ci41570520",
-      "mag": 0.4,
-      "place": "19 km ESE of Anza, CA",
-      "time": "2026-10-31T21:26:29.520000+00:00",
-      "lat": 33.493,
-      "lon": -116.480833333333,
-      "depth_km": 14.39,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570520"
-    },
-    {
-      "id": "aka2026vphmcp",
-      "mag": 0.7,
-      "place": "85 km NNW of Karluk, Alaska",
-      "time": "2026-10-31T21:24:41.253000+00:00",
-      "lat": 58.282,
-      "lon": -154.975,
-      "depth_km": 5,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vphmcp"
-    },
-    {
-      "id": "us7000tukm",
-      "mag": 5,
-      "place": "115 km SE of Bushehr, Iran",
-      "time": "2026-10-31T21:20:39.173000+00:00",
-      "lat": 28.114,
-      "lon": 51.5076,
-      "depth_km": 10,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tukm"
-    },
-    {
-      "id": "aka2026vphhut",
-      "mag": 1.6,
-      "place": "41 km N of Sutton-Alpine, Alaska",
-      "time": "2026-10-31T21:19:43.626000+00:00",
-      "lat": 62.15,
-      "lon": -148.786,
-      "depth_km": 30,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vphhut"
-    },
-    {
-      "id": "nc75460512",
-      "mag": 0.85,
-      "place": "8 km WNW of Cobb, CA",
-      "time": "2026-10-31T21:17:51.410000+00:00",
-      "lat": 38.839168548584,
-      "lon": -122.806999206543,
-      "depth_km": 1.98000001907349,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460512"
-    },
-    {
-      "id": "nc75460507",
-      "mag": 0.76,
-      "place": "3 km W of Cobb, CA",
-      "time": "2026-10-31T21:16:29.040000+00:00",
-      "lat": 38.8250007629395,
-      "lon": -122.76000213623,
-      "depth_km": 1.8400000333786,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460507"
-    },
-    {
-      "id": "pr71538123",
-      "mag": 2.77,
-      "place": "18 km NNE of Tierras Nuevas Poniente, Puerto Rico",
-      "time": "2026-10-31T21:03:19.370000+00:00",
-      "lat": 18.6256666666667,
-      "lon": -66.4375,
-      "depth_km": 68.05,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538123"
-    },
-    {
-      "id": "aka2026vpgghg",
-      "mag": 2.1,
-      "place": "8 km N of Anchorage, Alaska",
-      "time": "2026-10-31T20:47:58.196000+00:00",
-      "lat": 61.292,
-      "lon": -149.88,
-      "depth_km": 42.1,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vpgghg"
-    },
-    {
-      "id": "nc75460472",
-      "mag": 0.96,
-      "place": "9 km WNW of The Geysers, CA",
-      "time": "2026-10-31T20:37:59.760000+00:00",
-      "lat": 38.8201675415039,
-      "lon": -122.841667175293,
-      "depth_km": 2.02999997138977,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460472"
-    },
-    {
-      "id": "aka2026vpfpoq",
-      "mag": 0.9,
-      "place": "86 km N of Karluk, Alaska",
-      "time": "2026-10-31T20:28:42.574000+00:00",
-      "lat": 58.344,
-      "lon": -154.571,
-      "depth_km": 5,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vpfpoq"
-    },
-    {
-      "id": "aka2026vpfnze",
-      "mag": 2.1,
-      "place": "58 km S of Cantwell, Alaska",
-      "time": "2026-10-31T20:27:36.903000+00:00",
-      "lat": 62.875,
-      "lon": -149.173,
-      "depth_km": 71.5,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vpfnze"
-    },
-    {
-      "id": "ci41570496",
-      "mag": 0.48,
-      "place": "17 km SE of Ocotillo Wells, CA",
-      "time": "2026-10-31T20:11:41.250000+00:00",
-      "lat": 33.0221666666667,
-      "lon": -116.0135,
-      "depth_km": 19.26,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570496"
-    },
-    {
-      "id": "pr71538103",
-      "mag": 3.15,
-      "place": "4 km SSE of Maria Antonia, Puerto Rico",
-      "time": "2026-10-31T19:58:08.010000+00:00",
-      "lat": 17.9428333333333,
-      "lon": -66.8773333333333,
-      "depth_km": 14.85,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538103"
-    },
-    {
-      "id": "pr71538088",
-      "mag": 1.67,
-      "place": "4 km W of Fuig, Puerto Rico",
-      "time": "2026-10-31T19:51:44.620000+00:00",
-      "lat": 17.9903333333333,
-      "lon": -66.9545,
-      "depth_km": 10.42,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538088"
-    },
-    {
-      "id": "us7000tuk8",
-      "mag": 2.4,
-      "place": "36 km NNW of Toyah, Texas",
-      "time": "2026-10-31T19:39:36.066000+00:00",
-      "lat": 31.6028,
-      "lon": -103.9727,
-      "depth_km": 8.553,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuk8"
-    },
-    {
-      "id": "aka2026vpdmye",
-      "mag": 2.3,
-      "place": "30 km WNW of Susitna, Alaska",
-      "time": "2026-10-31T19:25:42.591000+00:00",
-      "lat": 61.659,
-      "lon": -151.033,
-      "depth_km": 69.5,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vpdmye"
-    },
-    {
-      "id": "nc75460442",
-      "mag": 0.51,
-      "place": "2 km NNW of The Geysers, CA",
-      "time": "2026-10-31T19:24:34.620000+00:00",
-      "lat": 38.7933349609375,
-      "lon": -122.767669677734,
-      "depth_km": 3.85999989509583,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460442"
-    },
-    {
-      "id": "aka2026vpczaq",
-      "mag": 1.2,
-      "place": "56 km ENE of Port Alsworth, Alaska",
-      "time": "2026-10-31T19:09:39.772000+00:00",
-      "lat": 60.313,
-      "lon": -153.325,
-      "depth_km": 8.4,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vpczaq"
-    },
-    {
-      "id": "us7000tuk4",
-      "mag": 4.5,
-      "place": "111 km ESE of Atka, Alaska",
-      "time": "2026-10-31T18:51:02.721000+00:00",
-      "lat": 51.6994,
-      "lon": -172.7931,
-      "depth_km": 44.87,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuk4"
-    },
-    {
-      "id": "aka2026vpcige",
-      "mag": 4.5,
-      "place": "121 km SE of Atka, Alaska",
-      "time": "2026-10-31T18:50:58.577000+00:00",
-      "lat": 51.521,
-      "lon": -172.815,
-      "depth_km": 1,
-      "tsunami": false,
-      "alert": null,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vpcige"
     }
   ],
   "sources_ok": {
@@ -3112,23 +3076,213 @@
     "month": true
   },
   "us_weather_alerts": {
-    "active_count": 280,
+    "active_count": 314,
     "by_severity": {
-      "Severe": 45,
-      "Moderate": 119,
-      "Minor": 115,
+      "Minor": 145,
+      "Severe": 50,
+      "Moderate": 118,
       "Unknown": 1
     },
     "top_alerts": [
       {
-        "id": "urn:oid:2.49.0.1.840.0.ab753f0acb7185e4d2799200ac3b4b34c3a5f49c.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.bd120e34c8f29a0a73dcd4178be63a29b54fc7d4.001.1",
+        "event": "Severe Thunderstorm Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Clark, NV",
+        "headline": "Severe Thunderstorm Warning issued November 1 at 2:35PM PST until November 1 at 3:15PM PST by NWS Las Vegas NV",
+        "sent": "2026-11-01T14:35:00-08:00",
+        "expires": "2026-11-01T15:15:00-08:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.7ce3946363603ead9e53725f3a7becaa515ed6a5.001.1",
+        "event": "Severe Thunderstorm Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Bernalillo, NM; Sandoval, NM",
+        "headline": "Severe Thunderstorm Warning issued November 1 at 3:35PM MST until November 1 at 4:15PM MST by NWS Albuquerque NM",
+        "sent": "2026-11-01T15:35:00-07:00",
+        "expires": "2026-11-01T16:15:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.a35095a98982d3e200d52be36affa2ff18463627.001.1",
         "event": "Flood Warning",
         "severity": "Severe",
         "urgency": "Expected",
-        "area": "Gila, AZ",
-        "headline": "Flood Warning issued November 1 at 11:41AM MST until November 1 at 2:45PM MST by NWS Phoenix AZ",
-        "sent": "2026-11-01T11:41:00-07:00",
-        "expires": "2026-11-01T14:45:00-07:00"
+        "area": "Maricopa, AZ",
+        "headline": "Flood Warning issued November 1 at 3:30PM MST until November 1 at 9:30PM MST by NWS Phoenix AZ",
+        "sent": "2026-11-01T15:30:00-07:00",
+        "expires": "2026-11-01T21:30:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.c3a3438f5e8f25ab7ea9125e246a7abf195caf29.001.1",
+        "event": "Flash Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Palm Beach, FL",
+        "headline": "Flash Flood Warning issued November 1 at 5:23PM EST until November 1 at 7:15PM EST by NWS Miami FL",
+        "sent": "2026-11-01T17:23:00-05:00",
+        "expires": "2026-11-01T19:15:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.652f63b86b937ba0e8a364d1a7b05bbfe7449745.001.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Maricopa, AZ",
+        "headline": "Flood Warning issued November 1 at 3:17PM MST until November 2 at 3:15AM MST by NWS Phoenix AZ",
+        "sent": "2026-11-01T15:17:00-07:00",
+        "expires": "2026-11-02T03:15:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.6f4d98e7da9efb84448a30e827f34a5bff7e69b4.001.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Apache, AZ; Gila, AZ; Navajo, AZ",
+        "headline": "Flood Warning issued November 1 at 2:52PM MST until November 1 at 6:00PM MST by NWS Flagstaff AZ",
+        "sent": "2026-11-01T14:52:00-07:00",
+        "expires": "2026-11-01T18:00:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.3539f99d783f80d832531906e83e63a0f609bd23.001.1",
+        "event": "Special Marine Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm; Sebastian Inlet to Jupiter Inlet 0-20 nm; Sebastian Inlet to Jupiter Inlet 20-60 nm",
+        "headline": "Special Marine Warning issued November 1 at 4:45PM EST until November 1 at 5:45PM EST by NWS Melbourne FL",
+        "sent": "2026-11-01T16:45:00-05:00",
+        "expires": "2026-11-01T17:45:00-05:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.6fd5b7c3251de2b2d4889e88d7960648ed405f32.001.1",
+        "event": "Flash Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Apache, AZ; Navajo, AZ",
+        "headline": "Flash Flood Warning issued November 1 at 2:24PM MST until November 1 at 8:30PM MST by NWS Flagstaff AZ",
+        "sent": "2026-11-01T14:24:00-07:00",
+        "expires": "2026-11-01T20:30:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.ff90f3bea89f87e4759c63fb880eb38b994db4d6.001.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "La Plata, CO",
+        "headline": "Flood Warning issued November 1 at 2:20PM MST until November 2 at 10:00PM MST by NWS Grand Junction CO",
+        "sent": "2026-11-01T14:20:00-07:00",
+        "expires": "2026-11-02T22:00:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.a191c1f842fce49c33c83a3356d51e36dca7939c.001.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Maricopa, AZ",
+        "headline": "Flood Warning issued November 1 at 2:17PM MST until November 2 at 3:00AM MST by NWS Phoenix AZ",
+        "sent": "2026-11-01T14:17:00-07:00",
+        "expires": "2026-11-02T02:30:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.128a15ce2d6c00007ef1cef2fc8efca91bc545a1.001.1",
+        "event": "Flood Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Northwest Plateau; Chuska Mountains; Far Northwest Highlands; Northwest Highlands; West Central Plateau; West Central Mountains; West Central Highlands; Southwest Mountains; San Francisco River Valley; Tusas Mountains Including Chama; Jemez Mountains",
+        "headline": "Flood Watch issued November 1 at 2:09PM MST until November 2 at 11:00AM MST by NWS Albuquerque NM",
+        "sent": "2026-11-01T14:09:00-07:00",
+        "expires": "2026-11-02T02:00:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.36564cf550fecc016bef15473e64763072f4d690.001.1",
+        "event": "Flash Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Grant, NM",
+        "headline": "Flash Flood Warning issued November 1 at 1:58PM MST until November 1 at 8:00PM MST by NWS El Paso Tx/Santa Teresa NM",
+        "sent": "2026-11-01T13:58:00-07:00",
+        "expires": "2026-11-01T20:00:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.7a72b36fe16748970434099d1576f54f83d11468.001.1",
+        "event": "Flash Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Cochise, AZ",
+        "headline": "Flash Flood Warning issued November 1 at 1:43PM MST until November 1 at 4:45PM MST by NWS Tucson AZ",
+        "sent": "2026-11-01T13:43:00-07:00",
+        "expires": "2026-11-01T16:45:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.9b34af0afc8a45caca0b0ce19563ca8cf8f78d25.001.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Gila, AZ; Maricopa, AZ; Pinal, AZ",
+        "headline": "Flood Warning issued November 1 at 12:53PM MST until November 1 at 4:00PM MST by NWS Phoenix AZ",
+        "sent": "2026-11-01T12:53:00-07:00",
+        "expires": "2026-11-01T16:00:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.40b3460ec08fe22930e4f240a8c9784ec3ade0b4.001.1",
+        "event": "Flash Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Graham, AZ; Greenlee, AZ",
+        "headline": "Flash Flood Warning issued November 1 at 12:52PM MST until November 1 at 3:45PM MST by NWS Tucson AZ",
+        "sent": "2026-11-01T12:52:00-07:00",
+        "expires": "2026-11-01T15:45:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.044bda20e0185438d287e6a9c240c3d18cfaf970.001.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Maricopa, AZ",
+        "headline": "Flood Warning issued November 1 at 12:50PM MST until November 1 at 3:45PM MST by NWS Phoenix AZ",
+        "sent": "2026-11-01T12:50:00-07:00",
+        "expires": "2026-11-01T15:45:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.3ca68b12bfbe20ce75ff7968742ea22c22fb9e64.001.1",
+        "event": "Flash Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "San Juan, NM",
+        "headline": "Flash Flood Warning issued November 1 at 12:34PM MST until November 1 at 8:30PM MST by NWS Albuquerque NM",
+        "sent": "2026-11-01T12:34:00-07:00",
+        "expires": "2026-11-01T20:30:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.22712db8e4913445de45e862f8234d86c6191def.001.1",
+        "event": "Flood Warning",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "area": "Gila, AZ; Maricopa, AZ; Pinal, AZ",
+        "headline": "Flood Warning issued November 1 at 12:16PM MST until November 1 at 6:15PM MST by NWS Phoenix AZ",
+        "sent": "2026-11-01T12:16:00-07:00",
+        "expires": "2026-11-01T18:15:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.470772c5a40dcadb317ad13b87b2766fdd304adc.001.1",
+        "event": "High Wind Watch",
+        "severity": "Severe",
+        "urgency": "Future",
+        "area": "Harding; Northern Perkins; Butte; Northern Meade Co Plains; Ziebach; Northern Foothills; Rapid City; Custer Co Plains; Pennington Co Plains; Haakon; Western Fall River; Northern Oglala Lakota; Northern Jackson; Sturgis/Piedmont Foothills; Southern Meade Co Plains; Hermosa Foothills; Eastern Fall River; Southern Jackson; Southern Perkins",
+        "headline": "High Wind Watch issued November 1 at 12:08PM MST until November 3 at 6:00AM MST by NWS Rapid City SD",
+        "sent": "2026-11-01T12:08:00-07:00",
+        "expires": "2026-11-02T06:00:00-07:00"
+      },
+      {
+        "id": "urn:oid:2.49.0.1.840.0.dc77cf090fa22bb4760d820f52503cd77d090a04.001.1",
+        "event": "Flash Flood Warning",
+        "severity": "Severe",
+        "urgency": "Immediate",
+        "area": "Coconino, AZ; Gila, AZ; Yavapai, AZ",
+        "headline": "Flash Flood Warning issued November 1 at 11:51AM MST until November 1 at 5:45PM MST by NWS Flagstaff AZ",
+        "sent": "2026-11-01T11:51:00-07:00",
+        "expires": "2026-11-01T17:45:00-07:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.58aab900e4d8a97c54c289399bb934ae397ea2f6.001.1",
@@ -3139,46 +3293,6 @@
         "headline": "High Wind Warning issued November 1 at 11:40AM MST until November 2 at 6:00PM MST by NWS Albuquerque NM",
         "sent": "2026-11-01T11:40:00-07:00",
         "expires": "2026-11-01T21:00:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.da81c95f2454bec33064610810212af54234bc75.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Pinal, AZ",
-        "headline": "Flood Warning issued November 1 at 11:29AM MST until November 1 at 2:30PM MST by NWS Phoenix AZ",
-        "sent": "2026-11-01T11:29:00-07:00",
-        "expires": "2026-11-01T14:30:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.5dbe722fbb66b5d1ddee6d2093e39d49f05ad5ce.001.1",
-        "event": "Flash Flood Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Pima, AZ; Santa Cruz, AZ",
-        "headline": "Flash Flood Warning issued November 1 at 11:27AM MST until November 1 at 2:30PM MST by NWS Tucson AZ",
-        "sent": "2026-11-01T11:27:00-07:00",
-        "expires": "2026-11-01T14:30:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.864434d26af8bc850454b46593c25db284737557.001.1",
-        "event": "Special Marine Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Coastal Waters from Mexico Beach to Apalachicola out 20 NM; Coastal Waters From  Ochlockonee River to Apalachicola FL out to 20 Nm",
-        "headline": "Special Marine Warning issued November 1 at 1:24PM EST until November 1 at 3:30PM EST by NWS Tallahassee FL",
-        "sent": "2026-11-01T13:24:00-05:00",
-        "expires": "2026-11-01T15:30:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.1e0db03f927f5eb78d8f1feb342c006fdad5251e.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Maricopa, AZ",
-        "headline": "Flood Warning issued November 1 at 11:04AM MST until November 1 at 5:00PM MST by NWS Phoenix AZ",
-        "sent": "2026-11-01T11:04:00-07:00",
-        "expires": "2026-11-01T17:00:00-07:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.fd2001dfdc48dc68b96b62c5bfb22550329b166a.001.1",
@@ -3221,16 +3335,6 @@
         "expires": "2026-11-02T03:00:00-05:00"
       },
       {
-        "id": "urn:oid:2.49.0.1.840.0.cb56818aedf69e2d6288a50d96dff7e5c42e1d6c.001.1",
-        "event": "Flash Flood Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Pima, AZ",
-        "headline": "Flash Flood Warning issued November 1 at 10:43AM MST until November 1 at 1:45PM MST by NWS Tucson AZ",
-        "sent": "2026-11-01T10:43:00-07:00",
-        "expires": "2026-11-01T13:45:00-07:00"
-      },
-      {
         "id": "urn:oid:2.49.0.1.840.0.eb8f23614741a837397c515901b2b5b3016d0312.001.1",
         "event": "Flood Watch",
         "severity": "Severe",
@@ -3239,16 +3343,6 @@
         "headline": "Flood Watch issued November 1 at 12:39PM EST until November 2 at 3:00PM EST by NWS Melbourne FL",
         "sent": "2026-11-01T12:39:00-05:00",
         "expires": "2026-11-02T15:00:00-05:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.c34c37e5e7f835ffc0e5671ad7b87539860c00f0.001.1",
-        "event": "Flash Flood Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Yavapai, AZ",
-        "headline": "Flash Flood Warning issued November 1 at 10:38AM MST until November 1 at 1:45PM MST by NWS Flagstaff AZ",
-        "sent": "2026-11-01T10:38:00-07:00",
-        "expires": "2026-11-01T13:45:00-07:00"
       },
       {
         "id": "urn:oid:2.49.0.1.840.0.6d4172fa5b374ed151f944f9a3521d349d3e63f8.001.1",
@@ -3289,139 +3383,9 @@
         "headline": "Flood Warning issued November 1 at 10:09AM MST until November 2 at 7:15PM MST by NWS Grand Junction CO",
         "sent": "2026-11-01T10:09:00-07:00",
         "expires": "2026-11-02T19:15:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.ef631b023224712705943a9f0730653e2d51ab02.001.1",
-        "event": "Flash Flood Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Coconino, AZ; Gila, AZ; Navajo, AZ",
-        "headline": "Flash Flood Warning issued November 1 at 10:07AM MST until November 1 at 6:00PM MST by NWS Flagstaff AZ",
-        "sent": "2026-11-01T10:07:00-07:00",
-        "expires": "2026-11-01T18:00:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.c47213b8846f19b1cb8b737423603b76e5d64476.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Archuleta, CO",
-        "headline": "Flood Warning issued November 1 at 9:44AM MST until November 2 at 7:00PM MST by NWS Grand Junction CO",
-        "sent": "2026-11-01T09:44:00-07:00",
-        "expires": "2026-11-02T19:00:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.36476fac17e62271b7947033aa02ead89e864741.001.1",
-        "event": "Flash Flood Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Coconino, AZ",
-        "headline": "Flash Flood Warning issued November 1 at 9:41AM MST until November 1 at 4:45PM MST by NWS Flagstaff AZ",
-        "sent": "2026-11-01T09:41:00-07:00",
-        "expires": "2026-11-01T16:45:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.dd85f9871d2e89af3e42bbdd71dc5945f250a305.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "San Juan, NM",
-        "headline": "Flood Warning issued November 1 at 9:34AM MST until November 3 at 4:00AM MST by NWS Albuquerque NM",
-        "sent": "2026-11-01T09:34:00-07:00",
-        "expires": "2026-11-01T21:45:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.4ce6f89a238e4c9add5dc21afbaa7d7047540e27.001.2",
-        "event": "High Wind Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Guadalupe Mountains of Eddy County; Guadalupe Mountains Above 7000 Feet; Guadalupe and Delaware Mountains",
-        "headline": "High Wind Warning issued November 1 at 9:26AM MST until November 2 at 8:00PM MST by NWS Midland/Odessa TX",
-        "sent": "2026-11-01T09:26:00-07:00",
-        "expires": "2026-11-01T21:15:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.7e10a26e45f9891046f9e37d480c03b18226209c.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Gila, AZ; Yavapai, AZ",
-        "headline": "Flood Warning issued November 1 at 9:23AM MST until November 1 at 9:30PM MST by NWS Flagstaff AZ",
-        "sent": "2026-11-01T09:23:00-07:00",
-        "expires": "2026-11-01T21:30:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.0a177964fd8104a381d3523e56e057113f94d9c1.001.1",
-        "event": "High Wind Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Sacramento Mountains Above 7500 Feet; East Slopes Sacramento Mountains Below 7500 Feet",
-        "headline": "High Wind Warning issued November 1 at 9:21AM MST until November 2 at 4:00PM MST by NWS El Paso Tx/Santa Teresa NM",
-        "sent": "2026-11-01T09:21:00-07:00",
-        "expires": "2026-11-01T20:00:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.983b8890dfcc376a434a6c3ecdc12ec1103564cb.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Calcasieu, LA",
-        "headline": "Flood Warning issued November 1 at 10:04AM CST until November 4 at 12:00PM CST by NWS Lake Charles LA",
-        "sent": "2026-11-01T10:04:00-06:00",
-        "expires": "2026-11-01T22:15:00-06:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.8ac596d8d7fe15382a5b310dcd3aec774ff40107.001.1",
-        "event": "Flash Flood Warning",
-        "severity": "Severe",
-        "urgency": "Immediate",
-        "area": "Gila, AZ",
-        "headline": "Flash Flood Warning issued November 1 at 8:56AM MST until November 1 at 12:00PM MST by NWS Flagstaff AZ",
-        "sent": "2026-11-01T08:56:00-07:00",
-        "expires": "2026-11-01T12:00:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.afe5e1531efd46f803b98a9a20be71c8dadaef7b.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Coconino, AZ",
-        "headline": "Flood Warning issued November 1 at 8:33AM MST until November 1 at 8:30PM MST by NWS Flagstaff AZ",
-        "sent": "2026-11-01T08:33:00-07:00",
-        "expires": "2026-11-01T20:30:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.8e8d6eb7c9b9bdcacb12f578eb929039fcfbd13e.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Coconino, AZ",
-        "headline": "Flood Warning issued November 1 at 8:26AM MST until November 1 at 8:30PM MST by NWS Flagstaff AZ",
-        "sent": "2026-11-01T08:26:00-07:00",
-        "expires": "2026-11-01T20:30:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.1df83245a7528c1473f6c93eb7cdca13a58e55e8.001.1",
-        "event": "Flood Warning",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "area": "Apache, AZ; Gila, AZ; Navajo, AZ",
-        "headline": "Flood Warning issued November 1 at 8:17AM MST until November 1 at 3:15PM MST by NWS Flagstaff AZ",
-        "sent": "2026-11-01T08:17:00-07:00",
-        "expires": "2026-11-01T15:15:00-07:00"
-      },
-      {
-        "id": "urn:oid:2.49.0.1.840.0.2dd215e378eb08e478cfc3dafdca53426c0e3e44.001.1",
-        "event": "Flood Watch",
-        "severity": "Severe",
-        "urgency": "Future",
-        "area": "Alamosa  Vicinity/Central San Luis Valley Below 8500 Ft",
-        "headline": "Flood Watch issued November 1 at 8:12AM MST until November 6 at 7:00AM MST by NWS Pueblo CO",
-        "sent": "2026-11-01T08:12:00-07:00",
-        "expires": "2026-11-01T16:15:00-07:00"
       }
     ],
     "unavailable": false
   },
-  "generated_at": "2026-11-01T18:50:39.510001+00:00"
+  "generated_at": "2026-11-01T22:41:31.876399+00:00"
 }
