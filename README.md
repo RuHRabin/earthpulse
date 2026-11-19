@@ -19,7 +19,9 @@
 - **World map** of the last 24 hours of earthquakes, sized and coloured by magnitude
 - **Summary stats**: quake count, strongest quake, average magnitude, active US weather alerts
 - **Charts**: magnitude distribution and a 7-day trend
-- **Searchable table** of significant quakes (M4.5+ over 30 days)
+- **Where it's shaking**: the most active countries and regions over 7 days; click a row to filter the table
+- **Light and dark themes**: follows your OS, with a toggle in the header
+- **Searchable table** of significant quakes (M4.5+ over 30 days), filterable by magnitude and country/region
 - **US severe-weather alerts** from the National Weather Service, grouped by type
 - **A history file** (`data/history.csv`) that grows every day, so you own the data
 - **Earthquake safety guidance**
@@ -58,7 +60,7 @@ NWS alerts API ────────┘      (GitHub Actions, every 15 min)  
                           served by GitHub Pages
 ```
 
-Map tiles come from [OpenFreeMap](https://openfreemap.org/). The JavaScript is split into small modules (`map.js`, `charts.js`, `table.js`, `alerts.js`, `stats.js`) so each part can be understood on its own.
+Map tiles come from [OpenFreeMap](https://openfreemap.org/). The JavaScript is split into small modules (`map.js`, `charts.js`, `table.js`, `alerts.js`, `stats.js`, `countries.js`, `theme.js`) so each part can be understood on its own.
 
 ## Data sources
 
@@ -76,10 +78,10 @@ EarthPulse is for awareness and education. Data refreshes every 15 minutes, whic
 
 Pick anything below. Items marked 🟢 are small and beginner-friendly, and each has (or will have) a matching issue labelled `good first issue`.
 
-- [ ] 🟢 Light / dark theme toggle
+- [x] 🟢 Light / dark theme toggle (follows the OS setting, with a header toggle)
 - [ ] 🟢 SRI hashes on the CDN `<script>` tags (supply-chain hardening)
 - [ ] 🌐 **Translations** (many high-risk regions are not English-first). Start with the i18n groundwork, then add your language
-- [ ] Per-country / per-region breakdown view
+- [x] Per-country / per-region breakdown view (parsed from USGS place names; a reverse-geocoded version would be more precise)
 - [ ] More hazard types: wildfires, volcanic activity, tsunami warnings (each needs a free, key-less data source)
 - [ ] Long-range historical chart once `data/history.csv` has enough rows
 - [ ] Push notifications via a service worker for M6+ events

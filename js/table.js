@@ -8,21 +8,58 @@ let listenersAttached = false;
 export function renderTable(data) {
   allQuakes = data.significant_recent || [];
   attachListenersOnce();
+  populateCountryFilter();
   applyFilters();
+}
+
+// Rebuild the country dropdown from the current data, keeping the visitor's
+// selection across the 5-minute auto-refresh (if that country is still listed).
+function populateCountryFilter() {
+  const select = document.getElementById("country-filter");
+  const previous = select.value;
+  const counts = new Map();
+  allQuakes.forEach((q) => counts.set(q.country || "Unknown", (counts.get(q.country || "Unknown") || 0) + 1));
+  const names = [...counts.keys()].sort((a, b) => a.localeCompare(b));
+  select.innerHTML =
+    `<option value="">All countries &amp; regions</option>` +
+    names.map((n) => `<option value="${escapeHtml(n)}">${escapeHtml(n)} (${counts.get(n)})</option>`).join("");
+  select.value = names.includes(previous) ? previous : "";
+}
+
+// Used by the "Where it's shaking" panel: pick a country, jump to the table.
+export function filterTableByCountry(country) {
+  const select = document.getElementById("country-filter");
+  const known = [...select.options].some((o) => o.value === country);
+  // Countries with no M4.5+ quake in the past 30 days aren't in the table;
+  // fall back to a location search so the click still does something useful.
+  if (known) {
+    select.value = country;
+    document.getElementById("quake-search").value = "";
+  } else {
+    select.value = "";
+    document.getElementById("quake-search").value = country;
+  }
+  applyFilters();
+  document.getElementById("quake-table-body").closest("section").scrollIntoView({ behavior: "smooth" });
 }
 
 function attachListenersOnce() {
   if (listenersAttached) return;
   document.getElementById("quake-search").addEventListener("input", applyFilters);
   document.getElementById("magnitude-filter").addEventListener("change", applyFilters);
+  document.getElementById("country-filter").addEventListener("change", applyFilters);
   listenersAttached = true;
 }
 
 function applyFilters() {
   const search = document.getElementById("quake-search").value.trim().toLowerCase();
   const minMag = parseFloat(document.getElementById("magnitude-filter").value || "0");
+  const country = document.getElementById("country-filter").value;
   const filtered = allQuakes.filter(
-    (q) => (q.place || "").toLowerCase().includes(search) && (q.mag || 0) >= minMag
+    (q) =>
+      (q.place || "").toLowerCase().includes(search) &&
+      (q.mag || 0) >= minMag &&
+      (!country || (q.country || "Unknown") === country)
   );
   renderRows(filtered);
 }

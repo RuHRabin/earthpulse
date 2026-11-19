@@ -15,6 +15,10 @@ export function renderStats(data) {
       sub: data.strongest_today?.place,
     },
     {
+      value: formatCount(data.countries_week_total),
+      label: "countries & regions this week",
+    },
+    {
       value: data.avg_magnitude_today != null ? data.avg_magnitude_today.toFixed(2) : "\u2014",
       label: "average magnitude today",
     },
