@@ -3,8 +3,10 @@
 // hands it to each panel's render function.
 import { fetchJSON } from "./utils.js";
 import { renderStats, updateLiveIndicator } from "./stats.js";
-import { renderMap } from "./map.js";
-import { renderCharts } from "./charts.js";
+import { renderMap, setMapTheme } from "./map.js";
+import { renderCharts, refreshChartTheme } from "./charts.js";
+import { renderCountries } from "./countries.js";
+import { initTheme, onThemeChange } from "./theme.js";
 import { renderTable } from "./table.js";
 import { renderAlerts } from "./alerts.js";
 
@@ -26,21 +28,25 @@ function render(data) {
   renderSignificantBanner(data);
   renderMap(data);
   renderCharts(data);
+  renderCountries(data);
   renderTable(data);
   renderAlerts(data);
 }
 
 function renderSignificantBanner(data) {
   const banner = document.getElementById("significant-banner");
+  // Write into the inner .container (not the banner itself) so the text keeps
+  // the page's max-width and side padding.
+  const content = banner.querySelector(".container");
   const strongest = data.strongest_today;
   const hasExtremeWeather = (data.us_weather_alerts?.by_severity?.Extreme || 0) > 0;
 
   if (strongest && strongest.mag >= 6) {
     banner.classList.remove("hidden");
-    banner.innerHTML = `Significant earthquake: <strong>M${strongest.mag.toFixed(1)}</strong> \u2014 ${escapeHtmlLocal(strongest.place || "location unknown")}`;
+    content.innerHTML = `Significant earthquake: <strong>M${strongest.mag.toFixed(1)}</strong> \u2014 ${escapeHtmlLocal(strongest.place || "location unknown")}`;
   } else if (hasExtremeWeather) {
     banner.classList.remove("hidden");
-    banner.innerHTML = `Extreme severe weather alerts are active in the US \u2014 see Alerts below.`;
+    content.innerHTML = `Extreme severe weather alerts are active in the US \u2014 see Alerts below.`;
   } else {
     banner.classList.add("hidden");
   }
@@ -52,6 +58,12 @@ function escapeHtmlLocal(str) {
   div.textContent = str;
   return div.innerHTML;
 }
+
+initTheme();
+onThemeChange((theme) => {
+  setMapTheme(theme);
+  refreshChartTheme();
+});
 
 document.getElementById("current-year").textContent = new Date().getFullYear();
 

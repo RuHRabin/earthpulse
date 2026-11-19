@@ -13,13 +13,26 @@
 // whatever's current -- everything else in this file (markers, popups,
 // legend) is independent of the basemap and doesn't need to change.
 import { escapeHtml, formatDateTime, magnitudeColor, magnitudeLegend, magnitudeRadius } from "./utils.js";
+import { getTheme } from "./theme.js";
 
-const BASEMAP_STYLE_URL = "https://tiles.openfreemap.org/styles/dark";
+// One OpenFreeMap style per theme, so the basemap matches the page.
+const BASEMAP_STYLES = {
+  dark: "https://tiles.openfreemap.org/styles/dark",
+  light: "https://tiles.openfreemap.org/styles/positron",
+};
 const BASEMAP_ATTRIBUTION =
   'Basemap &copy; <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> &copy; <a href="https://openmaptiles.org" target="_blank" rel="noopener">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
 
 let map = null;
 let markerLayer = null;
+let basemapLayer = null;
+
+// Called by app.js when the visitor flips the theme.
+export function setMapTheme(theme) {
+  if (!basemapLayer) return;
+  const glMap = basemapLayer.getMaplibreMap && basemapLayer.getMaplibreMap();
+  if (glMap) glMap.setStyle(BASEMAP_STYLES[theme] || BASEMAP_STYLES.dark);
+}
 
 export function renderMap(data) {
   if (!map) {
@@ -38,8 +51,8 @@ export function renderMap(data) {
       ],
     }).setView([15, 10], 2);
 
-    L.maplibreGL({
-      style: BASEMAP_STYLE_URL,
+    basemapLayer = L.maplibreGL({
+      style: BASEMAP_STYLES[getTheme()],
       attribution: BASEMAP_ATTRIBUTION,
     }).addTo(map);
 

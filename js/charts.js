@@ -1,12 +1,47 @@
 // charts.js -- magnitude distribution and 7-day trend. Chart.js is loaded
 // globally via a <script> tag in index.html (see index.html for why).
 import { magnitudeLegend } from "./utils.js";
+import { cssVar } from "./theme.js";
 
 let magnitudeChart = null;
 let trendChart = null;
 
-const GRID_COLOR = "rgba(231, 235, 239, 0.08)";
-const TEXT_COLOR = "#9ba5b4";
+// Chart.js draws to <canvas>, which can't read CSS variables itself -- so
+// pull the live theme colors in whenever options are built or the theme flips.
+function gridColor() {
+  return cssVar("--hairline") || "#2b3340";
+}
+function textColor() {
+  return cssVar("--ink-muted") || "#9ba5b4";
+}
+function signalColor() {
+  return cssVar("--signal") || "#4fd8c4";
+}
+
+export function refreshChartTheme() {
+  [magnitudeChart, trendChart].forEach((chart) => {
+    if (!chart) return;
+    Object.values(chart.options.scales).forEach((scale) => {
+      if (scale.grid && scale.grid.display !== false) scale.grid.color = gridColor();
+      if (scale.ticks) scale.ticks.color = textColor();
+    });
+    chart.options.plugins.legend.labels.color = textColor();
+    chart.update("none");
+  });
+  if (trendChart) {
+    const line = trendChart.data.datasets[0];
+    line.borderColor = signalColor();
+    line.backgroundColor = hexToRgba(signalColor(), 0.12);
+    trendChart.update("none");
+  }
+}
+
+function hexToRgba(hex, alpha) {
+  const m = /^#?([0-9a-f]{6})$/i.exec(hex);
+  if (!m) return hex;
+  const n = parseInt(m[1], 16);
+  return `rgba(${(n >> 16) & 255}, ${(n >> 8) & 255}, ${n & 255}, ${alpha})`;
+}
 
 export function renderCharts(data) {
   renderMagnitudeChart(data.magnitude_distribution_week || {});
@@ -45,8 +80,8 @@ function renderTrendChart(trend) {
         {
           label: "Earthquakes",
           data: trend.map((t) => t.count),
-          borderColor: "#4fd8c4",
-          backgroundColor: "rgba(79, 216, 196, 0.12)",
+          borderColor: signalColor(),
+          backgroundColor: hexToRgba(signalColor(), 0.12),
           tension: 0.25,
           fill: true,
           yAxisID: "y",
@@ -79,10 +114,10 @@ function formatShortDate(dateStr) {
 
 function baseOptions({ legend = true, dualAxis = false } = {}) {
   const scales = {
-    x: { grid: { color: GRID_COLOR }, ticks: { color: TEXT_COLOR } },
+    x: { grid: { color: gridColor() }, ticks: { color: textColor() } },
     y: {
-      grid: { color: GRID_COLOR },
-      ticks: { color: TEXT_COLOR, precision: 0 },
+      grid: { color: gridColor() },
+      ticks: { color: textColor(), precision: 0 },
       beginAtZero: true,
     },
   };
@@ -90,7 +125,7 @@ function baseOptions({ legend = true, dualAxis = false } = {}) {
     scales.y1 = {
       position: "right",
       grid: { display: false },
-      ticks: { color: TEXT_COLOR },
+      ticks: { color: textColor() },
       beginAtZero: true,
     };
   }
@@ -98,7 +133,7 @@ function baseOptions({ legend = true, dualAxis = false } = {}) {
     responsive: true,
     maintainAspectRatio: false,
     animation: { duration: 400 },
-    plugins: { legend: { display: legend, labels: { color: TEXT_COLOR, boxWidth: 12 } } },
+    plugins: { legend: { display: legend, labels: { color: textColor(), boxWidth: 12 } } },
     scales,
   };
 }

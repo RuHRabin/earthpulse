@@ -24,6 +24,7 @@ from __future__ import annotations
 import csv
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -81,6 +82,127 @@ def fetch_json(url: str) -> dict | None:
 
 
 # ---------------------------------------------------------------------------
+# Country / region attribution
+# ---------------------------------------------------------------------------
+# USGS only gives a free-text `place` string, e.g. "148 km WSW of Tual,
+# Indonesia" or "10 km N of Ridgecrest, CA". There is no country field, and
+# reverse-geocoding every quake would need a paid/limited API -- so we parse
+# the string. It is a best-effort heuristic, good for a "where is it
+# shaking?" overview rather than for legal/administrative boundaries.
+US_STATE_ABBR = {
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL",
+    "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT",
+    "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI",
+    "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC",
+}
+# "Georgia" is deliberately absent: USGS uses it for the country, and the
+# state is written "GA".
+US_STATE_NAMES = {
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "hawaii", "idaho", "illinois",
+    "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland",
+    "massachusetts", "michigan", "minnesota", "mississippi", "missouri",
+    "montana", "nebraska", "nevada", "new hampshire", "new jersey", "new mexico",
+    "new york", "north carolina", "north dakota", "ohio", "oklahoma", "oregon",
+    "pennsylvania", "rhode island", "south carolina", "south dakota", "tennessee",
+    "texas", "utah", "vermont", "virginia", "washington", "west virginia",
+    "wisconsin", "wyoming", "puerto rico",
+}
+# Puerto Rico is reported as its own place by USGS, so keep it separate.
+US_STATE_NAMES.discard("puerto rico")
+
+COUNTRY_ALIASES = {
+    "fiji islands": "Fiji",
+    "fiji region": "Fiji",
+    "fiji": "Fiji",
+    "kermadec islands": "Kermadec Islands (NZ)",
+    "kermadec islands region": "Kermadec Islands (NZ)",
+    "sumatra": "Indonesia",
+    "south sandwich islands": "South Sandwich Islands",
+    "south sandwich islands region": "South Sandwich Islands",
+    "russia": "Russia",
+}
+OPEN_OCEAN_WORDS = ("ridge", "rise", "ocean", " sea", "trench", "fracture zone",
+                    "plateau", "basin", "antarctic")
+OPEN_OCEAN_LABEL = "Open ocean / ridges"
+
+_DIRECTION_PREFIX = re.compile(
+    r"^(?:off the |near the |off |near |offshore )?"
+    r"(?:(?:east central|west central|northeast|northwest|southeast|southwest|"
+    r"northern|southern|eastern|western|central|north|south|east|west)\b"
+    r"(?: of the| of)? ?)+"
+    r"(?:coast of |the )?",
+    re.IGNORECASE,
+)
+
+
+def _is_us(text: str) -> bool:
+    lowered = text.lower()
+    if "baja" in lowered:
+        return False
+    return any(re.search(rf"\b{re.escape(name)}\b", lowered) for name in US_STATE_NAMES)
+
+
+def country_from_place(place: str | None) -> str:
+    """Best-effort country/region label from a USGS `place` string."""
+    if not place:
+        return "Unknown"
+    place = place.strip()
+
+    if "," in place:
+        tail = place.rsplit(",", 1)[-1].strip()
+        if tail.upper() in US_STATE_ABBR or tail.lower() in US_STATE_NAMES:
+            return "United States"
+    else:
+        tail = place
+        if _is_us(tail):
+            return "United States"
+
+    if tail.lower() in COUNTRY_ALIASES:
+        return COUNTRY_ALIASES[tail.lower()]
+
+    # Strip leading compass phrases: "south of the Fiji Islands" -> "Fiji Islands".
+    # Only for comma-less descriptive places: after a comma the tail is already
+    # a proper name ("Western Sahara", "South Africa") that must stay intact.
+    cleaned = tail
+    if "," not in place:
+        cleaned = _DIRECTION_PREFIX.sub("", tail).strip() or tail
+        cleaned = re.sub(r"^(?:off the )?(?:west|east|north|south)\w* coast of ", "", cleaned,
+                         flags=re.IGNORECASE)
+        cleaned = re.sub(r"^(?:northern|southern|eastern|western) ", "", cleaned,
+                         flags=re.IGNORECASE)
+    lowered = cleaned.lower()
+
+    if lowered in COUNTRY_ALIASES:
+        return COUNTRY_ALIASES[lowered]
+    if any(word in f" {lowered}" for word in OPEN_OCEAN_WORDS):
+        return OPEN_OCEAN_LABEL
+    if lowered.endswith(" region"):
+        cleaned = cleaned[: -len(" region")]
+        return COUNTRY_ALIASES.get(cleaned.lower(), cleaned)
+    return cleaned[:1].upper() + cleaned[1:]
+
+
+def build_country_summary(quakes: list[dict], limit: int = 15) -> list[dict]:
+    """Aggregate quakes by country/region: count, strongest, and share."""
+    groups: dict[str, list[dict]] = defaultdict(list)
+    for quake in quakes:
+        groups[quake["country"]].append(quake)
+
+    rows = []
+    for country, items in groups.items():
+        strongest = max(items, key=lambda q: q["mag"])
+        rows.append({
+            "country": country,
+            "count": len(items),
+            "max_magnitude": strongest["mag"],
+            "strongest_place": strongest["place"],
+            "strongest_url": strongest["url"],
+        })
+    rows.sort(key=lambda r: (-r["count"], -r["max_magnitude"], r["country"]))
+    return rows[:limit]
+
+# ---------------------------------------------------------------------------
 # Earthquakes
 # ---------------------------------------------------------------------------
 def parse_quake_feature(feature: dict) -> dict:
@@ -99,6 +221,7 @@ def parse_quake_feature(feature: dict) -> dict:
         "id": feature.get("id"),
         "mag": props.get("mag"),
         "place": props.get("place"),
+        "country": country_from_place(props.get("place")),
         "time": iso_time,
         "lat": lat,
         "lon": lon,
@@ -172,6 +295,9 @@ def build_earthquake_summary(day_geo: dict | None, week_geo: dict | None,
             bucket: magnitude_distribution.get(bucket, 0) for bucket in MAGNITUDE_BUCKETS
         },
         "daily_trend_7d": daily_trend,
+        # Where is it shaking? Top countries/regions over the past 7 days (M2.5+).
+        "by_country_week": build_country_summary(week_quakes),
+        "countries_week_total": len({q["country"] for q in week_quakes}),
         # M4.5+ in the past month is a manageable, genuinely "significant" list globally.
         "significant_recent": significant[:50],
         # Every quake in the past day, capped so the JSON stays a reasonable size.

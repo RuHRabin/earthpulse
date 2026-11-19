@@ -37,11 +37,57 @@
   --band-5: #d2603f;
   --band-6: #b33a3a;
 
+  --header-bg: rgba(18, 22, 29, 0.88);
+  --banner-alert-bg: rgba(179, 58, 58, 0.14);
+  --banner-alert-border: rgba(179, 58, 58, 0.35);
+  --map-bg: #1a2029;
+  color-scheme: dark;
+
   --font-display: "Space Grotesk", system-ui, -apple-system, sans-serif;
   --font-body: "Inter", system-ui, -apple-system, sans-serif;
 
   --container: 1180px;
   --radius: 4px;
+}
+
+/* ---------- Light theme ----------
+   Same structure, inverted surfaces. The magnitude/severity bands are
+   unchanged (they carry meaning and still read on light surfaces); only
+   the accent is darkened so links and the live dot keep >= 4.5:1 contrast. */
+:root[data-theme="light"] {
+  --depth-900: #f6f4ef;
+  --depth-800: #ffffff;
+  --depth-700: #ffffff;
+  --hairline: #d8d4c9;
+
+  --ink: #1b2129;
+  --ink-muted: #475160;
+  --ink-dim: #667085;
+
+  --signal: #0b7a6c;
+  --signal-dim: rgba(11, 122, 108, 0.14);
+
+  --header-bg: rgba(246, 244, 239, 0.9);
+  --banner-alert-bg: rgba(179, 58, 58, 0.09);
+  --banner-alert-border: rgba(179, 58, 58, 0.35);
+  --map-bg: #eceae3;
+  color-scheme: light;
+}
+
+:root[data-theme="light"] .pulse-dot {
+  animation-name: pulse-light;
+}
+
+@keyframes pulse-light {
+  0% {
+    box-shadow: 0 0 0 0 rgba(11, 122, 108, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(11, 122, 108, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(11, 122, 108, 0);
+  }
 }
 
 /* ---------- Reset & base ---------- */
@@ -135,7 +181,7 @@ svg {
   position: sticky;
   top: 0;
   z-index: 40;
-  background: rgba(18, 22, 29, 0.88);
+  background: var(--header-bg);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--hairline);
 }
@@ -242,8 +288,8 @@ svg {
 }
 
 .significant-banner {
-  background: rgba(179, 58, 58, 0.14);
-  border-bottom-color: rgba(179, 58, 58, 0.35);
+  background: var(--banner-alert-bg);
+  border-bottom-color: var(--banner-alert-border);
   color: var(--ink);
 }
 
@@ -340,7 +386,7 @@ svg {
   width: 100%;
   border: 1px solid var(--hairline);
   border-radius: var(--radius);
-  background: var(--depth-800);
+  background: var(--map-bg);
 }
 
 .map-legend {
@@ -641,6 +687,113 @@ tbody tr:last-child td {
   color: var(--ink-muted);
   font-size: 0.85rem;
   max-width: 32ch;
+}
+
+/* ---------- Theme toggle ---------- */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+  background: transparent;
+  color: var(--ink-muted);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--ink);
+  border-color: var(--ink-dim);
+}
+
+.theme-toggle .icon-sun {
+  display: none;
+}
+
+:root[data-theme="light"] .theme-toggle .icon-sun {
+  display: block;
+}
+
+:root[data-theme="light"] .theme-toggle .icon-moon {
+  display: none;
+}
+
+/* ---------- Countries / regions ---------- */
+.country-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.country-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(8rem, 14rem) 1fr 3.5rem 3.2rem;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.country-row:hover .country-name {
+  color: var(--signal);
+}
+
+.country-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.country-bar-track {
+  height: 8px;
+  background: var(--depth-800);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.country-bar {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+}
+
+.country-count {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-muted);
+}
+
+.country-row .mag-badge {
+  justify-self: end;
+  min-width: 2.4rem;
+}
+
+.country-foot {
+  margin-top: 1rem;
+  color: var(--ink-dim);
+  font-size: 0.82rem;
+  max-width: 70ch;
+}
+
+@media (max-width: 560px) {
+  .country-row {
+    grid-template-columns: 1fr 2.5rem 3rem;
+  }
+  .country-bar-track {
+    display: none;
+  }
 }
 
 /* ---------- Footer ---------- */
